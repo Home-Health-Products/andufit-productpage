@@ -153,7 +153,7 @@ export default function BuyBox() {
                     <button
                       key={w.value}
                       onClick={() => setWidth(w.value)}
-                      className={`text-center px-2 py-3 rounded-lg border-2 text-sm font-medium transition ${
+                      className={`text-center px-1 py-2 sm:px-2 sm:py-3 rounded-lg border-2 text-xs sm:text-sm font-medium transition ${
                         width === w.value
                           ? 'border-brand bg-brand text-white'
                           : 'border-line bg-white text-ink hover:border-brand'
@@ -175,12 +175,12 @@ export default function BuyBox() {
                 {lengths.find((l) => l.value === length)?.label}
               </span>
             </label>
-            <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
+            <div className="grid grid-cols-4 sm:grid-cols-6 gap-2">
               {lengths.map((l) => (
                 <button
                   key={l.value}
                   onClick={() => setLength(l.value)}
-                  className={`text-center px-2 py-3 rounded-lg border-2 text-sm font-medium transition ${
+                  className={`text-center px-1 py-2 sm:px-2 sm:py-3 rounded-lg border-2 text-xs sm:text-sm font-medium transition ${
                     length === l.value
                       ? 'border-brand bg-brand text-white'
                       : 'border-line bg-white text-ink hover:border-brand'
