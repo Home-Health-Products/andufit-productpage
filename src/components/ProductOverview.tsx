@@ -100,7 +100,7 @@ export default function ProductOverview() {
         </div>
 
         {/* Product bar — name + USPs + price/CTA */}
-        <div className="reveal rounded-2xl border border-line bg-white shadow-sm px-6 py-5 lg:px-8 lg:py-6 mb-6 flex flex-col lg:flex-row lg:items-center gap-6 lg:gap-8">
+        <div className="hidden md:flex reveal rounded-2xl border border-line bg-white shadow-sm px-6 py-5 lg:px-8 lg:py-6 mb-6 flex-col lg:flex-row lg:items-center gap-6 lg:gap-8">
           <div className="flex-1">
             <div className="font-display text-lg lg:text-xl text-ink mb-3">{t('productName')}</div>
             <ul className="flex flex-wrap gap-x-3 md:gap-x-6 gap-y-2">
@@ -127,7 +127,7 @@ export default function ProductOverview() {
         </div>
 
         {/* Hero image */}
-        <div className="reveal relative aspect-[16/9] lg:aspect-[21/9] rounded-3xl overflow-hidden bg-ink mb-6">
+        <div className="hidden md:block reveal relative aspect-[16/9] lg:aspect-[21/9] rounded-3xl overflow-hidden bg-ink mb-6">
           <Image
             src={t('heroImage')}
             alt={t('heroAlt')}
