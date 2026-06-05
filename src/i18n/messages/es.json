@@ -331,6 +331,43 @@
       "description": "El Pro-Body Stimulator para abdomen, espalda, cuello, hombros, glúteos y piernas.",
       "note": "Tu código es válido mientras dure el stock de Anduslims gratis.",
       "alt": "ANDUSLIM Pro-Body Stimulator"
+    },
+    "paymentPlans": {
+      "title": "Kies uw optie",
+      "single": [
+        {
+          "id": "spread24",
+          "amount": "35 €",
+          "period": "24 maanden"
+        },
+        {
+          "id": "spread12",
+          "amount": "69 €",
+          "period": "12 maanden"
+        },
+        {
+          "id": "once",
+          "amount": "745 €",
+          "period": "Eénmalige betaling"
+        }
+      ],
+      "double": [
+        {
+          "id": "spread24",
+          "amount": "47 €",
+          "period": "24 maanden"
+        },
+        {
+          "id": "spread12",
+          "amount": "92 €",
+          "period": "12 maanden"
+        },
+        {
+          "id": "once",
+          "amount": "990 €",
+          "period": "Eénmalige betaling"
+        }
+      ]
     }
   },
   "productOverview": {
