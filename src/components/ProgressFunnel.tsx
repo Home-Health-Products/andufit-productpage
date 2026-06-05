@@ -234,14 +234,14 @@ export default function ProgressFunnel() {
                 <div className="text-[11px] uppercase tracking-widest text-ink-muted mb-1">
                   {t('result.summaryLabel')}
                 </div>
-                <div className="font-display text-6xl lg:text-7xl text-brand-dark leading-none">
+                <div className="font-display text-4xl sm:text-6xl lg:text-7xl text-brand-dark leading-none">
                   {fmtPct(finalPct)}
                 </div>
                 <div className="text-sm text-ink-soft mt-2">{goal?.improveLabel}</div>
               </div>
 
               {/* Horizon cards */}
-              <div className="grid grid-cols-3 gap-3 mb-6">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
                 {projected.map((p) => (
                   <div key={p.horizon.value} className="rounded-2xl border border-line bg-white p-4 text-center">
                     <div className="text-[11px] uppercase tracking-widest text-ink-muted mb-2">{p.horizon.label}</div>
@@ -335,7 +335,7 @@ export default function ProgressFunnel() {
                 <p className="text-xs font-medium text-brand-dark mb-3">
                   {t('result.savings.basis', { amount: fmtEur(savingsAnnual) })}
                 </p>
-                <div className="grid grid-cols-3 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   {savingsHorizons.map((h) => (
                     <div key={h.years} className="rounded-xl border border-brand/15 bg-white p-3.5 text-center">
                       <div className="text-[11px] uppercase tracking-widest text-ink-muted mb-1.5">{h.label}</div>

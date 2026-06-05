@@ -26,7 +26,7 @@ export default function Specs() {
 
   return (
     <div id={t('id')} className="scroll-mt-24 max-w-5xl mx-auto">
-      <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 lg:items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 lg:items-center">
         {/* Visual with dimension callouts */}
         <div className="flex justify-center">
           <div className="flex items-stretch gap-3">
@@ -68,10 +68,10 @@ export default function Specs() {
             <tbody>
               {rows.map((r, i) => (
                 <tr key={i} className={`border-b border-line last:border-0 ${i % 2 ? 'bg-soft/60' : 'bg-white'}`}>
-                  <th className="text-right align-top text-sm font-semibold text-ink px-5 py-3.5 w-[42%]">
+                  <th className="text-right align-top text-sm font-semibold text-ink px-3 py-2.5 sm:px-5 sm:py-3.5 w-[42%]">
                     {r.label}
                   </th>
-                  <td className="text-sm text-ink-soft px-5 py-3.5">
+                  <td className="text-sm text-ink-soft px-3 py-2.5 sm:px-5 sm:py-3.5">
                     {r.check ? (
                       <svg className="w-5 h-5 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                         <circle cx="12" cy="12" r="9" className="text-line" />

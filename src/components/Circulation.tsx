@@ -59,7 +59,7 @@ export default function Circulation() {
           <p className="text-lg text-ink-soft">{t('lead')}</p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
           {/* Slider */}
           <div className="reveal">
             <div className="compare-slider relative aspect-square rounded-2xl overflow-hidden border border-line shadow-lg bg-white">
@@ -125,7 +125,7 @@ export default function Circulation() {
                 Klinische meting
               </div>
               <div className="flex items-end gap-3">
-                <div className="font-display text-5xl lg:text-6xl leading-none">{stat.value}</div>
+                <div className="font-display text-4xl sm:text-5xl lg:text-6xl leading-none">{stat.value}</div>
                 <p className="text-sm text-white/90 pb-1">{stat.label}</p>
               </div>
               <div className="text-[11px] text-white/65 border-t border-white/20 pt-3 mt-4">

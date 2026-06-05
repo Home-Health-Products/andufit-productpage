@@ -18,7 +18,7 @@ export default function ProductTabs({
     <section className="bg-white border-t border-line">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         {/* Tab bar */}
-        <div className="flex gap-1 overflow-x-auto border-b border-line">
+        <div className="flex gap-1 overflow-x-auto border-b border-line -mx-5 px-5 md:mx-0 md:px-0 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {tabs.map((tab) => (
             <button
               key={tab.id}

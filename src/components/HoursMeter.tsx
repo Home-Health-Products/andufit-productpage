@@ -62,7 +62,7 @@ export default function HoursMeter() {
               key={i}
               className="px-4 py-7 lg:px-6 lg:py-9 rounded-2xl bg-white/5 border border-white/10 backdrop-blur flex flex-col items-center"
             >
-              <div className="font-display text-4xl lg:text-5xl leading-none bg-gradient-to-br from-white via-brand-light to-brand bg-clip-text text-transparent tabular-nums">
+              <div className="font-display text-3xl sm:text-4xl lg:text-5xl leading-none bg-gradient-to-br from-white via-brand-light to-brand bg-clip-text text-transparent tabular-nums">
                 {s.value}
               </div>
               <div className="text-xs lg:text-sm text-white/70 mt-3 leading-snug">{s.label}</div>

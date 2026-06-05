@@ -23,7 +23,7 @@ export default function TabGuarantee() {
       </div>
 
       {/* Detail blocks */}
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {blocks.map((b, i) => (
           <div key={i} className="bg-soft rounded-xl p-6 border border-line">
             <h3 className="font-medium text-ink mb-3">{b.title}</h3>

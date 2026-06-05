@@ -71,7 +71,7 @@ export default function Study() {
           className="reveal rounded-3xl border border-line bg-white shadow-lg overflow-hidden grid lg:grid-cols-2"
         >
           {/* Study identity */}
-          <div className="p-8 lg:p-10 border-b lg:border-b-0 lg:border-r border-line">
+          <div className="p-5 sm:p-8 lg:p-10 border-b lg:border-b-0 lg:border-r border-line">
             <div className="flex flex-wrap items-center gap-2 mb-6">
               <PubMedBadge label={t('pubmedBadge')} pmid={t('pmid')} />
               <span className="inline-flex items-center gap-1.5 text-[11px] uppercase tracking-widest font-bold text-good bg-good/10 rounded-full px-3 py-1.5">
@@ -119,7 +119,7 @@ export default function Study() {
           </div>
 
           {/* Chart */}
-          <div className="p-8 lg:p-10 bg-gradient-to-br from-brand-cream/60 to-white">
+          <div className="p-5 sm:p-8 lg:p-10 bg-gradient-to-br from-brand-cream/60 to-white">
             <div className="text-[11px] uppercase tracking-widest text-brand-dark font-medium mb-1">
               {t('chartTitle')}
             </div>

@@ -10,7 +10,7 @@ export default function TabInstallation() {
     <div className="max-w-5xl mx-auto">
       <p className="text-lg text-ink-soft mb-8 leading-relaxed max-w-3xl">{t('lead')}</p>
 
-      <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 lg:items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 lg:items-start">
         {/* Video */}
         <div>
           <div className="relative aspect-video rounded-2xl overflow-hidden bg-ink shadow-md">

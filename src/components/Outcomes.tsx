@@ -75,8 +75,8 @@ function Gauge({
   const by = 60 + R * Math.sin(beforeAngle);
 
   return (
-    <div className="relative w-40 h-40 mx-auto">
-      <svg viewBox="0 0 120 120" className="w-40 h-40 -rotate-90">
+    <div className="relative w-28 h-28 sm:w-40 sm:h-40 mx-auto">
+      <svg viewBox="0 0 120 120" className="w-28 h-28 sm:w-40 sm:h-40 -rotate-90">
         <circle cx="60" cy="60" r={R} fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="8" />
         <circle
           cx="60"

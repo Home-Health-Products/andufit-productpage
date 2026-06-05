@@ -57,7 +57,7 @@ export default function FitsBed() {
         </div>
 
         {/* Bed-base types */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10 mb-14">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10 mb-14">
           {items.map((it, i) => (
             <div
               key={i}

@@ -48,7 +48,7 @@ export default function Faq() {
 
   return (
     <div id={t('id')} className="scroll-mt-24 max-w-6xl mx-auto">
-      <div className="grid lg:grid-cols-2 gap-x-12 lg:gap-x-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-0 lg:gap-x-16">
         {columns.map((col, c) => (
           <div key={c} className="border-t border-line">
             {col.list.map((it, i) => renderItem(it, col.start + i))}

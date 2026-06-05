@@ -42,7 +42,7 @@ export default function MattressPenetration() {
           <p className="text-lg text-ink-soft">{t('lead')}</p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 lg:items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 lg:items-center">
           {/* Animated cross-section */}
           <div className="reveal rounded-3xl border border-line bg-white shadow-lg p-6 lg:p-8 overflow-hidden">
             <div className="relative mx-auto max-w-md">
@@ -136,7 +136,7 @@ export default function MattressPenetration() {
           {/* Explanation */}
           <div className="reveal">
             <div className="flex items-end gap-3 mb-6">
-              <span className="font-display text-6xl lg:text-7xl text-brand-dark leading-none tabular-nums">
+              <span className="font-display text-4xl sm:text-6xl lg:text-7xl text-brand-dark leading-none tabular-nums">
                 {t('depthValue')}
               </span>
               <span className="text-sm text-ink-soft pb-2 max-w-[10rem] leading-snug">
