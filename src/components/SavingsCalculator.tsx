@@ -187,7 +187,7 @@ export default function SavingsCalculator() {
                         )}
                       </span>
                       <div className="min-w-0 flex-1">
-                        <div className="text-sm lg:text-base font-medium text-ink mb-0.5">
+                        <div className="text-base lg:text-lg font-medium text-ink mb-0.5">
                           {o.label}
                         </div>
                         {o.subtitle && (

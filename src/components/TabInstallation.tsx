@@ -49,7 +49,7 @@ export default function TabInstallation() {
               </span>
               <div>
                 <div className="font-medium text-ink mb-0.5">{s.title}</div>
-                <p className="text-sm text-ink-soft leading-relaxed">{s.text}</p>
+                <p className="text-base text-ink-soft leading-relaxed">{s.text}</p>
               </div>
             </li>
           ))}

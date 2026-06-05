@@ -31,14 +31,14 @@ function VitaScore({
   const barColor = tone === 'high' ? '#16a34a' : '#fbbf24';
   return (
     <div className="absolute inset-x-3 bottom-3 z-10 rounded-xl bg-black/55 backdrop-blur-sm px-3 py-2.5 text-white">
-      <div className="flex items-center gap-1.5 text-[9px] uppercase tracking-widest text-brand-light font-bold">
+      <div className="flex items-center gap-1.5 text-xs uppercase tracking-widest text-brand-light font-bold">
         <span className="text-white">Vita</span>
         <span>{brand}</span>
       </div>
-      <div className="text-[10px] text-white/70 mt-0.5 leading-tight">{label}</div>
+      <div className="text-xs text-white/70 mt-0.5 leading-tight">{label}</div>
       <div className="flex items-end gap-2 mt-1">
         <span
-          className="font-display text-3xl lg:text-4xl leading-none tabular-nums"
+          className="font-display text-4xl lg:text-5xl leading-none tabular-nums"
           style={{ color: tone === 'high' ? '#4ade80' : '#fcd34d' }}
         >
           {score}
@@ -111,7 +111,7 @@ export default function BeforeAfter() {
               className="object-cover animate-fade-in"
               onError={() => setImgError(true)}
             />
-            <div className="absolute top-3 left-3 z-10 bg-bad text-white text-[10px] uppercase tracking-widest font-bold px-2.5 py-1 rounded-full shadow-sm">
+            <div className="absolute top-3 left-3 z-10 bg-bad text-white text-sm uppercase font-bold px-2.5 py-1 rounded-full shadow-sm">
               {t('beforeLabel')}
             </div>
             <VitaScore
@@ -134,7 +134,7 @@ export default function BeforeAfter() {
               className="object-cover animate-fade-in"
               onError={() => setImgError(true)}
             />
-            <div className="absolute top-3 right-3 z-10 bg-good text-white text-[10px] uppercase tracking-widest font-bold px-2.5 py-1 rounded-full shadow-sm">
+            <div className="absolute top-3 right-4 z-10 bg-good text-white text-sm uppercase font-bold px-2.5 py-1 rounded-full shadow-sm">
               {t('afterLabel')}
             </div>
             <VitaScore
@@ -173,8 +173,8 @@ export default function BeforeAfter() {
 
       {/* Quote */}
       <div className="mt-4 p-4 bg-brand-cream rounded-xl border border-line">
-        <p className="text-sm text-ink leading-relaxed mb-2">"{cur.quote}"</p>
-        <p className="text-xs text-ink-muted">
+        <p className="text-base text-ink leading-relaxed mb-2">"{cur.quote}"</p>
+        <p className="text-sm text-ink-muted">
           <span className="font-medium text-ink">{cur.name}</span> · {cur.meta}
         </p>
       </div>

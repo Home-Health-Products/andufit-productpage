@@ -150,8 +150,8 @@ export default function Outcomes() {
             </svg>
             {t('eyebrow')}
           </span>
-          <h2 className="font-display text-3xl lg:text-5xl text-white mb-4">{t('title')}</h2>
-          <p className="text-base lg:text-lg text-white/70">{t('lead')}</p>
+          <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-white mb-4">{t('title')}</h2>
+          <p className="text-lg lg:text-xl text-white/70">{t('lead')}</p>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-5 lg:gap-6">
@@ -168,10 +168,10 @@ export default function Outcomes() {
                   {item.unit}
                 </div>
 
-                <h3 className="font-display text-xl lg:text-2xl text-white mt-4 mb-2">
+                <h3 className="font-display text-2xl lg:text-2xl text-white mt-4 mb-2">
                   {item.title}
                 </h3>
-                <p className="text-sm text-white/65 leading-relaxed max-w-sm">{item.text}</p>
+                <p className="text-base text-white/65 leading-relaxed max-w-sm">{item.text}</p>
 
                 <div className="mt-5 flex items-center gap-3">
                   <span className="inline-flex items-center gap-1.5 text-xs text-white/55 bg-white/5 rounded-full px-3 py-1.5">

@@ -102,7 +102,7 @@ export default function InAction() {
                   {/* subtle gradient for caption */}
                   <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/55 to-transparent pointer-events-none" />
                   {/* LIVE-style badge */}
-                  <span className="absolute top-3 left-3 inline-flex items-center gap-1.5 bg-white/90 backdrop-blur text-ink text-[10px] uppercase tracking-widest font-bold px-2 py-1 rounded-full">
+                  <span className="absolute top-3 left-3 inline-flex items-center gap-1.5 bg-white/90 backdrop-blur text-ink text-xs uppercase tracking-widest font-bold px-2 py-1 rounded-full">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-dark animate-pulse-slow" />
                     Live
                   </span>

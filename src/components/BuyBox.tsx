@@ -109,12 +109,12 @@ export default function BuyBox() {
         </span>
       </div>
       <p className="text-xs text-ink-muted mb-3">{t('vatNote')}</p>
-      <p className="text-sm text-ink-soft mb-5 pb-5 border-b border-line flex items-center gap-2">
-        <span className="inline-block px-2 py-0.5 bg-ink text-white text-[10px] font-bold rounded">
+      <div className="flex flex-wrap items-center gap-x-2 gap-y-1 mb-5 pb-5 border-b border-line">
+        <span className="shrink-0 px-2 py-0.5 bg-ink text-white text-xs font-bold rounded">
           0% rente
         </span>
-        {currentFinancing}
-      </p>
+        <span className="text-sm text-ink-soft">{currentFinancing}</span>
+      </div>
 
       {/*
         Highlights + size configurator.
@@ -242,7 +242,7 @@ export default function BuyBox() {
       <div className="space-y-3 mb-6">
         <button
           onClick={checkout}
-          className="w-full bg-brand hover:bg-brand-dark text-white font-medium px-6 py-4 rounded-lg transition shadow-md flex items-center justify-center gap-2"
+          className="w-full bg-brand hover:bg-brand-dark text-white font-semibold text-lg px-6 py-4 rounded-lg transition shadow-md flex items-center justify-center gap-2"
         >
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.5 3M7 13h10l3-7H5.5M7 13l-1.5-7M7 13l-2 7m4-7v7m4-7v7m4-7v7" />
@@ -261,7 +261,7 @@ export default function BuyBox() {
           <span className="inline-block w-2 h-2 bg-good rounded-full animate-pulse-slow" />
           {t('stockTitle')}
         </div>
-        <p className="text-xs text-ink-soft">{t('stockText')}</p>
+        <p className="text-sm text-ink-soft">{t('stockText')}</p>
       </div>
 
       {/* Payment methods */}

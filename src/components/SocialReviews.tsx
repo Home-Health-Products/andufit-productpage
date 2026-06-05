@@ -42,7 +42,7 @@ function Stars({ rating, size = 4 }: { rating: number; size?: number }) {
 function SourceBadge({ source }: { source: string }) {
   const s = SOURCE_STYLES[source] ?? { label: source, dot: '#6a6a6a' };
   return (
-    <span className="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-widest font-semibold text-ink-muted bg-soft border border-line rounded px-2 py-1">
+    <span className="inline-flex items-center gap-1.5 text-xs uppercase tracking-widest font-semibold text-ink-muted bg-soft border border-line rounded px-2 py-1">
       <span className="w-2 h-2 rounded-full" style={{ backgroundColor: s.dot }} />
       {s.label}
     </span>
@@ -145,7 +145,7 @@ export default function SocialReviews() {
               <button
                 key={f.id}
                 onClick={() => setActive(f.id)}
-                className={`text-sm font-semibold rounded-full px-5 py-2.5 border-2 transition-all ${
+                className={`text-base font-semibold rounded-full px-5 py-3 border-2 transition-all ${
                   on
                     ? 'bg-brand border-brand text-white shadow-sm'
                     : 'bg-white border-line text-ink-muted hover:border-brand hover:text-brand-dark'
@@ -176,8 +176,8 @@ export default function SocialReviews() {
                     <SourceBadge source={r.source} />
                   </div>
                   <h4 className="font-semibold text-ink mb-2">{r.title}</h4>
-                  <p className="text-sm text-ink-soft leading-relaxed mb-4">&ldquo;{r.text}&rdquo;</p>
-                  <footer className="flex items-center justify-between text-xs pt-4 border-t border-line">
+                  <p className="text-base text-ink-soft leading-relaxed mb-4">&ldquo;{r.text}&rdquo;</p>
+                  <footer className="flex items-center justify-between text-sm pt-4 border-t border-line">
                     <div>
                       <span className="font-medium text-ink">{r.name}</span>
                       <span className="text-ink-muted"> · {r.date}</span>

@@ -72,7 +72,7 @@ export default function Circulation() {
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
               />
-              <div className="absolute top-4 right-4 z-10 bg-good text-white text-[10px] uppercase tracking-widest font-bold px-3 py-1 rounded-full shadow-sm">
+              <div className="absolute top-4 right-4 z-10 bg-good text-white text-sm uppercase font-bold px-3 py-1 rounded-full shadow-sm">
                 {c.afterLabel}
               </div>
 
@@ -89,7 +89,7 @@ export default function Circulation() {
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                 />
-                <div className="absolute top-4 left-4 z-10 bg-bad text-white text-[10px] uppercase tracking-widest font-bold px-3 py-1 rounded-full shadow-sm">
+                <div className="absolute top-4 left-4 z-10 bg-bad text-white text-sm uppercase font-bold px-3 py-1 rounded-full shadow-sm">
                   {c.beforeLabel}
                 </div>
               </div>

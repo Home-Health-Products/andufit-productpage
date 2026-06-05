@@ -182,8 +182,8 @@ export default function ProgressFunnel() {
                         )}
                       </span>
                       <div className="min-w-0 flex-1">
-                        <div className="text-sm lg:text-base font-medium text-ink mb-0.5">{o.label}</div>
-                        {o.subtitle && <div className="text-xs lg:text-sm text-ink-muted">{o.subtitle}</div>}
+                        <div className="text-base lg:text-lg font-medium text-ink mb-0.5">{o.label}</div>
+                        {o.subtitle && <div className="text-sm lg:text-base text-ink-muted">{o.subtitle}</div>}
                       </div>
                     </button>
                   );

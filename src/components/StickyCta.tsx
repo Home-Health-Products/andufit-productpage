@@ -25,11 +25,11 @@ export default function StickyCta() {
       <div className="bg-white border-t border-line shadow-2xl">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
           <div className="min-w-0">
-            <p className="text-sm font-medium text-ink truncate">{t('label')}</p>
+            <p className="text-sm font-semibold text-ink truncate">{t('label')}</p>
           </div>
           <a
             href="#buy"
-            className="shrink-0 bg-brand hover:bg-brand-dark text-white font-medium px-5 py-3 rounded-lg transition"
+            className="shrink-0 bg-brand hover:bg-brand-dark text-white font-semibold text-sm px-5 py-3 rounded-lg transition"
           >
             {t('cta')} →
           </a>
