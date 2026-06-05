@@ -34,7 +34,7 @@ export default function Hero() {
           <p className="text-lg text-ink-soft mb-6 max-w-xl">{t('subtitle')}</p>
 
           {/* Price block */}
-          <div className="flex items-baseline gap-3 mb-2">
+          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-2 mb-2">
             <span className="font-display font-normal text-5xl text-brand-dark">{t('price')}</span>
             <span className="text-xl text-ink-muted line-through">{t('oldPrice')}</span>
             <span className="inline-flex items-center bg-bad/10 text-bad text-xs font-medium px-2.5 py-1 rounded-full uppercase tracking-wider">

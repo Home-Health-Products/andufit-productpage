@@ -103,7 +103,7 @@ export default function ProductOverview() {
         <div className="reveal rounded-2xl border border-line bg-white shadow-sm px-6 py-5 lg:px-8 lg:py-6 mb-6 flex flex-col lg:flex-row lg:items-center gap-6 lg:gap-8">
           <div className="flex-1">
             <div className="font-display text-lg lg:text-xl text-ink mb-3">{t('productName')}</div>
-            <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            <ul className="flex flex-wrap gap-x-3 md:gap-x-6 gap-y-2">
               {usps.map((u, i) => (
                 <li key={i} className="inline-flex items-center gap-2 text-sm text-ink-soft">
                   <span className="text-brand-dark w-5 h-5 inline-block">{USP_ICONS[u.icon]}</span>
@@ -112,7 +112,7 @@ export default function ProductOverview() {
               ))}
             </ul>
           </div>
-          <div className="flex items-center gap-5 lg:gap-6 lg:border-l lg:border-line lg:pl-8">
+          <div className="flex items-center gap-3 lg:gap-6 lg:border-l lg:border-line lg:pl-8">
             <div className="text-left">
               <div className="font-display font-normal text-3xl text-ink leading-none tabular-nums">{t('price')}</div>
               <div className="text-xs text-ink-muted mt-1">{t('financing')}</div>

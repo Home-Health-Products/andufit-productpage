@@ -206,13 +206,13 @@ export default function BuyBox() {
               </p>
             </div>
           </div>
-          <div className="rounded-xl bg-white border border-line p-4 flex gap-4">
+          <div className="rounded-xl bg-white border border-line p-4 flex flex-col sm:flex-row gap-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={giftImg}
               alt={t('gift.alt')}
               onError={() => setGiftImgError(true)}
-              className="shrink-0 w-24 h-24 rounded-lg object-cover bg-soft"
+              className="shrink-0 w-full sm:w-24 h-40 sm:h-24 rounded-lg object-cover bg-soft"
             />
             <div className="min-w-0">
               <div className="font-display font-semibold text-base text-ink mb-1">{t('gift.name')}</div>
@@ -223,7 +223,7 @@ export default function BuyBox() {
         </div>
 
         {/* Highlights — 2-col USP grid with dark circular badges */}
-        <ul className="order-2 lg:order-1 grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3 mb-6">
+        <ul className="order-2 lg:order-1 grid grid-cols-1 sm:grid-cols-2 gap-x-3 sm:gap-x-5 gap-y-3 mb-6">
           {highlights.map((h, i) => (
             <li key={i} className="flex items-start gap-3 text-[15px] text-ink font-medium leading-snug">
               <span className="shrink-0 mt-0.5 w-6 h-6 rounded-full bg-ink text-white inline-flex items-center justify-center">
