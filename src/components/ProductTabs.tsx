@@ -18,15 +18,15 @@ export default function ProductTabs({
     <section className="bg-white border-t border-line">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         {/* Tab bar */}
-        <div className="flex gap-1 overflow-x-auto border-b border-line -mx-5 px-5 md:mx-0 md:px-0 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <div className="flex gap-2 overflow-x-auto py-3 -mx-5 px-5 md:mx-0 md:px-0 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden border-b border-line">
           {tabs.map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActive(tab.id)}
-              className={`px-5 py-4 text-sm font-medium whitespace-nowrap border-b-2 transition ${
+              className={`px-4 py-2.5 text-sm font-semibold whitespace-nowrap rounded-full border-2 transition-all ${
                 active === tab.id
-                  ? 'border-brand-dark text-ink'
-                  : 'border-transparent text-ink-muted hover:text-ink'
+                  ? 'bg-brand border-brand text-white shadow-sm'
+                  : 'bg-white border-line text-ink-muted hover:border-brand hover:text-brand-dark hover:bg-brand-cream'
               }`}
             >
               {tab.label}

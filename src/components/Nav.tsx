@@ -1,5 +1,4 @@
 import { useTranslations } from 'next-intl';
-import LocaleSwitcher from './LocaleSwitcher';
 
 type NavLink = { label: string; href: string };
 
@@ -14,18 +13,11 @@ export default function Nav() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/logo_black.svg" alt="ANDUFIT" className="h-7 lg:h-8 w-auto" />
         </a>
-        <nav className="hidden lg:flex items-center gap-7 text-sm text-ink-soft">
-          {links.map((l) => (
-            <a key={l.href} href={l.href} className="hover:text-brand-dark transition">
-              {l.label}
-            </a>
-          ))}
-        </nav>
+
         <div className="flex items-center gap-4">
-          <LocaleSwitcher />
           <a
             href="#buy"
-            className="hidden md:inline-flex bg-brand hover:bg-brand-dark text-white text-sm font-medium px-4 py-2 rounded transition"
+            className="hidden md:inline-flex bg-brand hover:bg-brand-dark text-white text-xl font-medium px-6 py-3 rounded transition"
           >
             {t('cta')}
           </a>

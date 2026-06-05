@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
@@ -61,12 +61,34 @@ export default function BeforeAfter() {
 
   const [active, setActive] = useState(0);
   const [imgError, setImgError] = useState(false);
+  const pausedRef = useRef(false);
+  const resumeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const cur = cases[active];
 
   // Reset the fallback flag whenever the visitor switches person.
   useEffect(() => {
     setImgError(false);
   }, [active]);
+
+  // Auto-advance every 2 s using a ref so the interval never goes stale.
+  useEffect(() => {
+    const total = cases.length;
+    const id = setInterval(() => {
+      if (!pausedRef.current) {
+        setActive((prev) => (prev + 1) % total);
+      }
+    }, 2000);
+    return () => clearInterval(id);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Manual selection: pause for 6 s then resume.
+  const handleManualSelect = (i: number) => {
+    setActive(i);
+    pausedRef.current = true;
+    if (resumeTimer.current) clearTimeout(resumeTimer.current);
+    resumeTimer.current = setTimeout(() => { pausedRef.current = false; }, 6000);
+  };
 
   const imgSrc = imgError ? fallbackImage : cur.image;
 
@@ -131,7 +153,23 @@ export default function BeforeAfter() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M8 7l-4 5 4 5M16 7l4 5-4 5" />
           </svg>
         </div>
+
+        {/* Auto-advance progress bar */}
+        <div className="absolute inset-x-0 bottom-0 h-1 bg-white/20 z-30">
+          <div
+            key={active}
+            className="h-full bg-brand-light"
+            style={{ animation: 'ba-progress 2s linear forwards' }}
+          />
+        </div>
       </div>
+
+      <style>{`
+        @keyframes ba-progress {
+          from { width: 0% }
+          to   { width: 100% }
+        }
+      `}</style>
 
       {/* Quote */}
       <div className="mt-4 p-4 bg-brand-cream rounded-xl border border-line">
@@ -146,7 +184,7 @@ export default function BeforeAfter() {
         {cases.map((c, i) => (
           <button
             key={i}
-            onClick={() => setActive(i)}
+            onClick={() => handleManualSelect(i)}
             aria-label={`Toon ${c.name}`}
             aria-current={i === active}
             className={`group flex flex-col items-center gap-1 transition ${

@@ -44,7 +44,7 @@ export default function TabInstallation() {
         <ol className="space-y-5">
           {steps.map((s, i) => (
             <li key={i} className="flex items-start gap-4">
-              <span className="shrink-0 w-9 h-9 rounded-full bg-brand-dark text-white inline-flex items-center justify-center font-display text-lg tabular-nums">
+              <span className="shrink-0 w-9 h-9 rounded-full bg-brand text-white inline-flex items-center justify-center font-display text-lg tabular-nums">
                 {i + 1}
               </span>
               <div>

@@ -1872,57 +1872,29 @@
     "cta": "Bestel nu"
   },
   "footer": {
-    "tagline": "ANDUFIT — Andullation® voor meer REM-slaap en een gezondere rug. Made in Germany.",
-    "columns": [
-      {
-        "heading": "Product",
-        "links": [
-          {
-            "label": "Massagemodule",
-            "href": "#buy"
-          },
-          {
-            "label": "Maatgids",
-            "href": "#maten"
-          },
-          {
-            "label": "FAQ",
-            "href": "#faq"
-          }
-        ]
-      },
-      {
-        "heading": "Bedrijf",
-        "links": [
-          {
-            "label": "Over ANDUFIT",
-            "href": "https://www.andufit.com/nl-BE"
-          },
-          {
-            "label": "Contact",
-            "href": "mailto:info@andufit.com"
-          }
-        ]
-      },
-      {
-        "heading": "Service",
-        "links": [
-          {
-            "label": "Levering & retour",
-            "href": "#"
-          },
-          {
-            "label": "Garantie",
-            "href": "#"
-          },
-          {
-            "label": "Algemene voorwaarden",
-            "href": "#"
-          }
-        ]
-      }
+    "tagline": "Add a smile to your life ☺",
+    "slogan": "Diepte-ontspanning voor iedereen.",
+    "phone": "+32 55 89 59 98",
+    "phoneHours": "Ma-Vr: 08:00 – 16:00 uur",
+    "email": "info@andufit.com",
+    "company": {
+      "name": "Sebru Invest NV",
+      "street": "Picardstraat 7/100",
+      "city": "1000 Brussel",
+      "vat": "BE0455642058"
+    },
+    "legalLinks": [
+      { "label": "Algemene voorwaarden", "href": "https://www.andufit.com/nl-BE/algemene-voorwaarden" },
+      { "label": "Privacybeleid", "href": "https://www.andufit.com/nl-BE/privacybeleid" },
+      { "label": "Retourbeleid", "href": "https://www.andufit.com/nl-BE/retourbeleid" },
+      { "label": "FAQ", "href": "#faq" }
     ],
-    "copyright": "© 2026 ANDUFIT. Alle rechten voorbehouden."
+    "social": {
+      "facebook": "https://www.facebook.com/andufit",
+      "instagram": "https://www.instagram.com/andufit",
+      "tiktok": "https://www.tiktok.com/@andufit"
+    },
+    "copyright": "© 2026 ANDUFIT — Sebru Invest NV. Alle rechten voorbehouden."
   },
   "fitsBed": {
     "id": "elk-bed",

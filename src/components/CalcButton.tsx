@@ -35,9 +35,9 @@ export default function CalcButton({
         </svg>
       </span>
       <span className="flex flex-col text-left">
-        <span className="text-sm lg:text-base leading-tight">{t('label')}</span>
+        <span className="text-base lg:text-lg leading-tight">{t('label')}</span>
         {withHint && (
-          <span className="text-[10px] lg:text-[11px] opacity-80 leading-tight">{t('hint')}</span>
+          <span className="text-xs lg:text-[13px] opacity-80 leading-tight">{t('hint')}</span>
         )}
       </span>
       <svg className="w-4 h-4 transition group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2">
