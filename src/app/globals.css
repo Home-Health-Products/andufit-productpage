@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*
+  Headings use Outfit (like andufit.com) instead of a serif, so give the
+  display class a bold, slightly tightened default. :where() keeps specificity
+  at 0 so any explicit Tailwind font-weight utility still wins.
+*/
+:where(.font-display) {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background: #ffffff;
+  color: #1a1a1a;
+}
+
+/* Range input theming */
+input[type="range"] {
+  accent-color: #3db7b0;
+}
+
+/* Reveal-on-scroll utilities */
+.reveal { opacity: 1; transform: none; transition: opacity .7s ease, transform .7s ease; }
+.js-reveal-on .reveal { opacity: 0; transform: translateY(30px); }
+.js-reveal-on .reveal.visible { opacity: 1; transform: none; }
+
+/* Subtle texture for background variation */
+.bg-grain {
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(0,0,0,0.025) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Hide horizontal scrollbar on carousels */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+
+/* Before/after slider */
+.compare-slider {
+  position: relative;
+  user-select: none;
+}
+.compare-slider input[type="range"] {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: ew-resize;
+  z-index: 5;
+}

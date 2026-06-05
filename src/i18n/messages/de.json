@@ -1,0 +1,1948 @@
+{
+  "meta": {
+    "title": "ANDUFIT — Andullation®-massagemodule onder je matras",
+    "description": "ANDUFIT Andullation®-massagemodule: 7 motoren, 10 zones en AI VitaCheck onder je matras. Voor meer REM-slaap, sneller rugherstel en dagelijkse ontspanning. Made in Germany."
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Product",
+        "href": "#buy"
+      },
+      {
+        "label": "Resultaten",
+        "href": "#herstel"
+      },
+      {
+        "label": "Besparing",
+        "href": "#besparing"
+      },
+      {
+        "label": "Maten",
+        "href": "#maten"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "cta": "Bestel — €745"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "shop": "Shop",
+    "product": "ANDUFIT Andullation®-massagemodule"
+  },
+  "trustBar": {
+    "items": [
+      {
+        "icon": "truck",
+        "label": "Gratis DPD-levering 2-3 dagen"
+      },
+      {
+        "icon": "return",
+        "label": "14 nachten op proef"
+      },
+      {
+        "icon": "shield",
+        "label": "2 jaar garantie"
+      },
+      {
+        "icon": "star",
+        "label": "Made in Germany"
+      }
+    ]
+  },
+  "gallery": {
+    "images": [
+      {
+        "src": "/picture/andufit_expert.jpg",
+        "alt": "ANDUFIT-Modul unter der Matratze — 7 Andulationsmotoren sichtbar"
+      },
+      {
+        "src": "/picture/andufit_hero.jpg",
+        "alt": "ANDUFIT-massagemodule in een rustige slaapkamer"
+      },
+      {
+        "src": "/picture/andufit_room.jpg",
+        "alt": "Bed met ANDUFIT-module onzichtbaar onder de matras"
+      },
+      {
+        "src": "/picture/andufit_teaser.jpg",
+        "alt": "ANDUFIT-module — 7 cm dun bio-comfort schuim"
+      },
+      {
+        "src": "/picture/andufit_controller.png",
+        "alt": "Bediening met massageprogramma's en intensiteit"
+      },
+      {
+        "src": "/picture/andufit_vitacheck.jpg",
+        "alt": "AI VitaCheck — meet en stuurt je slaap bij"
+      }
+    ],
+    "videoBadge": "▶ Video",
+    "thumbsLabel": "Productafbeeldingen"
+  },
+  "beforeAfter": {
+    "title": "Echte Ergebnisse — VitaCheck vorher & nachher",
+    "subtitle": "Der VitaCheck misst das Energieniveau mit einem schnellen Gesichtsscan. Wechsle zwischen verschiedenen Nutzern — jeweils vor ANDUFIT und nach einer Nacht.",
+    "checkLabel": "Check",
+    "scoreLabel": "Energieniveau-Analyse",
+    "beforeLabel": "Vorher",
+    "afterLabel": "Nach 1 Nacht",
+    "beforeAlt": "VitaCheck-Gesichtsscan vor ANDUFIT mit niedrigem Energieniveau",
+    "afterAlt": "VitaCheck-Gesichtsscan nach einer Nacht ANDUFIT mit deutlich höherem Energieniveau",
+    "fallbackImage": "/picture/andufit_vitacheck.jpg",
+    "cases": [
+      {
+        "name": "Sofie",
+        "meta": "42 J. · Schlaf & Energie",
+        "image": "/picture/andufit_vitacheck.jpg",
+        "beforeScore": "58%",
+        "afterScore": "91%",
+        "beforePct": 58,
+        "afterPct": 91,
+        "quote": "Schon nach einer Nacht zeigte mein VitaCheck ein deutlich höheres Energieniveau — und genau so fühle ich mich auch: ausgeruhter und fitter."
+      },
+      {
+        "name": "Marc",
+        "meta": "55 J. · Rückenschmerzen",
+        "image": "/picture/andufit_vita_2.jpg",
+        "beforeScore": "49%",
+        "afterScore": "88%",
+        "beforePct": 49,
+        "afterPct": 88,
+        "quote": "Früher wachte ich steif auf. Nach der ersten Nacht spürte ich den Unterschied und mein Energiewert stieg deutlich."
+      },
+      {
+        "name": "Linde",
+        "meta": "37 J. · Stress & Erholung",
+        "image": "/picture/andufit_vita_3.jpg",
+        "beforeScore": "61%",
+        "afterScore": "94%",
+        "beforePct": 61,
+        "afterPct": 94,
+        "quote": "Mein Kopf kam endlich zur Ruhe. Der VitaCheck bestätigte, was ich fühlte: viel mehr Energie."
+      }
+    ]
+  },
+  "buyBox": {
+    "category": "SLAAP & RUGHERSTEL · ONDER DE MATRAS",
+    "title": "ANDUFIT Andullation®-massagemodule",
+    "subtitle": "De massagemodule die onzichtbaar onder je matras ligt — voor meer REM-slaap en sneller rugherstel.",
+    "rating": "4.8",
+    "ratingMax": "5",
+    "reviewCount": "2.134 beoordelingen",
+    "currency": "€",
+    "priceNumeric": 745,
+    "vatNote": "Eenmalig — inclusief btw",
+    "financing": "of 12× €69 — of 24× €35 · 0% rente, gespreid betalen",
+    "stockTitle": "Op voorraad",
+    "stockText": "Bestel vandaag — gratis DPD-levering binnen 2-3 werkdagen in BE/NL/LU.",
+    "widthLabel": "Breedte",
+    "lengthLabel": "Lengte",
+    "sizeHelp": "Maatgids",
+    "widths": [
+      {
+        "value": "67.5",
+        "label": "67,5 cm",
+        "seats": 1
+      },
+      {
+        "value": "70",
+        "label": "70 cm",
+        "seats": 1
+      },
+      {
+        "value": "80",
+        "label": "80 cm",
+        "seats": 1
+      },
+      {
+        "value": "90",
+        "label": "90 cm",
+        "seats": 1
+      },
+      {
+        "value": "100",
+        "label": "100 cm",
+        "seats": 1
+      },
+      {
+        "value": "120",
+        "label": "120 cm",
+        "seats": 1
+      },
+      {
+        "value": "135",
+        "label": "135 cm",
+        "seats": 2
+      },
+      {
+        "value": "140",
+        "label": "140 cm",
+        "seats": 2
+      },
+      {
+        "value": "150",
+        "label": "150 cm",
+        "seats": 2
+      },
+      {
+        "value": "160",
+        "label": "160 cm",
+        "seats": 2
+      },
+      {
+        "value": "180",
+        "label": "180 cm",
+        "seats": 2
+      },
+      {
+        "value": "200",
+        "label": "200 cm",
+        "seats": 2
+      }
+    ],
+    "lengths": [
+      {
+        "value": "190",
+        "label": "190 cm"
+      },
+      {
+        "value": "200",
+        "label": "200 cm"
+      },
+      {
+        "value": "210",
+        "label": "210 cm"
+      },
+      {
+        "value": "220",
+        "label": "220 cm"
+      }
+    ],
+    "defaultWidth": "90",
+    "defaultLength": "200",
+    "selectedLabel": "Gekozen maat",
+    "qtyLabel": "Aantal",
+    "addToCart": "Bestel nu",
+    "selectSizeError": "Kies eerst een breedte én lengte",
+    "checkoutUrl": "https://www.andufit.com/nl-BE/checkout/?width={width}&length={length}",
+    "usp": [
+      {
+        "icon": "truck",
+        "text": "Gratis DPD-levering — 2 tot 3 dagen"
+      },
+      {
+        "icon": "return",
+        "text": "14 nachten op proef — niet goed, geld terug"
+      },
+      {
+        "icon": "shield",
+        "text": "2 jaar fabrieksgarantie"
+      },
+      {
+        "icon": "lock",
+        "text": "Veilig betalen via SSL"
+      }
+    ],
+    "highlights": [
+      "7 krachtige andulatiemotoren",
+      "10 massagezones over de volledige lengte",
+      "20 programma's, instelbare intensiteit",
+      "Slechts 7 cm dun — onzichtbaar onder je matras",
+      "AI VitaCheck — meet en stuurt je slaap bij",
+      "EMF-bescherming · Made in Germany"
+    ],
+    "share": "Delen",
+    "payments": {
+      "title": "Veilig afrekenen met vertrouwde betaalmethodes",
+      "methods": [
+        "visa",
+        "mastercard",
+        "amex",
+        "applepay",
+        "googlepay",
+        "paypal",
+        "bancontact",
+        "klarna"
+      ]
+    },
+    "vetReview": {
+      "name": "Dr. Kine. Lieselot Maes",
+      "credential": "Kinesitherapeut & slaapexpert — Hasselt",
+      "verifiedLabel": "Geverifieerde expert",
+      "rating": 5,
+      "quote": "Bij patiënten met chronische rugklachten zie ik dat de Andullation®-technologie de spierspanning losmaakt en de doorbloeding stimuleert. Doordat ANDUFIT onder de matras werkt, krijgen mensen die zachte massage elke nacht — precies wanneer het lichaam herstelt. Na enkele weken melden de meesten een meer REM-slaap en minder ochtendstijfheid."
+    },
+    "benefits": {
+      "title": "Wat ANDUFIT voor jou doet:",
+      "items": [
+        {
+          "icon": "muscle",
+          "text": "Ontspant gespannen rugspieren en verlicht lage rugpijn"
+        },
+        {
+          "icon": "sleep",
+          "text": "Meer REM-slaap — je valt sneller in slaap en wordt minder wakker"
+        },
+        {
+          "icon": "circulation",
+          "text": "Betere doorbloeding voor meer zuurstof in spieren en gewrichten"
+        },
+        {
+          "icon": "heart",
+          "text": "Minder stress — de ritmische andulatie brengt lichaam en geest tot rust"
+        },
+        {
+          "icon": "joints",
+          "text": "Sneller herstel na inspanning, sport of een lange werkdag"
+        },
+        {
+          "icon": "bond",
+          "text": "Een dagelijks ritueel van comfort, in je eigen bed"
+        }
+      ]
+    },
+    "guarantee": {
+      "title": "14 nachten op proef",
+      "text": "Probeer ANDUFIT 14 nachten in je eigen bed. Voel je het verschil niet? Stuur de module terug — wij regelen de ophaling binnen de BeNeLux en betalen je volledig terug.",
+      "footnote": "Premium kwaliteit, Made in Germany, met duidelijke klantenservice."
+    },
+    "priceSingle": "€745",
+    "priceDouble": "€990",
+    "financingSingle": "of 12× €69 — of 24× €35 · 0% rente, gespreid betalen",
+    "financingDouble": "of 12× €92 — of 24× €47 · 0% rente, gespreid betalen",
+    "groupSingleLabel": "1-persoonsmatras",
+    "groupDoubleLabel": "2-persoonsmatras",
+    "configTitle": "Wähle deine Größe",
+    "gift": {
+      "image": "/picture/anduslim.jpg",
+      "fallbackImage": "/picture/andufit_expert.jpg",
+      "stockCount": "8",
+      "badge": "Zeitweise gratis ANDUSLIM",
+      "stockText": "noch verfügbar (gratis)",
+      "name": "ANDUSLIM",
+      "description": "Der Pro-Body Stimulator für Bauch, Rücken, Nacken, Schultern, Po und Beine.",
+      "note": "Dein Code gilt, solange der Vorrat an gratis Anduslims reicht.",
+      "alt": "ANDUSLIM Pro-Body Stimulator"
+    }
+  },
+  "productOverview": {
+    "id": "systeem",
+    "eyebrow": "Het complete systeem",
+    "title": "Alles wat ANDUFIT in huis heeft",
+    "lead": "Eén onzichtbare module onder je matras, boordevol technologie uit Duitsland. Dit zijn de onderdelen die het werk doen.",
+    "productName": "ANDUFIT Andullation®-massagemodule",
+    "usps": [
+      {
+        "icon": "height",
+        "label": "Slechts 7 cm hoog"
+      },
+      {
+        "icon": "trial",
+        "label": "14 nachten op proef"
+      },
+      {
+        "icon": "shipping",
+        "label": "Gratis levering"
+      }
+    ],
+    "price": "€745",
+    "financing": "of 12× €69",
+    "ctaLabel": "Bestel nu",
+    "ctaHref": "#buy",
+    "heroImage": "/picture/andufit_room.jpg",
+    "heroAlt": "ANDUFIT-module onder de matras met oplichtende massagezones in een slaapkamer",
+    "features": [
+      {
+        "id": "fit",
+        "title": "Past onder elke matras",
+        "text": "Slechts 7 cm dun — leg de module onder je bestaande matras. Niemand ziet of voelt het, jij voelt enkel de massage.",
+        "image": "/picture/andufit_teaser.jpg",
+        "fit": "cover",
+        "badge": "7 cm dun"
+      },
+      {
+        "id": "programs",
+        "title": "20 massageprogramma’s",
+        "text": "Kies uit 20 programma’s verspreid over 10 zones — van zachte ontspanning tot diepe spiermassage, met één druk op de knop.",
+        "image": "/picture/andufit_controller.png",
+        "fit": "contain",
+        "badge": "10 zones"
+      },
+      {
+        "id": "chip",
+        "title": "Intelligente massage",
+        "text": "De Andullation®-chip stuurt de trillingen ritmisch en multidirectioneel aan — net als een manuele massage, maar perfect reproduceerbaar.",
+        "image": "/picture/andufit_chip.jpg",
+        "fit": "cover",
+        "badge": "Andullation®"
+      },
+      {
+        "id": "vitacheck",
+        "title": "Gepersonaliseerd via VitaCheck",
+        "text": "De AI VitaCheck-gezichtsscan meet je toestand en kiest automatisch het juiste programma en de juiste intensiteit.",
+        "image": "/picture/andufit_vitacheck.jpg",
+        "fit": "cover",
+        "badge": "AI VitaCheck"
+      },
+      {
+        "id": "motors",
+        "title": "High-tech motoren",
+        "text": "7 krachtige andulatiemotoren verspreiden zachte, ritmische trillingen gelijkmatig over je hele lichaam. Ontwikkeld en gemaakt in Duitsland.",
+        "image": "/picture/andufit_hero.jpg",
+        "fit": "cover",
+        "badge": "Made in Germany"
+      }
+    ],
+    "prevLabel": "Zurück",
+    "nextLabel": "Weiter",
+    "swipeHint": "Wischen oder Pfeile nutzen"
+  },
+  "circulation": {
+    "id": "herstel",
+    "eyebrow": "Meer REM-slaap & sneller rugherstel",
+    "title": "15 minuten ANDUFIT = zichtbaar betere doorbloeding",
+    "lead": "De zachte andulatie-trillingen masseren je rug terwijl je ligt. De bloedvaten verwijden zich, de doorbloeding neemt toe en je lichaam schakelt over naar herstel — meetbaar al na één sessie van 15 minuten.",
+    "comparison": {
+      "beforeImage": "/picture/andufit_thermo_before.jpg",
+      "afterImage": "/picture/andufit_thermo_after.jpg",
+      "beforeLabel": "Voor ANDUFIT",
+      "afterLabel": "Na 15 min ANDUFIT",
+      "beforeCaption": "Koud lichaam — beperkte doorbloeding, gespannen rugspieren en stijfheid.",
+      "afterCaption": "Warm doorbloed lichaam — meer zuurstof in de spieren, ontspanning en meer REM-slaap.",
+      "beforeAlt": "Thermische visualisatie van een liggend lichaam dat koud en blauw kleurt door beperkte doorbloeding vóór ANDUFIT",
+      "afterAlt": "Thermische visualisatie van een liggend lichaam dat warm en rood kleurt door betere doorbloeding na 15 minuten ANDUFIT",
+      "sliderAria": "Sleep om voor en na te vergelijken",
+      "hint": "← Sleep de slider →"
+    },
+    "benefits": [
+      {
+        "icon": "muscle",
+        "title": "Minder rugpijn",
+        "text": "Ontspant de diepe rugspieren en verlicht spanning in de onderrug."
+      },
+      {
+        "icon": "recovery",
+        "title": "Sneller herstel",
+        "text": "Betere doorbloeding voert afvalstoffen sneller af na inspanning of een lange dag."
+      },
+      {
+        "icon": "heart",
+        "title": "Meer REM-slaap",
+        "text": "De ritmische andulatie brengt je tot rust — je valt sneller in slaap en haalt meer REM-slaap."
+      },
+      {
+        "icon": "energy",
+        "title": "Meer energie",
+        "text": "Een uitgerust lichaam = meer energie en een frissere start van de dag."
+      }
+    ],
+    "phases": [
+      {
+        "step": "01",
+        "title": "Andulatie start",
+        "text": "De eerste minuten brengen zachte trillingen je rugspieren in een aangename, lage frequentie."
+      },
+      {
+        "step": "02",
+        "title": "Vasodilatatie",
+        "text": "De bloedvaten verwijden zich lokaal — meer bloed en zuurstof bereiken het weefsel."
+      },
+      {
+        "step": "03",
+        "title": "Spierontspanning",
+        "text": "De gespannen rugspieren laten los, stijfheid neemt af en de druk op de wervels vermindert."
+      },
+      {
+        "step": "04",
+        "title": "Herstel & slaap",
+        "text": "Je lichaam schakelt over naar herstelmodus — ideaal om in te vallen en dóór te slapen."
+      }
+    ],
+    "stat": {
+      "value": "79%",
+      "label": "ervaart sneller herstel bij dagelijks gebruik",
+      "source": "Andufit gebruikersbevraging rugklachten"
+    }
+  },
+  "results": {
+    "id": "resultaten",
+    "eyebrow": "Enquête bij 7.260+ gebruikers",
+    "title": "Meetbaar beter — geen loos gevoel",
+    "lead": "Onze onafhankelijke enquête bij meer dan 7.260 ANDUFIT-gebruikers, gecombineerd met de ingebouwde AI VitaCheck, brengt je vooruitgang in kaart. Dit zijn de gemiddelde resultaten na 4 weken dagelijks gebruik, per doelgroep.",
+    "beforeLabel": "Voor",
+    "afterLabel": "Na",
+    "disclaimer": "Gemiddelde resultaten uit onze enquête bij meer dan 7.260 gebruikers, gemeten met de AI VitaCheck en zelfgerapporteerd over 4 weken dagelijks gebruik. Individuele resultaten kunnen verschillen.",
+    "items": [
+      {
+        "id": "back",
+        "title": "Rugontspanning",
+        "text": "De andulatie ontspant verkrampte rugspieren en stimuleert de doorbloeding. Je gemeten rugscore stijgt zichtbaar — hoe hoger, hoe beter.",
+        "unit": "Rugscore · hoger = beter",
+        "before": "58",
+        "after": "84",
+        "beforeRatio": 0.58,
+        "afterRatio": 0.84,
+        "lowerIsBetter": false,
+        "delta": "+26 pt",
+        "deltaLabel": "hogere rugscore"
+      },
+      {
+        "id": "stress",
+        "title": "Stress verminderen",
+        "text": "Diepe, ritmische trillingen activeren je rustzenuwstelsel. Je hartvariabiliteit (HRV) stijgt — dé maat voor ontspanning.",
+        "unit": "Hartvariabiliteit (HRV)",
+        "before": "42 ms",
+        "after": "68 ms",
+        "beforeRatio": 0.48,
+        "afterRatio": 0.78,
+        "lowerIsBetter": false,
+        "delta": "+62%",
+        "deltaLabel": "hogere hartvariabiliteit"
+      },
+      {
+        "id": "sleep",
+        "title": "REM-slaap",
+        "text": "Een ontspannen lichaam komt sneller tot rust en bereikt makkelijker de REM-slaap. De gemeten REM-slaaptijd per nacht neemt fors toe.",
+        "unit": "REM-slaap per nacht",
+        "before": "52 min",
+        "after": "1 u 24",
+        "beforeRatio": 0.4,
+        "afterRatio": 0.82,
+        "lowerIsBetter": false,
+        "delta": "+62%",
+        "deltaLabel": "langer REM-slaap"
+      },
+      {
+        "id": "recovery",
+        "title": "Recuperatiesnelheid",
+        "text": "Betere doorbloeding en meer REM-slaap versnellen je herstel. De AI VitaCheck-gezichtsanalyse meet een hoger energieniveau.",
+        "unit": "Energieniveau",
+        "before": "58%",
+        "after": "81%",
+        "beforeRatio": 0.58,
+        "afterRatio": 0.81,
+        "lowerIsBetter": false,
+        "delta": "+23 pt",
+        "deltaLabel": "sneller herstel"
+      }
+    ]
+  },
+  "progressFunnel": {
+    "id": "vooruitgang",
+    "eyebrow": "Persoonlijke voorspelling",
+    "title": "Welke vooruitgang én besparing kan jij boeken?",
+    "lead": "Beantwoord enkele korte vragen. We tonen je — in procent — hoeveel vooruitgang je realistisch kunt boeken na 14 dagen, 3 maanden en 6 maanden.",
+    "stepLabel": "Vraag {current} van {total}",
+    "back": "Terug",
+    "next": "Volgende",
+    "compute": "Toon mijn vooruitgang",
+    "steps": [
+      {
+        "field": "goal",
+        "question": "Waarvoor wil je ANDUFIT vooral gebruiken?",
+        "subtext": "Kies je belangrijkste doel.",
+        "options": [
+          {
+            "value": "sleep",
+            "label": "Meer REM-slaap",
+            "subtitle": "Sneller inslapen en meer REM-slaap halen"
+          },
+          {
+            "value": "back",
+            "label": "Rugontspanning",
+            "subtitle": "Minder spanning en pijn in de rug"
+          },
+          {
+            "value": "recovery",
+            "label": "Sneller recupereren",
+            "subtitle": "Meer energie, sneller herstel"
+          },
+          {
+            "value": "stress",
+            "label": "Minder stress",
+            "subtitle": "Meer rust, hogere hartvariabiliteit"
+          }
+        ]
+      },
+      {
+        "field": "severity",
+        "goalSpecific": true
+      },
+      {
+        "field": "gender",
+        "question": "Wat is je geslacht?",
+        "subtext": "Het lichaam reageert licht verschillend — zo verfijnen we je voorspelling.",
+        "options": [
+          {
+            "value": "female",
+            "label": "Vrouw"
+          },
+          {
+            "value": "male",
+            "label": "Man"
+          },
+          {
+            "value": "na",
+            "label": "Zeg ik liever niet"
+          }
+        ]
+      },
+      {
+        "field": "age",
+        "question": "In welke leeftijdsgroep zit je?",
+        "subtext": "Herstelsnelheid verschilt licht per leeftijd.",
+        "options": [
+          {
+            "value": "young",
+            "label": "Onder 35"
+          },
+          {
+            "value": "mid",
+            "label": "35 – 55"
+          },
+          {
+            "value": "older",
+            "label": "55 of ouder"
+          }
+        ]
+      },
+      {
+        "field": "frequency",
+        "question": "Hoe vaak zou je ANDUFIT gebruiken?",
+        "subtext": "Regelmatig gebruik geeft het beste resultaat.",
+        "options": [
+          {
+            "value": "daily",
+            "label": "Elke nacht",
+            "subtitle": "Dagelijks, als vast ritueel"
+          },
+          {
+            "value": "weekly",
+            "label": "Enkele keren per week",
+            "subtitle": "4 tot 5 keer per week"
+          },
+          {
+            "value": "sometimes",
+            "label": "Af en toe",
+            "subtitle": "1 tot 3 keer per week"
+          }
+        ]
+      }
+    ],
+    "frequencyFactors": {
+      "daily": 1,
+      "weekly": 0.82,
+      "sometimes": 0.6
+    },
+    "ageFactors": {
+      "young": 1.05,
+      "mid": 1,
+      "older": 0.92
+    },
+    "genderFactors": {
+      "female": 1.03,
+      "male": 0.98,
+      "na": 1
+    },
+    "horizons": [
+      {
+        "value": "d14",
+        "label": "14 dagen",
+        "short": "14 dgn",
+        "fraction": 0.15
+      },
+      {
+        "value": "m3",
+        "label": "3 maanden",
+        "short": "3 mnd",
+        "fraction": 0.55
+      },
+      {
+        "value": "m6",
+        "label": "6 maanden",
+        "short": "6 mnd",
+        "fraction": 1
+      }
+    ],
+    "goals": {
+      "sleep": {
+        "label": "Meer REM-slaap",
+        "improveLabel": "meer REM-slaap",
+        "resultText": "Een ontspannen lichaam komt sneller tot rust en bereikt makkelijker de REM-slaap. Je nachten worden rustiger en je REM-slaap neemt toe.",
+        "maxPct": {
+          "licht": 28,
+          "matig": 48,
+          "sterk": 68
+        },
+        "severity": {
+          "question": "Hoe slaap je op dit moment?",
+          "subtext": "Hoe slechter je nu slaapt, hoe meer winst er mogelijk is.",
+          "options": [
+            {
+              "value": "licht",
+              "label": "Meestal goed",
+              "subtitle": "Af en toe een mindere nacht"
+            },
+            {
+              "value": "matig",
+              "label": "Wisselend",
+              "subtitle": "Regelmatig onrustig of te kort"
+            },
+            {
+              "value": "sterk",
+              "label": "Slecht",
+              "subtitle": "Vaak wakker, zelden uitgerust"
+            }
+          ]
+        }
+      },
+      "back": {
+        "label": "Rugontspanning",
+        "improveLabel": "minder rugklachten",
+        "resultText": "De andulatie ontspant verkrampte rugspieren en verbetert de doorbloeding. Je voelt minder spanning en pijn in de rug.",
+        "maxPct": {
+          "licht": 32,
+          "matig": 52,
+          "sterk": 70
+        },
+        "severity": {
+          "question": "Hoe vaak heb je last van je rug?",
+          "subtext": "Hoe hardnekkiger de klachten, hoe meer ruimte voor vooruitgang.",
+          "options": [
+            {
+              "value": "licht",
+              "label": "Af en toe",
+              "subtitle": "Vooral na inspanning of lang zitten"
+            },
+            {
+              "value": "matig",
+              "label": "Regelmatig",
+              "subtitle": "Meerdere keren per week last"
+            },
+            {
+              "value": "sterk",
+              "label": "Bijna dagelijks",
+              "subtitle": "Pijn beïnvloedt mijn dagelijks leven"
+            }
+          ]
+        }
+      },
+      "recovery": {
+        "label": "Sneller recupereren",
+        "improveLabel": "meer energie",
+        "resultText": "Betere doorbloeding en meer REM-slaap versnellen je herstel. Je voelt je overdag energieker en herstelt sneller.",
+        "maxPct": {
+          "licht": 24,
+          "matig": 42,
+          "sterk": 58
+        },
+        "severity": {
+          "question": "Hoe is je energie overdag?",
+          "subtext": "Hoe vermoeider je nu bent, hoe groter de mogelijke sprong.",
+          "options": [
+            {
+              "value": "licht",
+              "label": "Meestal fit",
+              "subtitle": "Af en toe een dipje"
+            },
+            {
+              "value": "matig",
+              "label": "Vaak moe",
+              "subtitle": "Energie zakt door de dag"
+            },
+            {
+              "value": "sterk",
+              "label": "Uitgeput",
+              "subtitle": "Voel me zelden echt uitgerust"
+            }
+          ]
+        }
+      },
+      "stress": {
+        "label": "Minder stress",
+        "improveLabel": "meer rust (hogere HRV)",
+        "resultText": "Diepe, ritmische trillingen activeren je rustzenuwstelsel. Je komt sneller tot rust en je hartvariabiliteit (HRV) stijgt.",
+        "maxPct": {
+          "licht": 32,
+          "matig": 54,
+          "sterk": 78
+        },
+        "severity": {
+          "question": "Hoeveel stress ervaar je nu?",
+          "subtext": "Hoe meer spanning je nu voelt, hoe meer ontspanning mogelijk is.",
+          "options": [
+            {
+              "value": "licht",
+              "label": "Beperkt",
+              "subtitle": "Af en toe wat spanning"
+            },
+            {
+              "value": "matig",
+              "label": "Regelmatig",
+              "subtitle": "Vaak gespannen of piekerend"
+            },
+            {
+              "value": "sterk",
+              "label": "Voortdurend",
+              "subtitle": "Kom moeilijk tot rust"
+            }
+          ]
+        }
+      }
+    },
+    "result": {
+      "eyebrow": "Jouw persoonlijke voorspelling",
+      "nowLabel": "Nu",
+      "summaryLabel": "Mogelijk na 6 maanden",
+      "chartTitle": "Verwachte vooruitgang over 6 maanden",
+      "recapTitle": "Jouw antwoorden",
+      "ctaPrimary": "Start mijn vooruitgang — €745",
+      "ctaSecondary": "Opnieuw berekenen",
+      "disclaimer": "Indicatieve voorspelling in procent, op basis van gemiddelde, zelfgerapporteerde resultaten en AI VitaCheck-metingen. ANDUFIT maakt geen medische claims; individuele resultaten kunnen verschillen.",
+      "recapGoal": "Doel",
+      "recapSeverity": "Beginsituatie",
+      "recapGender": "Geslacht",
+      "recapAge": "Leeftijd",
+      "recapFrequency": "Gebruik",
+      "savings": {
+        "title": "Wat je bespaart met ANDUFIT",
+        "intro": "Terugkerende klachten kosten al snel honderden euro’s per jaar aan medicatie, behandelingen en andere gezondheidskosten. ANDUFIT koop je éénmalig — zo groeit je besparing elk jaar.",
+        "annualCostByGoal": {
+          "back": {
+            "licht": 280,
+            "matig": 620,
+            "sterk": 1100
+          },
+          "stress": {
+            "licht": 220,
+            "matig": 480,
+            "sterk": 880
+          },
+          "sleep": {
+            "licht": 190,
+            "matig": 420,
+            "sterk": 760
+          },
+          "recovery": {
+            "licht": 160,
+            "matig": 360,
+            "sterk": 680
+          }
+        },
+        "defaultAnnual": 400,
+        "deviceCost": 745,
+        "savedLabel": "bespaard",
+        "basis": "Geschat op {amount} per jaar aan vermeden gezondheidskosten voor jouw klacht.",
+        "horizons": [
+          {
+            "years": 3,
+            "label": "Na 3 jaar"
+          },
+          {
+            "years": 5,
+            "label": "Na 5 jaar"
+          },
+          {
+            "years": 10,
+            "label": "Na 10 jaar"
+          }
+        ],
+        "note": "Indicatieve berekening, na aftrek van de eenmalige aankoop van €745."
+      }
+    }
+  },
+  "study": {
+    "id": "onderzoek",
+    "eyebrow": "Gepubliceerd op PubMed",
+    "pubmedBadge": "PubMed",
+    "pmid": "PMID: 31105478",
+    "title": "Wetenschappelijk getest, simpel uitgelegd",
+    "lead": "Onafhankelijke wetenschappers testten dezelfde andullatie-massage die in ANDUFIT zit. Hun resultaten staan in PubMed — de internationale databank van gecontroleerde medische studies. Kort gezegd: al na vijf massages hadden de deelnemers minder pijn, een lagere bloeddruk en voelden ze zich beter.",
+    "journalBadge": "Peer-reviewed studie",
+    "studyTitle": "Improvements in Pain, Well-being, Arterial Pressure, and Lower Limb Volume Following Andullation Therapy in Healthy and Unhealthy Humans",
+    "authors": "Parras-Moltó A, Ribas-Serna J.",
+    "source": "Dose-Response, 2019;17(2):1559325819840838",
+    "designTitle": "Hoe de test verliep",
+    "design": [
+      {
+        "label": "Aantal mensen",
+        "value": "50"
+      },
+      {
+        "label": "Massages",
+        "value": "5 × 30 min"
+      },
+      {
+        "label": "Trillingssnelheid",
+        "value": "5–40 Hz"
+      },
+      {
+        "label": "Trillingsdiepte",
+        "value": "2–8 mm"
+      }
+    ],
+    "chartTitle": "Wat er na 5 massages veranderde",
+    "chartCaption": "Gemiddelde verandering bij 50 mensen, vergeleken met de allereerste meting.",
+    "chartFindings": [
+      {
+        "value": "−52,3%",
+        "label": "Minder pijn",
+        "percent": 52.3,
+        "hint": "Ongeveer de helft minder pijn dan vóór de behandeling."
+      },
+      {
+        "value": "+45,1%",
+        "label": "Beter gevoel",
+        "percent": 45.1,
+        "hint": "Deelnemers voelden zich duidelijk fitter en prettiger."
+      },
+      {
+        "value": "+34,5%",
+        "label": "Onderrug houdt meer vol",
+        "percent": 34.5,
+        "hint": "De onderrug verdroeg meer belasting vóór het pijn deed."
+      }
+    ],
+    "extraStats": [
+      {
+        "value": "−6,4 / −4,7",
+        "unit": "mmHg",
+        "label": "Lagere bloeddruk (boven- en onderdruk)"
+      },
+      {
+        "value": "−64 mL",
+        "unit": "",
+        "label": "Minder gezwollen, lichtere benen"
+      }
+    ],
+    "note": "Onderzoek bij 50 mensen zonder vergelijkingsgroep, gepubliceerd op PubMed. ANDUFIT is geen medisch hulpmiddel en belooft geen genezing — heb je aanhoudende klachten, raadpleeg dan je arts.",
+    "linkLabel": "Bekijk de volledige studie op PubMed",
+    "linkUrl": "https://pubmed.ncbi.nlm.nih.gov/31105478/",
+    "studyTitlePlain": "In het Nederlands: “Minder pijn, een beter gevoel, lagere bloeddruk en slankere benen na andullatie-therapie — bij gezonde én minder gezonde mensen.”"
+  },
+  "inAction": {
+    "id": "in-actie",
+    "eyebrow": "ANDUFIT in actie",
+    "title": "Zo voelt een nacht op ANDUFIT",
+    "lead": "Korte beelden van echte gebruikers — de module ligt onder de matras en masseert je rug terwijl je tot rust komt.",
+    "videos": [
+      {
+        "src": "/video/andufit_hero.mp4",
+        "poster": "/picture/andufit_hero.jpg",
+        "caption": "Zo voelt een nacht op ANDUFIT"
+      },
+      {
+        "src": "/video/andufit_motor.mp4",
+        "poster": "/picture/andufit_chip.jpg",
+        "caption": "De 7 andulatiemotoren in werking"
+      },
+      {
+        "src": "/video/andufit_andullation.mp4",
+        "poster": "/picture/andufit_room.jpg",
+        "caption": "Andullation®-technologie uitgelegd"
+      },
+      {
+        "src": "/video/andufit_vitacheck.mp4",
+        "poster": "/picture/andufit_vitacheck.jpg",
+        "caption": "AI VitaCheck meet en stuurt je slaap bij"
+      }
+    ]
+  },
+  "hoursMeter": {
+    "id": "uren-comfort",
+    "eyebrow": "ANDUFIT in cijfers",
+    "title": "Wat ANDUFIT al heeft waargemaakt",
+    "baseHours": 1850000,
+    "perSecondIncrement": 0.062,
+    "customersValue": "12.480",
+    "customersLabel": "tevreden klanten",
+    "hoursLabel": "uren ANDUFIT gedraaid",
+    "hoursSub": "en stijgt elke seconde",
+    "countriesValue": "9",
+    "countriesLabel": "landen in Europa",
+    "studiesValue": "10",
+    "studiesLabel": "gepubliceerde studies over de weldaden van vibraties op het lichaam"
+  },
+  "globe": {
+    "activeLabel": "ANDUFITs nu actief",
+    "canvasAria": "Geanimeerde wereldbol met oplichtende punten waar een ANDUFIT wordt ingeschakeld"
+  },
+  "savings": {
+    "id": "besparing",
+    "eyebrow": "Investering vs kosten",
+    "title": "Bespaar tot €3.700 op 5 jaar rugklachtenkosten",
+    "lead": "Chronische rugklachten kosten gemiddeld €4.520 over 5 jaar aan huisarts, kine, pijnstillers en osteopaat. ANDUFIT kost eenmalig €745 — en helpt je rug elke nacht herstellen.",
+    "withoutTitle": "Zonder ANDUFIT",
+    "withoutSubtitle": "Gemiddelde kosten van aanhoudende rugklachten over 5 jaar",
+    "withoutItems": [
+      {
+        "icon": "vet",
+        "label": "Consultaties huisarts & specialist",
+        "detail": "10 × €30",
+        "cost": 300,
+        "source": 1
+      },
+      {
+        "icon": "therapy",
+        "label": "Kinesitherapie",
+        "detail": "54 sessies × €27",
+        "cost": 1458,
+        "source": 2
+      },
+      {
+        "icon": "pill",
+        "label": "Pijnstillers & ontstekingsremmers",
+        "detail": "€20/maand × 30 maanden",
+        "cost": 600,
+        "source": 3
+      },
+      {
+        "icon": "brain",
+        "label": "Osteopaat",
+        "detail": "12 × €60",
+        "cost": 720,
+        "source": 4
+      },
+      {
+        "icon": "calm",
+        "label": "Verloren werkdagen (productiviteit)",
+        "detail": "6 dagen × €157",
+        "cost": 942,
+        "source": 5
+      },
+      {
+        "icon": "leaf",
+        "label": "Warmtepleisters & hulpmiddelen",
+        "detail": "€8/maand × 60 maanden",
+        "cost": 500,
+        "source": 6
+      }
+    ],
+    "withoutTotalLabel": "Totale kost over 5 jaar",
+    "withoutTotal": 4520,
+    "withTitle": "Met ANDUFIT",
+    "withSubtitle": "Dagelijkse andulatie-massage gedurende 5 jaar",
+    "withItems": [
+      {
+        "icon": "jacket",
+        "label": "ANDUFIT Andullation®-module",
+        "detail": "Eenmalige aankoop",
+        "cost": 745
+      },
+      {
+        "icon": "warranty",
+        "label": "2 jaar fabrieksgarantie",
+        "detail": "Made in Germany",
+        "cost": 0
+      },
+      {
+        "icon": "bolt",
+        "label": "Stroomverbruik (12V / 50W)",
+        "detail": "± €3/jaar",
+        "cost": 15
+      },
+      {
+        "icon": "doctor",
+        "label": "Minder kine & consultaties (besparing)",
+        "detail": "Minder klachten = minder bezoeken",
+        "cost": 0
+      },
+      {
+        "icon": "heart",
+        "label": "Meer REM-slaap & rugherstel",
+        "detail": "Elke nacht ontspanning",
+        "cost": 0
+      },
+      {
+        "icon": "infinity",
+        "label": "Geen abonnement, geen herhalingskosten",
+        "detail": "Jouw bed, jouw moment",
+        "cost": 0
+      }
+    ],
+    "withTotalLabel": "Totale kost over 5 jaar",
+    "withTotal": 760,
+    "savingsLabel": "Jouw besparing",
+    "savingsAmount": 3760,
+    "perDayLabel": "Dat is",
+    "perDayValue": "€0,41 per dag",
+    "perDayHint": "minder dan een kopje koffie",
+    "disclaimer": "Cijfers gebaseerd op gemiddelde Belgische tarieven 2024-2025 voor aanhoudende rugklachten. Reële kosten variëren per persoon, leeftijd en regio.",
+    "cta": "Bestel ANDUFIT — bespaar vanaf vandaag",
+    "sourcesTitle": "Bronnen & methodologie",
+    "sources": [
+      {
+        "n": 1,
+        "label": "Consultaties huisarts & specialist",
+        "ref": "RIZIV-tarieven 2024 — geconventioneerde raadpleging huisarts/specialist."
+      },
+      {
+        "n": 2,
+        "label": "Kinesitherapie",
+        "ref": "RIZIV-tarieven kinesitherapie 2024 — gemiddeld remgeld + honorarium per zitting."
+      },
+      {
+        "n": 3,
+        "label": "Pijnstillers & ontstekingsremmers",
+        "ref": "BCFI/CBIP prijsraadpleging courante NSAID's en paracetamol bij chronische rugpijn."
+      },
+      {
+        "n": 4,
+        "label": "Osteopaat",
+        "ref": "Gemiddelde sessieprijs osteopathie in België 2024 (€55-€70), niet terugbetaald."
+      },
+      {
+        "n": 5,
+        "label": "Verloren werkdagen",
+        "ref": "Indicatieve productiviteitskost per ziektedag — rugklachten zijn de #1 oorzaak van werkverzuim."
+      },
+      {
+        "n": 6,
+        "label": "Warmtepleisters & hulpmiddelen",
+        "ref": "Retailprijzen warmtepleisters, rugbanden en steunkussens 2024."
+      },
+      {
+        "n": 7,
+        "label": "Resultaten Andullation®",
+        "ref": "Andufit gebruikersbevraging rugklachten: 79% sneller herstel, 82% slaapt sneller in, 60% meer REM-slaap."
+      }
+    ],
+    "sourcesFootnote": "Alle bedragen zijn gemiddelden en uitsluitend bedoeld als indicatie. ANDUFIT vervangt geen medische zorg — raadpleeg steeds je arts voor diagnose en behandeling."
+  },
+  "savingsCalculator": {
+    "id": "calculator",
+    "eyebrow": "Persoonlijke calculator",
+    "title": "Bereken jouw besparing in 4 stappen",
+    "lead": "Beantwoord enkele vragen over je rug en slaap — wij rekenen direct uit hoeveel je bespaart aan behandelkosten met ANDUFIT.",
+    "stepLabel": "Stap {current} van {total}",
+    "back": "Terug",
+    "next": "Volgende",
+    "restart": "Opnieuw beginnen",
+    "compute": "Bereken mijn besparing",
+    "andufitCost": 760,
+    "baseCost": 4520,
+    "horizonBase": 5,
+    "steps": [
+      {
+        "question": "Hoe oud ben je?",
+        "subtext": "Met de leeftijd nemen rugklachten en stijfheid doorgaans toe — en dus ook de baat bij dagelijkse massage.",
+        "field": "age",
+        "options": [
+          {
+            "value": "young",
+            "label": "Jong (< 30 jaar)",
+            "subtitle": "Klachten meestal beperkt",
+            "multiplier": 0.6
+          },
+          {
+            "value": "adult",
+            "label": "Volwassen (30 – 45 jaar)",
+            "subtitle": "Eerste rugklachten",
+            "multiplier": 0.9
+          },
+          {
+            "value": "mid",
+            "label": "45 – 60 jaar",
+            "subtitle": "Toenemende stijfheid",
+            "multiplier": 1.2
+          },
+          {
+            "value": "senior",
+            "label": "60+ jaar",
+            "subtitle": "Hogere zorgbehoefte",
+            "multiplier": 1.5
+          }
+        ]
+      },
+      {
+        "question": "Hoe zou je je rug- en slaapklachten omschrijven?",
+        "subtext": "Gebaseerd op je eigen ervaring van de laatste maanden.",
+        "field": "health",
+        "options": [
+          {
+            "value": "healthy",
+            "label": "Weinig klachten",
+            "subtitle": "Preventief — zo houden",
+            "multiplier": 0.6
+          },
+          {
+            "value": "mild",
+            "label": "Regelmatig last",
+            "subtitle": "Af en toe stijf of slecht geslapen",
+            "multiplier": 1
+          },
+          {
+            "value": "chronic",
+            "label": "Chronische klachten",
+            "subtitle": "Doorlopend kine of medicatie",
+            "multiplier": 1.6
+          }
+        ]
+      },
+      {
+        "question": "Welke klachten herken je? (meerdere mogelijk)",
+        "subtext": "Elke klacht heeft een gemiddelde jaarkost — ANDUFIT helpt deze te verminderen.",
+        "field": "symptoms",
+        "multiSelect": true,
+        "options": [
+          {
+            "value": "lowerback",
+            "label": "Lage rugpijn",
+            "subtitle": "Spanning of pijn in de onderrug",
+            "add": 900
+          },
+          {
+            "value": "stiffness",
+            "label": "Ochtendstijfheid",
+            "subtitle": "Moeilijk op gang in de ochtend",
+            "add": 480
+          },
+          {
+            "value": "sleep",
+            "label": "Slecht slapen",
+            "subtitle": "Moeilijk inslapen of vaak wakker",
+            "add": 420
+          },
+          {
+            "value": "recovery",
+            "label": "Traag herstel na inspanning",
+            "subtitle": "Sport of fysiek werk",
+            "add": 380
+          },
+          {
+            "value": "stress",
+            "label": "Stress & spanning",
+            "subtitle": "Gespannen spieren, onrust",
+            "add": 360
+          },
+          {
+            "value": "neck",
+            "label": "Nek- & schouderklachten",
+            "subtitle": "Uitstralende spanning",
+            "add": 520
+          }
+        ]
+      },
+      {
+        "question": "Over welke periode wil je de besparing zien?",
+        "subtext": "ANDUFIT is een eenmalige aankoop — hoe langer je het gebruikt, hoe groter de besparing.",
+        "field": "horizon",
+        "options": [
+          {
+            "value": "3",
+            "label": "3 jaar",
+            "subtitle": "Snelle terugverdientijd",
+            "multiplier": 0.6
+          },
+          {
+            "value": "5",
+            "label": "5 jaar",
+            "subtitle": "Standaard projectie",
+            "multiplier": 1
+          },
+          {
+            "value": "8",
+            "label": "8 jaar",
+            "subtitle": "Lange termijn — meeste besparing",
+            "multiplier": 1.6
+          }
+        ]
+      }
+    ],
+    "result": {
+      "eyebrow": "Jouw persoonlijke berekening",
+      "savingsLabel": "Geschatte besparing",
+      "withoutLabel": "Geschatte kosten zonder ANDUFIT",
+      "withLabel": "Investering in ANDUFIT",
+      "perDayLabel": "Dat is gemiddeld",
+      "perDay": "per dag",
+      "breakdownTitle": "Jouw configuratie",
+      "ctaPrimary": "Bestel nu — €745",
+      "ctaSecondary": "Bereken opnieuw",
+      "disclaimer": "Schatting op basis van gemiddelde Belgische tarieven. Werkelijke kosten variëren per persoon en zorgsituatie.",
+      "noSavingsTitle": "ANDUFIT betaalt zichzelf terug in welzijn",
+      "noSavingsText": "Heb je weinig klachten? Dan zijn er minder directe kostenbesparingen — maar ANDUFIT blijft de beste preventieve investering in je slaap en rug."
+    }
+  },
+  "calcButton": {
+    "label": "Ontdek jouw vooruitgang",
+    "hint": "In 1 minuut · gratis · zonder gegevens"
+  },
+  "sizeGuide": {
+    "id": "maten",
+    "eyebrow": "Maatgids",
+    "title": "Past onder élke matras",
+    "lead": "ANDUFIT wordt op maat geleverd per breedte × lengte. Meet je matras en kies de combinatie die past — de module ligt onzichtbaar eronder.",
+    "howToTitle": "Zo meet je je matras",
+    "howToText": "Meet de breedte en de lengte van je matras (of bedbodem) in centimeter. Kies de ANDUFIT-maat die overeenkomt. Twijfel je tussen twee maten? Neem de kleinste die je matras volledig ondersteunt.",
+    "widthLabel": "Breedte",
+    "lengthLabel": "Lengte",
+    "presetsLabel": "Courante matrasmaten",
+    "presets": [
+      {
+        "code": "67,5 × 200",
+        "label": "Eenpersoons smal",
+        "widthCm": 67.5,
+        "lengthCm": 200,
+        "note": "Smal eenpersoonsbed"
+      },
+      {
+        "code": "80 × 200",
+        "label": "Eenpersoons",
+        "widthCm": 80,
+        "lengthCm": 200,
+        "note": "Standaard eenpersoons"
+      },
+      {
+        "code": "90 × 200",
+        "label": "Eenpersoons comfort",
+        "widthCm": 90,
+        "lengthCm": 200,
+        "note": "Meest gekozen"
+      },
+      {
+        "code": "100 × 200",
+        "label": "Eenpersoons XL",
+        "widthCm": 100,
+        "lengthCm": 200,
+        "note": "Extra breed"
+      },
+      {
+        "code": "120 × 200",
+        "label": "Tweepersoons smal",
+        "widthCm": 120,
+        "lengthCm": 200,
+        "note": "Ruim voor één persoon"
+      }
+    ],
+    "helpText": "Heb je een tweepersoonsbed?",
+    "helpCta": "Bestel twee modules — één per slaapzone, elk met eigen bediening, zodat jullie elk je eigen programma kiezen."
+  },
+  "tabs": {
+    "items": [
+      {
+        "id": "installation",
+        "label": "Installatie"
+      },
+      {
+        "id": "specs",
+        "label": "Specificaties"
+      },
+      {
+        "id": "warranty",
+        "label": "14 dagen geld-terug-garantie"
+      },
+      {
+        "id": "faq",
+        "label": "FAQ"
+      }
+    ],
+    "installation": {
+      "lead": "ANDUFIT installeer je zonder gereedschap in een paar minuten. Schuif de module onder je matras, sluit de controller aan en je bent klaar.",
+      "videoSrc": "/video/andufit_hero.mp4",
+      "videoPoster": "/andufit_hero.jpg",
+      "videoCaption": "Installatie in minder dan 10 minuten",
+      "videoCta": "Bekijk de installatievideo",
+      "videoUrl": "https://www.andufit.com/nl-BE/checkout/?width=90&length=200",
+      "steps": [
+        {
+          "title": "Uitpakken",
+          "text": "De module komt in een compacte doos. Je hebt geen gereedschap nodig."
+        },
+        {
+          "title": "Onder je matras leggen",
+          "text": "Leg de module op je bedbodem en schuif je matras er weer overheen."
+        },
+        {
+          "title": "Controller aansluiten",
+          "text": "Verbind de bedieningseenheid met de module en steek de stekker in het stopcontact."
+        },
+        {
+          "title": "Programma kiezen",
+          "text": "Kies je programma en intensiteit — AI VitaCheck helpt je meteen op weg."
+        }
+      ]
+    },
+    "warranty": {
+      "highlight": "14 dagen geld-terug-garantie",
+      "lead": "Probeer ANDUFIT 14 dagen in je eigen bed. Niet tevreden? Je krijgt je volledige aankoopbedrag terug.",
+      "blocks": [
+        {
+          "title": "14 nachten thuis proberen",
+          "items": [
+            "Test ANDUFIT in je eigen slaapkamer",
+            "Voel het verschil in je slaap en rug",
+            "Geen risico, geen kleine lettertjes"
+          ]
+        },
+        {
+          "title": "Niet tevreden? Geld terug",
+          "items": [
+            "Stuur de module binnen 14 dagen terug",
+            "Je ontvangt het volledige aankoopbedrag",
+            "Eenvoudige, vlotte afhandeling"
+          ]
+        },
+        {
+          "title": "Levering & garantie",
+          "items": [
+            "Gratis DPD-levering in 2–3 dagen",
+            "2 jaar fabrieksgarantie",
+            "Veilig betalen of gespreid betalen"
+          ]
+        }
+      ]
+    }
+  },
+  "specs": {
+    "id": "specs",
+    "eyebrow": "Technische specificaties",
+    "title": "Alles wat je moet weten",
+    "lead": "Hoogwaardig Duits vakmanschap in elk detail.",
+    "rows": [
+      {
+        "label": "Andullatiemotoren",
+        "value": "7 motoren"
+      },
+      {
+        "label": "Massagezones",
+        "value": "10 zones"
+      },
+      {
+        "label": "Afstandsbediening",
+        "check": true
+      },
+      {
+        "label": "Verpakking",
+        "value": "Gerecyclede doos inclusief instructies en retourdoos"
+      },
+      {
+        "label": "Materiaal",
+        "value": "Bio-comfort hoog veerkrachtig schuim"
+      },
+      {
+        "label": "Hoes",
+        "value": "3D mesh-stof met hoge ventilatie"
+      },
+      {
+        "label": "Bescherming tegen elektrosmog",
+        "check": true
+      },
+      {
+        "label": "Stroomverbruik",
+        "value": "50 W"
+      },
+      {
+        "label": "EU-certificering",
+        "check": true
+      },
+      {
+        "label": "Garantie",
+        "value": "2 jaar"
+      },
+      {
+        "label": "Ontwerp & technologie",
+        "value": "Gemaakt in Duitsland"
+      },
+      {
+        "label": "Gewicht",
+        "value": "10 kg"
+      },
+      {
+        "label": "Voeding",
+        "value": "12.0V – 4.0A"
+      },
+      {
+        "label": "14 dagen retourbeleid",
+        "check": true
+      }
+    ],
+    "dimHeight": "190–220 cm",
+    "dimWidth": "67,5–120 cm"
+  },
+  "reviewSummary": {
+    "id": "reviews",
+    "eyebrow": "2.134 tevreden gebruikers",
+    "title": "4.8/5 — beoordeeld door echte gebruikers",
+    "rating": "4.8",
+    "totalReviews": "2.134",
+    "breakdown": [
+      {
+        "stars": 5,
+        "percent": 81
+      },
+      {
+        "stars": 4,
+        "percent": 14
+      },
+      {
+        "stars": 3,
+        "percent": 3
+      },
+      {
+        "stars": 2,
+        "percent": 1
+      },
+      {
+        "stars": 1,
+        "percent": 1
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Effect op slaap",
+        "score": "4.9"
+      },
+      {
+        "label": "Verlichting rugpijn",
+        "score": "4.8"
+      },
+      {
+        "label": "Kwaliteit & afwerking",
+        "score": "4.8"
+      },
+      {
+        "label": "Prijs/kwaliteit",
+        "score": "4.6"
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Geert V.",
+        "dog": "Lage rugpijn · 54 j.",
+        "rating": 5,
+        "title": "Eindelijk weer dóórslapen",
+        "text": "Na jaren lage rugpijn slaap ik voor het eerst weer een nacht door. De module ligt onzichtbaar onder mijn matras en de massage voor het slapen is heerlijk. Na drie weken merkbaar minder ochtendstijfheid.",
+        "verified": true
+      },
+      {
+        "name": "Annick D.",
+        "dog": "Slaapproblemen · 47 j.",
+        "rating": 5,
+        "title": "Val veel sneller in slaap",
+        "text": "Ik lag vroeger uren wakker. Met het avondprogramma kom ik tot rust en val ik binnen tien minuten in slaap. Mijn man heeft er intussen ook één besteld.",
+        "verified": true
+      },
+      {
+        "name": "Patrick M.",
+        "dog": "Sport & herstel · 39 j.",
+        "rating": 5,
+        "title": "Top voor herstel na het sporten",
+        "text": "Ik train vier keer per week. Sinds ANDUFIT herstel ik duidelijk sneller en heb ik minder spierpijn. De afwerking voelt premium — echt Made in Germany.",
+        "verified": true
+      }
+    ],
+    "paymentTitle": "Veilig betalen",
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "Bancontact",
+      "iDEAL",
+      "PayPal",
+      "Klarna",
+      "Apple Pay"
+    ]
+  },
+  "socialReviews": {
+    "id": "ervaringen",
+    "eyebrow": "Echte ervaringen",
+    "title": "Geliefd door duizenden",
+    "lead": "Beoordelingen van geverifieerde gebruikers — verzameld via Google, Trustpilot, de App Store en Facebook.",
+    "rating": "4,7",
+    "totalReviews": "8.412",
+    "basedOn": "gebaseerd op {count} beoordelingen",
+    "breakdownTitle": "Verdeling",
+    "breakdown": [
+      {
+        "stars": 5,
+        "percent": 86
+      },
+      {
+        "stars": 4,
+        "percent": 11
+      },
+      {
+        "stars": 3,
+        "percent": 2
+      },
+      {
+        "stars": 2,
+        "percent": 1
+      },
+      {
+        "stars": 1,
+        "percent": 0
+      }
+    ],
+    "sourcesLabel": "Verzameld via",
+    "sources": [
+      "Google",
+      "Trustpilot",
+      "App Store",
+      "Facebook"
+    ],
+    "filtersLabel": "Filter op resultaat",
+    "filters": [
+      {
+        "id": "all",
+        "label": "Alles"
+      },
+      {
+        "id": "back",
+        "label": "Rugontspanning"
+      },
+      {
+        "id": "stress",
+        "label": "Stress verminderen"
+      },
+      {
+        "id": "sleep",
+        "label": "REM-slaap"
+      },
+      {
+        "id": "recovery",
+        "label": "Recuperatie"
+      }
+    ],
+    "measureTitle": "Voor & na — gemeten met AI VitaCheck",
+    "measureLead": "Gebruikers meten hun vooruitgang in de app. Dit zijn echte voor/na-metingen per voordeel.",
+    "beforeLabel": "Voor",
+    "afterLabel": "Na 4 weken",
+    "measurements": [
+      {
+        "category": "back",
+        "title": "Rugontspanning",
+        "unit": "Rugscore",
+        "before": "7,4",
+        "after": "3,1",
+        "beforeRatio": 0.74,
+        "afterRatio": 0.31,
+        "lowerIsBetter": true,
+        "delta": "−58%",
+        "deltaLabel": "minder rugklachten"
+      },
+      {
+        "category": "stress",
+        "title": "Stress verminderen",
+        "unit": "HRV (ms)",
+        "before": "42 ms",
+        "after": "68 ms",
+        "beforeRatio": 0.48,
+        "afterRatio": 0.78,
+        "lowerIsBetter": false,
+        "delta": "+62%",
+        "deltaLabel": "hogere hartvariabiliteit"
+      },
+      {
+        "category": "sleep",
+        "title": "REM-slaap",
+        "unit": "REM-slaap / nacht",
+        "before": "52 min",
+        "after": "1 u 24",
+        "beforeRatio": 0.4,
+        "afterRatio": 0.82,
+        "lowerIsBetter": false,
+        "delta": "+62%",
+        "deltaLabel": "langer REM-slaap"
+      },
+      {
+        "category": "recovery",
+        "title": "Recuperatie & doorbloeding",
+        "unit": "Thermische meting",
+        "before": "58%",
+        "after": "81%",
+        "beforeRatio": 0.58,
+        "afterRatio": 0.81,
+        "lowerIsBetter": false,
+        "delta": "+23 pt",
+        "deltaLabel": "sneller herstel",
+        "beforeImage": "/picture/andufit_thermo_before.jpg",
+        "afterImage": "/picture/andufit_thermo_after.jpg"
+      }
+    ],
+    "verifiedLabel": "Geverifieerd",
+    "emptyLabel": "Geen reviews in deze categorie.",
+    "reviews": [
+      {
+        "name": "Sofie D.",
+        "date": "18 januari 2026",
+        "source": "google",
+        "rating": 5,
+        "title": "Eindelijk weer pijnvrij wakker",
+        "text": "Na jaren ochtendpijn in mijn onderrug word ik nu zonder stijfheid wakker. De rugscore in de app daalde van 7 naar 3. Ongelooflijk verschil.",
+        "category": "back"
+      },
+      {
+        "name": "Marc V.",
+        "date": "5 januari 2026",
+        "source": "trustpilot",
+        "rating": 5,
+        "title": "Mijn HRV is zichtbaar gestegen",
+        "text": "Ik meet mijn hartvariabiliteit al jaren. Sinds ANDUFIT zie ik mijn HRV duidelijk omhoog gaan — ik voel me overdag veel rustiger.",
+        "category": "stress"
+      },
+      {
+        "name": "Liesbeth M.",
+        "date": "22 december 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Slaap als een roos",
+        "text": "Ik val sneller in slaap en de app toont fors meer REM-slaap. Eerst 50 min, nu ruim een uur per nacht. Wakker worden gaat veel makkelijker.",
+        "category": "sleep"
+      },
+      {
+        "name": "Tom B.",
+        "date": "14 december 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Sneller hersteld na het sporten",
+        "text": "Als hardloper merk ik dat mijn benen sneller herstellen. De VitaCheck-gezichtsanalyse geeft me dagelijks een hoger energieniveau aan.",
+        "category": "recovery"
+      },
+      {
+        "name": "Anke R.",
+        "date": "2 december 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Mijn rug voelt jaren jonger",
+        "text": "De zachte trillingen ontspannen mijn rugspieren elke avond. Geen pijnstillers meer nodig. Had dit veel eerder moeten kopen.",
+        "category": "back"
+      },
+      {
+        "name": "Pieter J.",
+        "date": "20 november 2025",
+        "source": "google",
+        "rating": 4,
+        "title": "Eindelijk doorslapen",
+        "text": "Werd elke nacht meerdere keren wakker. Nu slaap ik door en de REM-slaapcurve in de app is veel mooier geworden.",
+        "category": "sleep"
+      },
+      {
+        "name": "Nadia E.",
+        "date": "8 november 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Minder stress, betere focus",
+        "text": "Twintig minuten voor het slapen en mijn hoofd is leeg. Mijn hartcoherentie is meetbaar verbeterd en ik pieker veel minder.",
+        "category": "stress"
+      },
+      {
+        "name": "Wouter K.",
+        "date": "27 oktober 2025",
+        "source": "trustpilot",
+        "rating": 5,
+        "title": "Topherstel na zware dagen",
+        "text": "Fysiek werk vraagt veel van mijn lichaam. Sinds ANDUFIT sta ik fitter op en voel ik me sneller hersteld. De cijfers bevestigen het.",
+        "category": "recovery"
+      },
+      {
+        "name": "Hilde S.",
+        "date": "15 oktober 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Verlost van mijn lage rugpijn",
+        "text": "Chronische lage rugpijn die nu grotendeels weg is. De andulatie doet écht iets. Mijn fysio merkt ook het verschil.",
+        "category": "back"
+      },
+      {
+        "name": "Jeroen P.",
+        "date": "30 september 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Beste investering in mijn slaap",
+        "text": "De combinatie van massage en de slaapmetingen is fantastisch. Ik zie zwart op wit dat ik meer REM-slaap haal dan ooit.",
+        "category": "sleep"
+      }
+    ],
+    "prevLabel": "Vorherige Bewertung",
+    "nextLabel": "Nächste Bewertung",
+    "swipeHint": "Wischen oder Pfeile nutzen"
+  },
+  "faq": {
+    "id": "faq",
+    "eyebrow": "Veelgestelde vragen",
+    "title": "Alles wat je wilt weten",
+    "items": [
+      {
+        "q": "Hoe is ANDUFIT ontstaan?",
+        "a": "Het internationale bedrijf HHP ontwikkelde samen met vooraanstaande universiteiten in binnen- en buitenland de gepatenteerde Andullatie®-technologie — een innovatieve massagetechnologie voor wetenschappelijke toepassingen. Zowel mensen met chronische klachten als zij die lijden onder mentale overbelasting ervaren Andullatie® als een effectieve en langdurige methode om klachten te verlichten en hun levenskwaliteit te verbeteren.\n\nOp basis van deze expertise werd in 2018 ANDUFIT ontwikkeld: een intelligente en gebruiksvriendelijke massagemodule die onder je matras past — ontworpen én geproduceerd in Duitsland volgens de strengste kwaliteits- en veiligheidseisen.\n\nWat vroeger alleen beschikbaar was in wetenschappelijke praktijken, is dankzij ANDUFIT nu voor iedereen toegankelijk — eenvoudig, betaalbaar en toepasbaar in elk bed.\n\nVandaag is ANDUFIT verkrijgbaar in tal van landen, en ervaren duizenden mensen dagelijks het verschil: een herstellende nachtrust, minder stress en een energieke start van de dag."
+      },
+      {
+        "q": "Hoe helpt ANDUFIT om beter te slapen?",
+        "a": "ANDUFIT stimuleert diepe lichamelijke én mentale ontspanning. Dankzij de gepatenteerde Andullatie®-technologie worden de belangrijkste lichaamszones zacht en ritmisch gemasseerd. Dit vermindert spierspanning en verlaagt het stresshormoon cortisol, wat essentieel is om tot rust te komen.\n\nUit klantfeedback blijkt:\n• 82% valt sneller in slaap\n• 60% ervaart meer REM-slaap en een verkwikkende nachtrust\n• 79% voelt zich frisser na het ontwaken\n\nBij regelmatig gebruik — idealiter 15 minuten tot een uur per sessie — vergroot je de kans op blijvende slaapverbetering. Veel gebruikers vallen heerlijk in slaap tijdens de massage."
+      },
+      {
+        "q": "Is de massage voelbaar door een matras of topper?",
+        "a": "Ja. De vibratiemassage van ANDUFIT is voelbaar door elk type matras of topper, ongeacht de dikte. De massage komt het best tot zijn recht bij matrassen tussen 10 en 40 cm hoog.\n\nANDUFIT werkt onder vrijwel elke matras, waaronder traagschuim (memory foam), koudschuim, latex, pocketvering, bonellvering, hybride matrassen, gelmatrassen en toppers in diverse materialen.\n\nVia de afstandsbediening stem je de intensiteit eenvoudig af op jouw voorkeur — je kiest uit 7 niveaus."
+      },
+      {
+        "q": "Past ANDUFIT in elk bed?",
+        "a": "Ja. ANDUFIT is ontworpen om in vrijwel elk bed te passen en is geschikt voor alle gangbare bedbodems:\n• Lattenbodems (vast of verstelbaar)\n• Elektrisch en mechanisch verstelbare bedden\n• Hydraulische systemen\n• Boxsprings\n• Bedden met een vaste of vlakke bodem\n• Combinaties met toppers of split-top matrassen\n\nDe module is slechts 7 cm hoog en past comfortabel onder elke matras of matrastopper."
+      },
+      {
+        "q": "Welke afmetingen zijn er beschikbaar?",
+        "a": "ANDUFIT is verkrijgbaar in verschillende breedte- en lengtematen. Voor bedden tot en met 120 cm breed volstaat één massagemodule. Is je bed breder (zoals een standaard tweepersoonsbed), dan heb je twee modules nodig.\n\nDe beschikbare afmetingen per module:\n• Breedte: 67,5 cm tot 120 cm\n• Lengte: 190 cm tot 220 cm"
+      },
+      {
+        "q": "Maakt ANDUFIT geluid tijdens het gebruik?",
+        "a": "ANDUFIT werkt vrijwel geruisloos. Je hoort het systeem nauwelijks, zodat je ongestoord kunt ontspannen of in slaap kunt vallen.\n\nHet geluidsniveau kan licht variëren afhankelijk van het programma en de ingestelde intensiteit (7 niveaus), maar wordt over het algemeen als zeer stil ervaren. Tip: plaats het bed iets van de muur en zorg dat het stevig en stabiel op de vloer staat."
+      },
+      {
+        "q": "Kan ik ANDUFIT gebruiken aan één kant van een tweepersoonsbed?",
+        "a": "Ja, dat kan perfect. Je hebt twee opties:\n\nOptie 1 — Twee modules: beide zijden werken volledig onafhankelijk. Elke module heeft een eigen handbediening, zodat jij en je partner apart kunnen genieten van een massage naar wens.\n\nOptie 2 — Eén module aan jouw zijde: enkel jouw kant beschikt over de massagefunctie. Ideaal om eerst zelf uit te proberen. Let op: de module is 7 cm hoog; dat hoogteverschil vang je eenvoudig op met een dunne topper of matrasverhoger aan de andere zijde."
+      },
+      {
+        "q": "Hoeveel zones heeft ANDUFIT?",
+        "a": "ANDUFIT beschikt over 7 Andullatie®-massagemotoren, strategisch gepositioneerd over 10 massagezones om stress te verminderen, de slaap te verbeteren en herstel te ondersteunen.\n\nDe belangrijkste behandelde lichaamszones zijn:\n• Schouders en middenrug\n• Onderrug\n• Heupen\n• Billen\n• Kuiten en voeten\n\nDe intensiteit is per zone afzonderlijk instelbaar, ongeacht welk programma je kiest."
+      },
+      {
+        "q": "Hoeveel kost ANDUFIT?",
+        "a": "De prijs hangt af van de afmetingen van je bed. ANDUFIT is er vanaf €745, of gespreid te betalen met 12× €69 of 24× €35.\n\nKies je breedte en lengte bovenaan deze pagina en je ziet meteen de juiste prijs voor jouw bedmaat."
+      },
+      {
+        "q": "Waar kan ik ANDUFIT kopen?",
+        "a": "Je bestelt ANDUFIT eenvoudig en veilig online:\n• Geef je bedafmetingen door via de configurator bovenaan deze pagina\n• Rond je bestelling veilig af\n• Je bestelling wordt binnen 2 à 3 werkdagen geleverd"
+      },
+      {
+        "q": "Is ANDUFIT voor iedereen geschikt?",
+        "a": "ANDUFIT is over het algemeen veilig voor dagelijks gebruik en geschikt voor bijna iedereen. Toch is in enkele situaties voorzichtigheid geboden.\n\nContra-indicaties:\n• Personen met ernstige of ongecontroleerde epilepsie mogen ANDUFIT niet gebruiken\n• In de eerste 3 maanden na een operatie met een prothese of implantaat wordt gebruik afgeraden\n\nBij een pacemaker, ernstige hartritmestoornissen of andere medische implantaten raden we aan eerst medisch advies in te winnen. ANDUFIT is geen vervanging voor medische behandelingen, maar een waardevolle aanvulling op je welzijn."
+      },
+      {
+        "q": "Uit welk materiaal is ANDUFIT gemaakt?",
+        "a": "ANDUFIT is ontworpen met aandacht voor comfort, duurzaamheid en ventilatie:\n• Binnenmateriaal: Bio Comfort High Resilient Foam — een drukverlagend schuim dat zich aanpast aan het lichaam\n• Buitenhoes: 3D Mesh-stof — een ademende bekleding voor optimale luchtcirculatie en een aangenaam liggevoel\n• Verpakking: milieuvriendelijk, gerecycled karton met handleiding en retourdoos"
+      },
+      {
+        "q": "Is ANDUFIT veilig wat betreft elektrosmog?",
+        "a": "De massagemodule heeft een speciaal afgeschermde beschermhoes die elektromagnetische straling (elektrosmog) tot een minimum beperkt. Zo kun je met een gerust hart ontspannen, zonder blootstelling aan overbodige stralingsniveaus.\n\nANDUFIT voldoet aan de geldende Europese veiligheidsnormen voor elektronische wellnessapparatuur."
+      },
+      {
+        "q": "Hoeveel energie verbruikt ANDUFIT?",
+        "a": "ANDUFIT is energiezuinig: het systeem verbruikt ongeveer 50 watt — vergelijkbaar met een klassieke spaarlamp. Dagelijks gebruik heeft dus nauwelijks impact op je energiefactuur."
+      }
+    ]
+  },
+  "stickyCta": {
+    "price": "€745",
+    "label": "ANDUFIT — meer REM-slaap, sneller rugherstel",
+    "cta": "Bestel nu"
+  },
+  "footer": {
+    "tagline": "ANDUFIT — Andullation® voor meer REM-slaap en een gezondere rug. Made in Germany.",
+    "columns": [
+      {
+        "heading": "Product",
+        "links": [
+          {
+            "label": "Massagemodule",
+            "href": "#buy"
+          },
+          {
+            "label": "Maatgids",
+            "href": "#maten"
+          },
+          {
+            "label": "FAQ",
+            "href": "#faq"
+          }
+        ]
+      },
+      {
+        "heading": "Bedrijf",
+        "links": [
+          {
+            "label": "Over ANDUFIT",
+            "href": "https://www.andufit.com/nl-BE"
+          },
+          {
+            "label": "Contact",
+            "href": "mailto:info@andufit.com"
+          }
+        ]
+      },
+      {
+        "heading": "Service",
+        "links": [
+          {
+            "label": "Levering & retour",
+            "href": "#"
+          },
+          {
+            "label": "Garantie",
+            "href": "#"
+          },
+          {
+            "label": "Algemene voorwaarden",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2026 ANDUFIT. Alle rechten voorbehouden."
+  },
+  "fitsBed": {
+    "id": "elk-bed",
+    "eyebrow": "Past op élk bed",
+    "title": "Werkt op elke beddenbodem",
+    "lead": "ANDUFIT past in ieder bed — op elke lattenbodem, bedbodem of boxspring. Je hoeft niets te vervangen.",
+    "items": [
+      {
+        "icon": "frame",
+        "label": "Elk bedframe",
+        "text": "Met of zonder hoofdeind — de module ligt er gewoon onder."
+      },
+      {
+        "icon": "slats",
+        "label": "Elke lattenbodem",
+        "text": "Vlakke of verstelbare latten, het werkt overal."
+      },
+      {
+        "icon": "boxspring",
+        "label": "Boxspring",
+        "text": "Past comfortabel tussen je matras en de boxspringbasis."
+      },
+      {
+        "icon": "storage",
+        "label": "Opklapbare bedbodem",
+        "text": "Ook in bedden met bergruimte onder de matras."
+      }
+    ],
+    "note": "De ANDUFIT-module is slechts 7 cm dun en past comfortabel onder elke matras of matrastopper. Verkrijgbaar in verschillende afmetingen, zodat hij precies in jouw bed past.",
+    "cta": "Kies jouw maat",
+    "ctaHref": "#buy"
+  },
+  "penetration": {
+    "id": "door-de-matras",
+    "eyebrow": "Door élke matras heen",
+    "title": "De andulatie gaat dwars door je matras",
+    "lead": "Je hoeft je matras niet te vervangen. De zachte trillingen van ANDUFIT reiken moeiteloos door een matras tot 45 cm dik — tot in je rug.",
+    "personLabel": "Jij",
+    "mattressLabel": "Matras tot 45 cm",
+    "moduleLabel": "ANDUFIT · 7 cm",
+    "depthValue": "45 cm",
+    "depthLabel": "maximale matrasdikte die de andulatie doordringt",
+    "points": [
+      {
+        "title": "Werkt door elk type matras",
+        "text": "Schuim, traagschuim, latex of pocketvering — de golven gaan er probleemloos doorheen."
+      },
+      {
+        "title": "Geen speciale matras nodig",
+        "text": "Leg de module onder je huidige matras en je voelt de massage meteen."
+      },
+      {
+        "title": "Bereikt je hele rug",
+        "text": "De andulatie verspreidt zich gelijkmatig over 10 zones tot diep in de spieren."
+      }
+    ],
+    "cta": "Kies jouw maat",
+    "ctaHref": "#buy"
+  }
+}
