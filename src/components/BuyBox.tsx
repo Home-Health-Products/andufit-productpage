@@ -50,12 +50,8 @@ export default function BuyBox() {
   const paymentMethods = t.raw('payments.methods') as string[];
   const vetRating = t.raw('vetReview.rating') as number;
 
-  type Plan = { id: string; amount: string; period: string };
-  const paymentPlansRaw = t.raw('paymentPlans') as { title: string; single: Plan[]; double: Plan[] };
-
   const [width, setWidth] = useState<string>(t('defaultWidth'));
   const [length, setLength] = useState<string>(t('defaultLength'));
-  const [plan, setPlan] = useState<string>('spread24');
   const [giftImgError, setGiftImgError] = useState(false);
   const giftImg = giftImgError ? t('gift.fallbackImage') : t('gift.image');
 
@@ -63,7 +59,6 @@ export default function BuyBox() {
   const isDouble = selectedWidth?.seats === 2;
   const currentPrice = isDouble ? t('priceDouble') : t('priceSingle');
   const currentFinancing = isDouble ? t('financingDouble') : t('financingSingle');
-  const currentPlans = isDouble ? paymentPlansRaw.double : paymentPlansRaw.single;
 
   const singleWidths = widths.filter((w) => w.seats !== 2);
   const doubleWidths = widths.filter((w) => w.seats === 2);
@@ -113,41 +108,13 @@ export default function BuyBox() {
           {isDouble ? t('groupDoubleLabel') : t('groupSingleLabel')}
         </span>
       </div>
-      <p className="text-xs text-ink-muted mb-4">{t('vatNote')}</p>
-
-      {/* Payment plan selector */}
-      <div className="mb-5 pb-5 border-b border-line">
-        <p className="text-sm font-medium text-ink mb-3">{paymentPlansRaw.title}</p>
-        <div className="grid grid-cols-3 gap-2">
-          {currentPlans.map((p) => {
-            const sel = plan === p.id;
-            return (
-              <button
-                key={p.id}
-                onClick={() => setPlan(p.id)}
-                className={`rounded-xl border-2 px-2 py-3 text-center transition ${
-                  sel
-                    ? 'border-brand bg-brand-cream/60'
-                    : 'border-line bg-white hover:border-brand/50'
-                }`}
-              >
-                <div className={`font-display text-xl leading-tight ${sel ? 'text-brand-dark' : 'text-ink'}`}>
-                  {p.amount}
-                </div>
-                <div className={`text-xs mt-1 leading-snug ${sel ? 'text-brand-dark font-medium' : 'text-ink-soft'}`}>
-                  {p.period}
-                </div>
-              </button>
-            );
-          })}
-        </div>
-        {plan !== 'once' && (
-          <p className="text-[11px] text-ink-muted mt-2 flex items-center gap-1.5">
-            <span className="inline-block px-1.5 py-0.5 bg-ink text-white text-[10px] font-bold rounded">0% rente</span>
-            gespreid betalen zonder extra kosten
-          </p>
-        )}
-      </div>
+      <p className="text-xs text-ink-muted mb-3">{t('vatNote')}</p>
+      <p className="text-sm text-ink-soft mb-5 pb-5 border-b border-line flex items-center gap-2">
+        <span className="inline-block px-2 py-0.5 bg-ink text-white text-[10px] font-bold rounded">
+          0% rente
+        </span>
+        {currentFinancing}
+      </p>
 
       {/*
         Highlights + size configurator.

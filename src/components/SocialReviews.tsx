@@ -71,7 +71,7 @@ export default function SocialReviews() {
   const shownReviews = active === 'all' ? reviews : reviews.filter((r) => r.category === active);
 
   return (
-    <section id={t('id')} className="py-20 lg:py-28 bg-white">
+    <section id={t('id')} className="py-20 lg:py-28 bg-white overflow-x-clip">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-12 reveal">
           <span className="inline-block text-xs uppercase tracking-widest text-brand-dark font-medium mb-3">

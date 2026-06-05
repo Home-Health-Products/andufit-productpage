@@ -8,7 +8,7 @@ export default function Footer() {
   const columns = t.raw('columns') as Column[];
 
   return (
-    <footer className="bg-ink text-white/70 pt-16 pb-8">
+    <footer className="bg-ink text-white/70 pt-16 pb-24">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-10 mb-12">
           <div>

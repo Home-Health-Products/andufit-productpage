@@ -88,7 +88,7 @@ export default function ProductOverview() {
   };
 
   return (
-    <section id={t('id')} className="scroll-mt-24 py-20 lg:py-28 bg-soft">
+    <section id={t('id')} className="scroll-mt-24 py-20 lg:py-28 bg-soft overflow-x-clip">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-10 lg:mb-12 reveal">

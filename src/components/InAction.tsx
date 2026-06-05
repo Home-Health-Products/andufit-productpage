@@ -41,7 +41,7 @@ export default function InAction() {
   };
 
   return (
-    <section id={t('id')} className="py-20 lg:py-28 bg-gradient-to-b from-brand-cream to-white">
+    <section id={t('id')} className="py-20 lg:py-28 bg-gradient-to-b from-brand-cream to-white overflow-x-clip">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-12 reveal">
           <span className="inline-block text-xs uppercase tracking-widest text-brand-dark font-medium mb-3">
