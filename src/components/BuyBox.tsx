@@ -125,10 +125,10 @@ export default function BuyBox() {
       <div className="flex flex-col">
         {/* Size configurator — own card with a live price header */}
         <div className="order-1 lg:order-2 mb-6">
-          {/* Width selector — grouped by 1-/2-person mattress */}
+          {/* Width selector — dropdown grouped by 1-/2-person mattress */}
           <div className="mb-4">
-            <div className="flex items-center justify-between mb-3">
-              <label className="text-sm font-medium text-ink">
+            <div className="flex items-center justify-between mb-2">
+              <label htmlFor="width-select" className="text-sm font-medium text-ink">
                 {t('widthLabel')}
                 <span className="ml-2 text-ink-muted font-normal">{selectedWidth?.label}</span>
               </label>
@@ -136,59 +136,56 @@ export default function BuyBox() {
                 {t('sizeHelp')}
               </a>
             </div>
-
-            {[
-              { options: singleWidths, label: t('groupSingleLabel'), price: t('priceSingle') },
-              { options: doubleWidths, label: t('groupDoubleLabel'), price: t('priceDouble') },
-            ].map((group) => (
-              <div key={group.label} className="mb-3 last:mb-0">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-xs font-medium text-ink-soft">{group.label}</span>
-                  <span className="text-xs font-normal text-brand-dark bg-brand-cream rounded-full px-2.5 py-0.5">
-                    {group.price}
-                  </span>
-                </div>
-                <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
-                  {group.options.map((w) => (
-                    <button
-                      key={w.value}
-                      onClick={() => setWidth(w.value)}
-                      className={`text-center px-1 py-2 sm:px-2 sm:py-3 rounded-lg border-2 text-xs sm:text-sm font-medium transition ${
-                        width === w.value
-                          ? 'border-brand bg-brand text-white'
-                          : 'border-line bg-white text-ink hover:border-brand'
-                      }`}
-                    >
-                      {w.label}
-                    </button>
+            <div className="relative">
+              <select
+                id="width-select"
+                value={width}
+                onChange={(e) => setWidth(e.target.value)}
+                className="w-full appearance-none bg-white border-2 border-line rounded-xl px-4 py-3 text-sm font-medium text-ink focus:outline-none focus:border-brand transition pr-10 cursor-pointer"
+              >
+                <optgroup label={`${t('groupSingleLabel')} — ${t('priceSingle')}`}>
+                  {singleWidths.map((w) => (
+                    <option key={w.value} value={w.value}>{w.label}</option>
                   ))}
-                </div>
-              </div>
-            ))}
+                </optgroup>
+                <optgroup label={`${t('groupDoubleLabel')} — ${t('priceDouble')}`}>
+                  {doubleWidths.map((w) => (
+                    <option key={w.value} value={w.value}>{w.label}</option>
+                  ))}
+                </optgroup>
+              </select>
+              <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-ink-muted">
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 9l6 6 6-6" />
+                </svg>
+              </span>
+            </div>
           </div>
 
-          {/* Length selector */}
+          {/* Length selector — dropdown */}
           <div>
-            <label className="text-sm font-medium text-ink block mb-2">
+            <label htmlFor="length-select" className="text-sm font-medium text-ink block mb-2">
               {t('lengthLabel')}
               <span className="ml-2 text-ink-muted font-normal">
                 {lengths.find((l) => l.value === length)?.label}
               </span>
             </label>
-            <div className="grid grid-cols-4 sm:grid-cols-6 gap-2">
-              {lengths.map((l) => (
-                <button
-                  key={l.value}
-                  onClick={() => setLength(l.value)}
-                  className={`text-center px-1 py-2 sm:px-2 sm:py-3 rounded-lg border-2 text-xs sm:text-sm font-medium transition ${
-                    length === l.value
-                      ? 'border-brand bg-brand text-white'
-                      : 'border-line bg-white text-ink hover:border-brand'
-                  }`}
-                >
-                  {l.label}
-                </button>
-              ))}
+            <div className="relative">
+              <select
+                id="length-select"
+                value={length}
+                onChange={(e) => setLength(e.target.value)}
+                className="w-full appearance-none bg-white border-2 border-line rounded-xl px-4 py-3 text-sm font-medium text-ink focus:outline-none focus:border-brand transition pr-10 cursor-pointer"
+              >
+                {lengths.map((l) => (
+                  <option key={l.value} value={l.value}>{l.label}</option>
+                ))}
+              </select>
+              <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-ink-muted">
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 9l6 6 6-6" />
+                </svg>
+              </span>
             </div>
           </div>
         </div>
