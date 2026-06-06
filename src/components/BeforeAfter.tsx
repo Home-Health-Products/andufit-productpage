@@ -17,36 +17,38 @@ type Case = {
 
 function VitaScore({
   brand,
-  label,
   score,
   pct,
   tone,
+  side,
 }: {
   brand: string;
-  label: string;
   score: string;
   pct: number;
   tone: 'low' | 'high';
+  side: 'left' | 'right';
 }) {
   const barColor = tone === 'high' ? '#16a34a' : '#fbbf24';
+  const scoreColor = tone === 'high' ? '#4ade80' : '#fcd34d';
   return (
-    <div className="absolute inset-x-3 bottom-3 z-10 rounded-xl bg-black/55 backdrop-blur-sm px-3 py-2.5 text-white">
-      <div className="flex items-center gap-1.5 text-xs uppercase tracking-widest text-brand-light font-bold">
-        <span className="text-white">Vita</span>
-        <span>{brand}</span>
+    <div
+      className={`absolute bottom-2 z-10 rounded-lg bg-black/60 backdrop-blur-sm px-2 py-1.5 text-white ${
+        side === 'left' ? 'left-2' : 'right-2'
+      }`}
+    >
+      <div className="flex items-center gap-0.5 text-[8px] uppercase tracking-widest font-bold leading-none mb-0.5">
+        <span>Vita</span>
+        <span style={{ color: '#00A39B' }}>{brand}</span>
       </div>
-      <div className="text-xs text-white/70 mt-0.5 leading-tight">{label}</div>
-      <div className="flex items-end gap-2 mt-1">
-        <span
-          className="font-display text-4xl lg:text-5xl leading-none tabular-nums"
-          style={{ color: tone === 'high' ? '#4ade80' : '#fcd34d' }}
-        >
-          {score}
-        </span>
-      </div>
-      <div className="mt-2 h-1.5 rounded-full bg-white/15 overflow-hidden">
+      <span
+        className="font-display text-2xl leading-none tabular-nums block"
+        style={{ color: scoreColor }}
+      >
+        {score}
+      </span>
+      <div className="mt-1 h-1 rounded-full bg-white/20 overflow-hidden w-12">
         <div
-          className="h-full rounded-full transition-all duration-1000"
+          className="h-full rounded-full"
           style={{ width: `${pct}%`, backgroundColor: barColor }}
         />
       </div>
@@ -139,10 +141,10 @@ export default function BeforeAfter() {
             </div>
             <VitaScore
               brand={t('checkLabel')}
-              label={t('scoreLabel')}
               score={cur.beforeScore}
               pct={cur.beforePct}
               tone="low"
+              side="left"
             />
           </div>
 
@@ -162,10 +164,10 @@ export default function BeforeAfter() {
             </div>
             <VitaScore
               brand={t('checkLabel')}
-              label={t('scoreLabel')}
               score={cur.afterScore}
               pct={cur.afterPct}
               tone="high"
+              side="right"
             />
           </div>
         </div>
