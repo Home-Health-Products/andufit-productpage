@@ -27,10 +27,10 @@ export default function VitaCheckSection() {
   const points = t.raw('points') as Point[];
 
   return (
-    <section id={t('id')} className="py-20 lg:py-28 bg-gradient-to-b from-ink to-[#0a1a18] text-white">
+    <section id={t('id')} className="py-14 lg:py-20 bg-gradient-to-b from-ink to-[#0a1a18] text-white">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         {/* Header */}
-        <div className="max-w-3xl mx-auto text-center mb-12 reveal">
+        <div className="max-w-3xl mx-auto text-center mb-6 reveal">
           <span className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-brand font-medium mb-4">
             <span className="relative inline-flex w-2 h-2">
               <span className="absolute inset-0 rounded-full bg-brand animate-ping opacity-60" />
@@ -43,8 +43,8 @@ export default function VitaCheckSection() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
-          {/* Left — BeforeAfter carousel */}
-          <div className="reveal">
+          {/* Left — BeforeAfter carousel (neg-margin cancels its internal mt-6) */}
+          <div className="reveal -mt-6">
             <BeforeAfter />
           </div>
 
