@@ -12,6 +12,12 @@ export default function MattressPenetrationCard() {
 
   return (
     <div className="mt-6">
+      <h3 className="font-display text-xl lg:text-2xl text-ink mb-1">
+        {t('eyebrow')} —{' '}
+        <span className="text-brand-dark">tot {t('depthValue')}</span>
+      </h3>
+      <p className="text-sm text-ink-muted mb-4">{t('lead')}</p>
+
       <style>{`
         @keyframes anduRise {
           0%   { transform: translateY(0)      scaleX(.62); opacity: 0; }
