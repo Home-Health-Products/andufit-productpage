@@ -86,10 +86,9 @@ export default function Study() {
               </span>
             </div>
 
-            <h3 className="font-display text-xl lg:text-2xl text-ink leading-snug mb-2">
+            <h3 className="font-display text-xl lg:text-2xl text-ink leading-snug mb-4">
               {t('studyTitle')}
             </h3>
-            <p className="text-sm text-ink-soft italic mb-4">{t('studyTitlePlain')}</p>
             <p className="text-sm text-ink-soft">{t('authors')}</p>
             <p className="text-sm text-ink-muted mb-7">{t('source')}</p>
 
