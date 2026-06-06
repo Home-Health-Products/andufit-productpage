@@ -96,7 +96,6 @@
     "afterLabel": "Après 1 nuit",
     "beforeAlt": "Scan facial VitaCheck avant ANDUFIT avec un faible niveau d énergie",
     "afterAlt": "Scan facial VitaCheck après une nuit d ANDUFIT avec un niveau d énergie bien plus élevé",
-    "slideHint": "Sleep de slider",
     "fallbackImage": "/picture/andufit_vitacheck.jpg",
     "cases": [
       {
