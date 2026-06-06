@@ -14,6 +14,7 @@ import MattressPenetrationCard from '@/components/MattressPenetrationCard';
 import Circulation from '@/components/Circulation';
 import Outcomes from '@/components/Outcomes';
 import ProgressFunnel from '@/components/ProgressFunnel';
+import VitaCheckSection from '@/components/VitaCheckSection';
 import Study from '@/components/Study';
 import SocialReviews from '@/components/SocialReviews';
 import InAction from '@/components/InAction';
@@ -60,6 +61,9 @@ export default async function HomePage({
 
       {/* Personalized progress funnel — projected progress per goal over 14d / 3m / 6m */}
       <ProgressFunnel />
+
+      {/* AI VitaCheck — personalised programme section */}
+      <VitaCheckSection />
 
       {/* Peer-reviewed andullation study — clinical proof */}
       <Study />

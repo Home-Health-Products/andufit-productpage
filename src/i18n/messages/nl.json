@@ -899,6 +899,31 @@
       }
     }
   },
+  "vitacheck": {
+    "id": "vitacheck",
+    "eyebrow": "AI VitaCheck",
+    "title": "Jouw persoonlijk programma — op maat van jouw lichaam",
+    "lead": "Via de VitaCheck krijg je een gepersonaliseerd andullatie-programma op basis van jouw vermoeidheidskenmerken.",
+    "points": [
+      {
+        "icon": "scan",
+        "title": "Meting in 60 seconden",
+        "text": "De AI-camera analyseert je gelaatstrekken en detecteert vermoeidheidssignalen op celniveau."
+      },
+      {
+        "icon": "program",
+        "title": "Gepersonaliseerd programma",
+        "text": "Op basis van je score kiest ANDUFIT automatisch het juiste massageprogramma en de intensiteit."
+      },
+      {
+        "icon": "progress",
+        "title": "Volg je vooruitgang",
+        "text": "Meet voor en na elke sessie en zie je energieniveau stijgen dag na dag."
+      }
+    ],
+    "cta": "Meer info op andufit.com",
+    "ctaHref": "https://www.andufit.com"
+  },
   "study": {
     "id": "onderzoek",
     "eyebrow": "Gepubliceerd op PubMed",
