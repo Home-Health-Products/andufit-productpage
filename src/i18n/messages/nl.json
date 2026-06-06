@@ -96,6 +96,7 @@
     "afterLabel": "Na",
     "beforeAlt": "VitaCheck-gezichtsscan vóór ANDUFIT met een laag energieniveau",
     "afterAlt": "VitaCheck-gezichtsscan na één nacht ANDUFIT met een fors hoger energieniveau",
+    "slideHint": "Sleep de slider",
     "fallbackImage": "/picture/andufit_vitacheck.jpg",
     "cases": [
       {

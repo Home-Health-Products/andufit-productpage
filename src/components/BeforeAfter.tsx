@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
@@ -15,45 +15,6 @@ type Case = {
   quote: string;
 };
 
-function VitaScore({
-  brand,
-  label,
-  score,
-  pct,
-  tone,
-}: {
-  brand: string;
-  label: string;
-  score: string;
-  pct: number;
-  tone: 'low' | 'high';
-}) {
-  const barColor = tone === 'high' ? '#16a34a' : '#fbbf24';
-  return (
-    <div className="absolute inset-x-3 bottom-3 z-10 rounded-xl bg-black/55 backdrop-blur-sm px-3 py-2.5 text-white">
-      <div className="flex items-center gap-1.5 text-xs uppercase tracking-widest text-brand-light font-bold">
-        <span className="text-white">Vita</span>
-        <span>{brand}</span>
-      </div>
-      <div className="text-xs text-white/70 mt-0.5 leading-tight">{label}</div>
-      <div className="flex items-end gap-2 mt-1">
-        <span
-          className="font-display text-4xl lg:text-5xl leading-none tabular-nums"
-          style={{ color: tone === 'high' ? '#4ade80' : '#fcd34d' }}
-        >
-          {score}
-        </span>
-      </div>
-      <div className="mt-2 h-1.5 rounded-full bg-white/15 overflow-hidden">
-        <div
-          className="h-full rounded-full transition-all duration-1000"
-          style={{ width: `${pct}%`, backgroundColor: barColor }}
-        />
-      </div>
-    </div>
-  );
-}
-
 export default function BeforeAfter() {
   const t = useTranslations('beforeAfter');
   const cases = t.raw('cases') as Case[];
@@ -61,28 +22,28 @@ export default function BeforeAfter() {
 
   const [active, setActive] = useState(0);
   const [imgError, setImgError] = useState(false);
+  const [sliderPct, setSliderPct] = useState(50);
+  const [dragging, setDragging] = useState(false);
+  const [hinted, setHinted] = useState(false);
+
+  const containerRef = useRef<HTMLDivElement>(null);
   const pausedRef = useRef(false);
   const resumeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const cur = cases[active];
 
-  // Reset the fallback flag whenever the visitor switches person.
-  useEffect(() => {
-    setImgError(false);
-  }, [active]);
+  // Reset fallback flag on person change
+  useEffect(() => { setImgError(false); }, [active]);
 
-  // Auto-advance every 2 s using a ref so the interval never goes stale.
+  // Auto-advance every 2 s
   useEffect(() => {
     const total = cases.length;
     const id = setInterval(() => {
-      if (!pausedRef.current) {
-        setActive((prev) => (prev + 1) % total);
-      }
+      if (!pausedRef.current) setActive(prev => (prev + 1) % total);
     }, 2000);
     return () => clearInterval(id);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Manual selection: pause for 6 s then resume.
   const handleManualSelect = (i: number) => {
     setActive(i);
     pausedRef.current = true;
@@ -90,72 +51,179 @@ export default function BeforeAfter() {
     resumeTimer.current = setTimeout(() => { pausedRef.current = false; }, 6000);
   };
 
+  const getPct = useCallback((clientX: number) => {
+    const el = containerRef.current;
+    if (!el) return 50;
+    const { left, width } = el.getBoundingClientRect();
+    return Math.max(5, Math.min(95, ((clientX - left) / width) * 100));
+  }, []);
+
+  const onPointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
+    e.currentTarget.setPointerCapture(e.pointerId);
+    setDragging(true);
+    setHinted(true);
+    setSliderPct(getPct(e.clientX));
+    pausedRef.current = true;
+    if (resumeTimer.current) clearTimeout(resumeTimer.current);
+  };
+
+  const onPointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (!dragging) return;
+    setSliderPct(getPct(e.clientX));
+  };
+
+  const onPointerUp = () => {
+    setDragging(false);
+    resumeTimer.current = setTimeout(() => { pausedRef.current = false; }, 3000);
+  };
+
   const imgSrc = imgError ? fallbackImage : cur.image;
+
+  // Fade out VitaScore panels when their side gets too narrow
+  const beforeOpacity = sliderPct > 20 ? 1 : 0;
+  const afterOpacity = sliderPct < 80 ? 1 : 0;
 
   return (
     <div className="mt-6">
       <h3 className="font-display text-xl lg:text-2xl text-ink mb-1">{t('title')}</h3>
       <p className="text-sm text-ink-muted mb-4">{t('subtitle')}</p>
 
-      {/* Combined before/after VitaCheck frame */}
-      <div className="relative aspect-[16/10] rounded-2xl overflow-hidden border border-line shadow-sm bg-ink">
-        <div className="absolute inset-0 grid grid-cols-2">
-          {/* Before half */}
-          <div className="relative overflow-hidden">
-            <Image
-              key={`b-${active}-${imgError ? 'fb' : 'src'}`}
-              src={imgSrc}
-              alt={t('beforeAlt')}
-              fill
-              sizes="(max-width: 1024px) 50vw, 25vw"
-              className="object-cover animate-fade-in"
-              onError={() => setImgError(true)}
-            />
-            <div className="absolute top-3 left-3 z-10 bg-bad text-white text-sm uppercase font-bold px-2.5 py-1 rounded-full shadow-sm">
-              {t('beforeLabel')}
-            </div>
-            <VitaScore
-              brand={t('checkLabel')}
-              label={t('scoreLabel')}
-              score={cur.beforeScore}
-              pct={cur.beforePct}
-              tone="low"
-            />
-          </div>
+      {/* Slider container */}
+      <div
+        ref={containerRef}
+        className="relative aspect-[16/10] rounded-2xl overflow-hidden border border-line shadow-sm bg-ink select-none touch-none"
+        style={{ cursor: dragging ? 'col-resize' : 'ew-resize' }}
+        onPointerDown={onPointerDown}
+        onPointerMove={onPointerMove}
+        onPointerUp={onPointerUp}
+        onPointerCancel={onPointerUp}
+      >
+        {/* VOOR — full-width base layer */}
+        <Image
+          key={`b-${active}-${imgError}`}
+          src={imgSrc}
+          alt={t('beforeAlt')}
+          fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
+          className="object-cover animate-fade-in"
+          onError={() => setImgError(true)}
+          draggable={false}
+        />
 
-          {/* After half */}
-          <div className="relative overflow-hidden border-l-[3px] border-white">
-            <Image
-              key={`a-${active}-${imgError ? 'fb' : 'src'}`}
-              src={imgSrc}
-              alt={t('afterAlt')}
-              fill
-              sizes="(max-width: 1024px) 50vw, 25vw"
-              className="object-cover animate-fade-in"
-              onError={() => setImgError(true)}
-            />
-            <div className="absolute top-3 right-4 z-10 bg-good text-white text-sm uppercase font-bold px-2.5 py-1 rounded-full shadow-sm">
-              {t('afterLabel')}
-            </div>
-            <VitaScore
-              brand={t('checkLabel')}
-              label={t('scoreLabel')}
-              score={cur.afterScore}
-              pct={cur.afterPct}
-              tone="high"
+        {/* NA — same image, clipped to reveal right portion */}
+        <div
+          className="absolute inset-0"
+          style={{ clipPath: `inset(0 0 0 ${sliderPct}%)` }}
+        >
+          <Image
+            key={`a-${active}-${imgError}`}
+            src={imgSrc}
+            alt={t('afterAlt')}
+            fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            className="object-cover"
+            draggable={false}
+          />
+        </div>
+
+        {/* VOOR badge — top left */}
+        <div className="absolute top-3 left-3 z-20 bg-bad text-white text-sm uppercase font-bold px-2.5 py-1 rounded-full shadow-sm pointer-events-none">
+          {t('beforeLabel')}
+        </div>
+
+        {/* NA badge — top right */}
+        <div className="absolute top-3 right-3 z-20 bg-good text-white text-sm uppercase font-bold px-2.5 py-1 rounded-full shadow-sm pointer-events-none">
+          {t('afterLabel')}
+        </div>
+
+        {/* Before VitaScore — bottom left, width follows slider */}
+        <div
+          className="absolute left-3 bottom-3 z-20 rounded-xl bg-black/55 backdrop-blur-sm px-3 py-2.5 text-white pointer-events-none overflow-hidden"
+          style={{
+            maxWidth: `calc(${sliderPct}% - 20px)`,
+            opacity: beforeOpacity,
+            transition: 'opacity 0.2s',
+          }}
+        >
+          <div className="flex items-center gap-1 text-xs uppercase tracking-widest font-bold whitespace-nowrap">
+            <span className="text-white">Vita</span>
+            <span className="text-brand-light">{t('checkLabel')}</span>
+          </div>
+          <div className="text-xs text-white/70 mt-0.5 truncate">{t('scoreLabel')}</div>
+          <span
+            className="font-display text-4xl lg:text-5xl leading-none tabular-nums mt-1 block"
+            style={{ color: '#fcd34d' }}
+          >
+            {cur.beforeScore}
+          </span>
+          <div className="mt-2 h-1.5 rounded-full bg-white/15 overflow-hidden">
+            <div
+              className="h-full rounded-full transition-all duration-1000"
+              style={{ width: `${cur.beforePct}%`, backgroundColor: '#fbbf24' }}
             />
           </div>
         </div>
 
-        {/* Center divider with arrow */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 w-9 h-9 bg-white rounded-full shadow-md flex items-center justify-center text-ink">
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+        {/* After VitaScore — bottom right, width follows slider */}
+        <div
+          className="absolute right-3 bottom-3 z-20 rounded-xl bg-black/55 backdrop-blur-sm px-3 py-2.5 text-white pointer-events-none overflow-hidden text-right"
+          style={{
+            maxWidth: `calc(${100 - sliderPct}% - 20px)`,
+            opacity: afterOpacity,
+            transition: 'opacity 0.2s',
+          }}
+        >
+          <div className="flex items-center gap-1 text-xs uppercase tracking-widest font-bold whitespace-nowrap justify-end">
+            <span className="text-white">Vita</span>
+            <span className="text-brand-light">{t('checkLabel')}</span>
+          </div>
+          <div className="text-xs text-white/70 mt-0.5 truncate">{t('scoreLabel')}</div>
+          <span
+            className="font-display text-4xl lg:text-5xl leading-none tabular-nums mt-1 block"
+            style={{ color: '#4ade80' }}
+          >
+            {cur.afterScore}
+          </span>
+          <div className="mt-2 h-1.5 rounded-full bg-white/15 overflow-hidden">
+            <div
+              className="h-full rounded-full transition-all duration-1000"
+              style={{ width: `${cur.afterPct}%`, backgroundColor: '#16a34a' }}
+            />
+          </div>
+        </div>
+
+        {/* Divider line */}
+        <div
+          className="absolute inset-y-0 z-30 w-px bg-white shadow-md pointer-events-none"
+          style={{ left: `${sliderPct}%` }}
+        />
+
+        {/* Drag handle */}
+        <div
+          className="absolute top-1/2 z-30 w-10 h-10 rounded-full bg-white shadow-lg flex items-center justify-center text-ink pointer-events-none"
+          style={{ left: `${sliderPct}%`, transform: 'translate(-50%, -50%)' }}
+        >
+          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
             <path strokeLinecap="round" strokeLinejoin="round" d="M8 7l-4 5 4 5M16 7l4 5-4 5" />
           </svg>
         </div>
 
+        {/* Drag hint pill — fades out after first interaction */}
+        <div
+          className="absolute inset-x-0 top-1/2 flex justify-center z-20 pointer-events-none"
+          style={{
+            marginTop: '28px',
+            opacity: hinted ? 0 : 1,
+            transition: 'opacity 0.4s',
+          }}
+        >
+          <span className="bg-black/50 backdrop-blur-sm text-white text-xs font-medium px-3 py-1.5 rounded-full whitespace-nowrap">
+            ← {t('slideHint')} →
+          </span>
+        </div>
+
         {/* Auto-advance progress bar */}
-        <div className="absolute inset-x-0 bottom-0 h-1 bg-white/20 z-30">
+        <div className="absolute inset-x-0 bottom-0 h-1 bg-white/20 z-40">
           <div
             key={active}
             className="h-full bg-brand-light"
