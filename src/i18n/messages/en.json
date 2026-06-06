@@ -99,37 +99,37 @@
     "swipeHint": "Swipe of gebruik de pijlen",
     "prevLabel": "Vorige persoon",
     "nextLabel": "Volgende persoon",
-    "fallbackImage": "/picture/andufit_vitacheck.jpg",
+    "fallbackImage": "/picture/face_1.webp",
     "cases": [
       {
-        "name": "Sofie",
-        "meta": "42 y. · sleep & energy",
-        "image": "/picture/andufit_vitacheck.jpg",
-        "beforeScore": "58%",
-        "afterScore": "91%",
-        "beforePct": 58,
-        "afterPct": 91,
-        "quote": "After just one night my VitaCheck showed a clearly higher energy level — and that is exactly how I feel: more rested and fit."
+        "name": "Tom",
+        "meta": "38 y. · stress & recovery",
+        "image": "/picture/face_1.webp",
+        "beforeScore": "64%",
+        "afterScore": "85%",
+        "beforePct": 64,
+        "afterPct": 85,
+        "quote": "My stress level was high and recovery was poor. After the first ANDUFIT session my VitaCheck score jumped from 64% to 85% — I felt the difference straight away."
       },
       {
-        "name": "Marc",
-        "meta": "55 y. · back pain",
-        "image": "/picture/andufit_vita_2.jpg",
-        "beforeScore": "49%",
-        "afterScore": "88%",
-        "beforePct": 49,
-        "afterPct": 88,
-        "quote": "I used to wake up stiff. After the first night I felt the difference and my energy score jumped up."
+        "name": "Katrien",
+        "meta": "45 y. · sleep & energy",
+        "image": "/picture/face_2.webp",
+        "beforeScore": "42%",
+        "afterScore": "96%",
+        "beforePct": 42,
+        "afterPct": 96,
+        "quote": "I was sceptical, but after one night on the ANDUFIT my energy score jumped from 42% to 96%. I genuinely felt more rested the next day."
       },
       {
-        "name": "Linde",
-        "meta": "37 y. · stress & recovery",
-        "image": "/picture/andufit_vita_3.jpg",
-        "beforeScore": "61%",
-        "afterScore": "94%",
-        "beforePct": 61,
-        "afterPct": 94,
-        "quote": "My mind finally settled. The VitaCheck confirmed what I felt: far more energy."
+        "name": "Stefan",
+        "meta": "52 y. · back pain & fatigue",
+        "image": "/picture/face_3.webp",
+        "beforeScore": "38%",
+        "afterScore": "89%",
+        "beforePct": 38,
+        "afterPct": 89,
+        "quote": "I had been sleeping badly for years because of my back. After the first night the stiffness was noticeably less and my VitaCheck score shot up from 38% to 89%."
       }
     ]
   },

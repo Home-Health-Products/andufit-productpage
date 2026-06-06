@@ -99,37 +99,37 @@
     "swipeHint": "Swipe of gebruik de pijlen",
     "prevLabel": "Vorige persoon",
     "nextLabel": "Volgende persoon",
-    "fallbackImage": "/picture/andufit_vitacheck.jpg",
+    "fallbackImage": "/picture/face_1.webp",
     "cases": [
       {
-        "name": "Sofie",
-        "meta": "42 a. · sueño y energía",
-        "image": "/picture/andufit_vitacheck.jpg",
-        "beforeScore": "58%",
-        "afterScore": "91%",
-        "beforePct": 58,
-        "afterPct": 91,
-        "quote": "Tras una sola noche mi VitaCheck ya mostraba un nivel de energía claramente más alto — y así me siento: más descansada y en forma."
+        "name": "Tom",
+        "meta": "38 a. · estrés y recuperación",
+        "image": "/picture/face_1.webp",
+        "beforeScore": "64%",
+        "afterScore": "85%",
+        "beforePct": 64,
+        "afterPct": 85,
+        "quote": "Mi nivel de estrés era alto y me recuperaba mal. Tras la primera sesión con ANDUFIT, mi puntuación VitaCheck subió de 64% a 85% — noté la diferencia de inmediato."
       },
       {
-        "name": "Marc",
-        "meta": "55 a. · dolor de espalda",
-        "image": "/picture/andufit_vita_2.jpg",
-        "beforeScore": "49%",
-        "afterScore": "88%",
-        "beforePct": 49,
-        "afterPct": 88,
-        "quote": "Antes me despertaba rígido. Tras la primera noche noté la diferencia y mi puntuación de energía subió mucho."
+        "name": "Katrien",
+        "meta": "45 a. · sueño y energía",
+        "image": "/picture/face_2.webp",
+        "beforeScore": "42%",
+        "afterScore": "96%",
+        "beforePct": 42,
+        "afterPct": 96,
+        "quote": "Era escéptica, pero tras una noche con el ANDUFIT mi puntuación de energía pasó de 42% a 96%. Al día siguiente me sentí de verdad más descansada."
       },
       {
-        "name": "Linde",
-        "meta": "37 a. · estrés y recuperación",
-        "image": "/picture/andufit_vita_3.jpg",
-        "beforeScore": "61%",
-        "afterScore": "94%",
-        "beforePct": 61,
-        "afterPct": 94,
-        "quote": "Mi mente por fin se calmó. El VitaCheck confirmó lo que sentía: mucha más energía."
+        "name": "Stefan",
+        "meta": "52 a. · dolor de espalda y fatiga",
+        "image": "/picture/face_3.webp",
+        "beforeScore": "38%",
+        "afterScore": "89%",
+        "beforePct": 38,
+        "afterPct": 89,
+        "quote": "Llevaba años durmiendo mal por mi espalda. Tras la primera noche la rigidez fue claramente menor y mi puntuación VitaCheck subió de 38% a 89%."
       }
     ]
   },

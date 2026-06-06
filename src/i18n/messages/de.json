@@ -99,37 +99,37 @@
     "swipeHint": "Swipe of gebruik de pijlen",
     "prevLabel": "Vorige persoon",
     "nextLabel": "Volgende persoon",
-    "fallbackImage": "/picture/andufit_vitacheck.jpg",
+    "fallbackImage": "/picture/face_1.webp",
     "cases": [
       {
-        "name": "Sofie",
-        "meta": "42 J. · Schlaf & Energie",
-        "image": "/picture/andufit_vitacheck.jpg",
-        "beforeScore": "58%",
-        "afterScore": "91%",
-        "beforePct": 58,
-        "afterPct": 91,
-        "quote": "Schon nach einer Nacht zeigte mein VitaCheck ein deutlich höheres Energieniveau — und genau so fühle ich mich auch: ausgeruhter und fitter."
+        "name": "Tom",
+        "meta": "38 J. · Stress & Erholung",
+        "image": "/picture/face_1.webp",
+        "beforeScore": "64%",
+        "afterScore": "85%",
+        "beforePct": 64,
+        "afterPct": 85,
+        "quote": "Mein Stresslevel war hoch und ich erholte mich schlecht. Nach der ersten ANDUFIT-Sitzung stieg mein VitaCheck-Wert von 64% auf 85% — ich spürte den Unterschied sofort."
       },
       {
-        "name": "Marc",
-        "meta": "55 J. · Rückenschmerzen",
-        "image": "/picture/andufit_vita_2.jpg",
-        "beforeScore": "49%",
-        "afterScore": "88%",
-        "beforePct": 49,
-        "afterPct": 88,
-        "quote": "Früher wachte ich steif auf. Nach der ersten Nacht spürte ich den Unterschied und mein Energiewert stieg deutlich."
+        "name": "Katrien",
+        "meta": "45 J. · Schlaf & Energie",
+        "image": "/picture/face_2.webp",
+        "beforeScore": "42%",
+        "afterScore": "96%",
+        "beforePct": 42,
+        "afterPct": 96,
+        "quote": "Ich war skeptisch, aber nach einer Nacht auf dem ANDUFIT sprang mein Energiewert von 42% auf 96%. Am nächsten Tag fühlte ich mich wirklich ausgeruhter."
       },
       {
-        "name": "Linde",
-        "meta": "37 J. · Stress & Erholung",
-        "image": "/picture/andufit_vita_3.jpg",
-        "beforeScore": "61%",
-        "afterScore": "94%",
-        "beforePct": 61,
-        "afterPct": 94,
-        "quote": "Mein Kopf kam endlich zur Ruhe. Der VitaCheck bestätigte, was ich fühlte: viel mehr Energie."
+        "name": "Stefan",
+        "meta": "52 J. · Rückenschmerzen & Müdigkeit",
+        "image": "/picture/face_3.webp",
+        "beforeScore": "38%",
+        "afterScore": "89%",
+        "beforePct": 38,
+        "afterPct": 89,
+        "quote": "Ich schlief jahrelang schlecht wegen meines Rückens. Nach der ersten Nacht war die Steifheit merklich geringer und mein VitaCheck-Wert schoss von 38% auf 89%."
       }
     ]
   },

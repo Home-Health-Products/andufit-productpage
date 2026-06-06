@@ -99,37 +99,37 @@
     "swipeHint": "Swipe of gebruik de pijlen",
     "prevLabel": "Vorige persoon",
     "nextLabel": "Volgende persoon",
-    "fallbackImage": "/picture/andufit_vitacheck.jpg",
+    "fallbackImage": "/picture/face_1.webp",
     "cases": [
       {
-        "name": "Sofie",
-        "meta": "42 ans · sommeil & énergie",
-        "image": "/picture/andufit_vitacheck.jpg",
-        "beforeScore": "58%",
-        "afterScore": "91%",
-        "beforePct": 58,
-        "afterPct": 91,
-        "quote": "Après une seule nuit, mon VitaCheck affichait déjà un niveau d énergie nettement plus élevé — et c est exactement ce que je ressens : plus reposée et en forme."
+        "name": "Tom",
+        "meta": "38 ans · stress & récupération",
+        "image": "/picture/face_1.webp",
+        "beforeScore": "64%",
+        "afterScore": "85%",
+        "beforePct": 64,
+        "afterPct": 85,
+        "quote": "Mon niveau de stress était élevé et ma récupération mauvaise. Après la première session ANDUFIT, mon score VitaCheck est passé de 64% à 85% — j ai senti la différence immédiatement."
       },
       {
-        "name": "Marc",
-        "meta": "55 ans · douleurs de dos",
-        "image": "/picture/andufit_vita_2.jpg",
-        "beforeScore": "49%",
-        "afterScore": "88%",
-        "beforePct": 49,
-        "afterPct": 88,
-        "quote": "Avant, je me réveillais raide. Dès la première nuit j ai senti la différence et mon score d énergie a bondi."
+        "name": "Katrien",
+        "meta": "45 ans · sommeil & énergie",
+        "image": "/picture/face_2.webp",
+        "beforeScore": "42%",
+        "afterScore": "96%",
+        "beforePct": 42,
+        "afterPct": 96,
+        "quote": "J étais sceptique, mais après une nuit sur l ANDUFIT, mon score d énergie est passé de 42% à 96%. Je me suis sentie vraiment plus reposée le lendemain."
       },
       {
-        "name": "Linde",
-        "meta": "37 ans · stress & récupération",
-        "image": "/picture/andufit_vita_3.jpg",
-        "beforeScore": "61%",
-        "afterScore": "94%",
-        "beforePct": 61,
-        "afterPct": 94,
-        "quote": "Mon esprit s est enfin apaisé. Le VitaCheck a confirmé ce que je ressentais : beaucoup plus d énergie."
+        "name": "Stefan",
+        "meta": "52 ans · douleurs de dos & fatigue",
+        "image": "/picture/face_3.webp",
+        "beforeScore": "38%",
+        "afterScore": "89%",
+        "beforePct": 38,
+        "afterPct": 89,
+        "quote": "Je dormais mal depuis des années à cause de mon dos. Après la première nuit, la raideur était nettement moindre et mon score VitaCheck est passé de 38% à 89%."
       }
     ]
   },

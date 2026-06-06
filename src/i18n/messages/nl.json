@@ -99,37 +99,37 @@
     "swipeHint": "Swipe of gebruik de pijlen",
     "prevLabel": "Vorige persoon",
     "nextLabel": "Volgende persoon",
-    "fallbackImage": "/picture/andufit_vitacheck.jpg",
+    "fallbackImage": "/picture/face_1.webp",
     "cases": [
       {
-        "name": "Sofie",
-        "meta": "42 j. · slaap & energie",
-        "image": "/picture/andufit_vitacheck.jpg",
-        "beforeScore": "58%",
-        "afterScore": "91%",
-        "beforePct": 58,
-        "afterPct": 91,
-        "quote": "Na één nacht toonde mijn VitaCheck al een duidelijk hoger energieniveau — en zo voel ik me ook: uitgeruster en fitter."
+        "name": "Tom",
+        "meta": "38 j. · stress & herstel",
+        "image": "/picture/face_1.webp",
+        "beforeScore": "64%",
+        "afterScore": "85%",
+        "beforePct": 64,
+        "afterPct": 85,
+        "quote": "Mijn stressniveau was hoog en ik herstelde slecht. Na de eerste sessie met ANDUFIT ging mijn VitaCheck-score van 64% naar 85% — ik voelde het verschil onmiddellijk."
       },
       {
-        "name": "Marc",
-        "meta": "55 j. · rugklachten",
-        "image": "/picture/andufit_vita_2.jpg",
-        "beforeScore": "49%",
-        "afterScore": "88%",
-        "beforePct": 49,
-        "afterPct": 88,
-        "quote": "Ik werd vroeger stijf wakker. Na de eerste nacht voelde ik het verschil en mijn energiescore ging fors omhoog."
+        "name": "Katrien",
+        "meta": "45 j. · slaap & energie",
+        "image": "/picture/face_2.webp",
+        "beforeScore": "42%",
+        "afterScore": "96%",
+        "beforePct": 42,
+        "afterPct": 96,
+        "quote": "Ik was sceptisch, maar na één nacht op de ANDUFIT sprong mijn energiescore van 42% naar 96%. Ik voelde me de volgende dag echt uitgeruster."
       },
       {
-        "name": "Linde",
-        "meta": "37 j. · stress & herstel",
-        "image": "/picture/andufit_vita_3.jpg",
-        "beforeScore": "61%",
-        "afterScore": "94%",
-        "beforePct": 61,
-        "afterPct": 94,
-        "quote": "Mijn hoofd kwam eindelijk tot rust. De VitaCheck bevestigde wat ik voelde: veel meer energie."
+        "name": "Stefan",
+        "meta": "52 j. · rugklachten & vermoeidheid",
+        "image": "/picture/face_3.webp",
+        "beforeScore": "38%",
+        "afterScore": "89%",
+        "beforePct": 38,
+        "afterPct": 89,
+        "quote": "Ik sliep al jaren slecht door mijn rug. Na de eerste nacht was de stijfheid merkelijk minder en mijn VitaCheck-score schoot omhoog van 38% naar 89%."
       }
     ]
   },

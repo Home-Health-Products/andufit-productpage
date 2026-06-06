@@ -72,13 +72,13 @@ export default function BeforeAfter() {
     setImgError(false);
   }, [active]);
 
-  // Auto-advance every 2 s using a ref so the interval never goes stale.
+  // Auto-advance every 4 s using a ref so the interval never goes stale.
   useEffect(() => {
     const id = setInterval(() => {
       if (!pausedRef.current) {
         setActive((prev) => (prev + 1) % total);
       }
-    }, 2000);
+    }, 4000);
     return () => clearInterval(id);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -131,7 +131,7 @@ export default function BeforeAfter() {
               alt={t('beforeAlt')}
               fill
               sizes="(max-width: 1024px) 50vw, 25vw"
-              className="object-cover"
+              className="object-cover object-top"
               onError={() => setImgError(true)}
             />
             <div className="absolute top-3 left-3 z-10 bg-bad text-white text-sm uppercase font-bold px-2.5 py-1 rounded-full shadow-sm">
@@ -154,7 +154,7 @@ export default function BeforeAfter() {
               alt={t('afterAlt')}
               fill
               sizes="(max-width: 1024px) 50vw, 25vw"
-              className="object-cover"
+              className="object-cover object-top"
               onError={() => setImgError(true)}
             />
             <div className="absolute top-3 right-4 z-10 bg-good text-white text-sm uppercase font-bold px-2.5 py-1 rounded-full shadow-sm">
@@ -182,7 +182,7 @@ export default function BeforeAfter() {
           <div
             key={active}
             className="h-full bg-brand-light"
-            style={{ animation: 'ba-progress 2s linear forwards' }}
+            style={{ animation: 'ba-progress 4s linear forwards' }}
           />
         </div>
       </div>
@@ -196,7 +196,7 @@ export default function BeforeAfter() {
 
       {/* Quote — fixed min-height prevents layout shift on person change */}
       <div className="mt-4 p-4 bg-brand-cream rounded-xl border border-line min-h-[9rem]">
-        <p className="text-base text-ink leading-relaxed mb-2">"{cur.quote}"</p>
+        <p className="text-base text-ink leading-relaxed mb-2">&ldquo;{cur.quote}&rdquo;</p>
         <p className="text-sm text-ink-muted">
           <span className="font-medium text-ink">{cur.name}</span> · {cur.meta}
         </p>
