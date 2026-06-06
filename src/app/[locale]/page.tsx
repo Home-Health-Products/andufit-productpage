@@ -19,7 +19,6 @@ import Study from '@/components/Study';
 import SocialReviews from '@/components/SocialReviews';
 import InAction from '@/components/InAction';
 import FitsBed from '@/components/FitsBed';
-import MattressPenetration from '@/components/MattressPenetration';
 import HoursMeter from '@/components/HoursMeter';
 import Footer from '@/components/Footer';
 import StickyCta from '@/components/StickyCta';
@@ -79,9 +78,6 @@ export default async function HomePage({
 
       {/* Fits on every bed base — ANDUFIT works under any mattress/foundation */}
       <FitsBed />
-
-      {/* Andulation passes through any mattress up to 45 cm — animated cross-section */}
-      <MattressPenetration />
 
       {/* Live hours counter + globe — worldwide ANDUFIT activations */}
       <HoursMeter />

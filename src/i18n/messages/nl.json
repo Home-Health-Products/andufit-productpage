@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "ANDUFIT — Andullation®-massagemodule onder je matras",
-    "description": "ANDUFIT Andullation®-massagemodule: 7 motoren, 10 zones en AI VitaCheck onder je matras. Voor meer REM-slaap, sneller rugherstel en dagelijkse ontspanning. Made in Germany."
+    "description": "ANDUFIT Andullation®-massagemodule: 7 motoren, 10 zones en VitaCheck onder je matras. Voor meer REM-slaap, sneller rugherstel en dagelijkse ontspanning. Made in Germany."
   },
   "nav": {
     "links": [
@@ -81,7 +81,7 @@
       },
       {
         "src": "/picture/andufit_vitacheck.jpg",
-        "alt": "AI VitaCheck — meet en stuurt je slaap bij"
+        "alt": "VitaCheck — meet en stuurt je slaap bij"
       }
     ],
     "videoBadge": "▶ Video",
@@ -259,7 +259,7 @@
       "5 massagezones over de volledige lengte",
       "20 programma's, instelbare intensiteit",
       "Slechts 7 cm dun — onzichtbaar onder je matras",
-      "AI VitaCheck — meet en stuurt je slaap bij",
+      "VitaCheck — meet en stuurt je slaap bij",
       "EMF-bescherming · Made in Germany"
     ],
     "share": "Delen",
@@ -426,11 +426,11 @@
       },
       {
         "id": "vitacheck",
-        "title": "Persoonlijk via AI VitaCheck",
+        "title": "Persoonlijk via VitaCheck",
         "text": "Een snelle gezichtsscan analyseert je toestand en adviseert automatisch het ideale programma.",
         "image": "/picture/andufit_vitacheck.jpg",
         "fit": "cover",
-        "badge": "AI VitaCheck"
+        "badge": "VitaCheck"
       },
       {
         "id": "motors",
@@ -519,7 +519,7 @@
     "lead": "Van meer energie tot betere slaap en minder spanning. Deze resultaten zijn gebaseerd op de ervaringen van meer dan 7.260 gebruikers na 4 weken dagelijks gebruik.",
     "beforeLabel": "Voor",
     "afterLabel": "Na",
-    "disclaimer": "Gemiddelde resultaten uit onze enquête bij meer dan 7.260 gebruikers, gemeten met de AI VitaCheck en zelfgerapporteerd over 4 weken dagelijks gebruik. Individuele resultaten kunnen verschillen.",
+    "disclaimer": "Gemiddelde resultaten uit onze enquête bij meer dan 7.260 gebruikers, gemeten met de VitaCheck en zelfgerapporteerd over 4 weken dagelijks gebruik. Individuele resultaten kunnen verschillen.",
     "items": [
       {
         "id": "back",
@@ -563,7 +563,7 @@
       {
         "id": "recovery",
         "title": "Recuperatiesnelheid",
-        "text": "Betere doorbloeding en meer REM-slaap versnellen je herstel. De AI VitaCheck-gezichtsanalyse meet een hoger energieniveau.",
+        "text": "Betere doorbloeding en meer REM-slaap versnellen je herstel. De VitaCheck-gezichtsanalyse meet een hoger energieniveau.",
         "unit": "Energieniveau",
         "before": "58%",
         "after": "81%",
@@ -846,7 +846,7 @@
       "recapTitle": "Jouw antwoorden",
       "ctaPrimary": "Start mijn vooruitgang",
       "ctaSecondary": "Opnieuw berekenen",
-      "disclaimer": "Indicatieve voorspelling in procent, op basis van gemiddelde, zelfgerapporteerde resultaten en AI VitaCheck-metingen. ANDUFIT maakt geen medische claims; individuele resultaten kunnen verschillen.",
+      "disclaimer": "Indicatieve voorspelling in procent, op basis van gemiddelde, zelfgerapporteerde resultaten en VitaCheck-metingen. ANDUFIT maakt geen medische claims; individuele resultaten kunnen verschillen.",
       "recapGoal": "Doel",
       "recapSeverity": "Beginsituatie",
       "recapGender": "Geslacht",
@@ -901,14 +901,14 @@
   },
   "vitacheck": {
     "id": "vitacheck",
-    "eyebrow": "AI VitaCheck",
+    "eyebrow": "VitaCheck",
     "title": "Jouw persoonlijke programma. Perfect afgestemd op jou.",
-    "lead": "De AI VitaCheck stelt automatisch een andullatieprogramma samen dat aansluit bij jouw behoeften.",
+    "lead": "De VitaCheck stelt automatisch een andullatieprogramma samen dat aansluit bij jouw behoeften.",
     "points": [
       {
         "icon": "scan",
         "title": "Meting in 60 seconden",
-        "text": "De AI-camera analyseert je gelaatstrekken en detecteert vermoeidheidssignalen op celniveau."
+        "text": "De camera analyseert je gelaatstrekken en detecteert vermoeidheidssignalen op celniveau."
       },
       {
         "icon": "program",
@@ -1016,7 +1016,7 @@
       {
         "src": "/video/andufit_vitacheck.mp4",
         "poster": "/picture/andufit_vitacheck.jpg",
-        "caption": "AI VitaCheck meet en stuurt je slaap bij"
+        "caption": "VitaCheck meet en stuurt je slaap bij"
       }
     ]
   },
@@ -1431,7 +1431,7 @@
         },
         {
           "title": "Programma kiezen",
-          "text": "Kies je programma en intensiteit — AI VitaCheck helpt je meteen op weg."
+          "text": "Kies je programma en intensiteit — VitaCheck helpt je meteen op weg."
         }
       ]
     },
@@ -1675,7 +1675,7 @@
         "label": "Recuperatie"
       }
     ],
-    "measureTitle": "Voor & na — gemeten met AI VitaCheck",
+    "measureTitle": "Voor & na — gemeten met VitaCheck",
     "measureLead": "Gebruikers meten hun vooruitgang in de app. Dit zijn echte voor/na-metingen per voordeel.",
     "beforeLabel": "Voor",
     "afterLabel": "Na 4 weken",
