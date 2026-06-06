@@ -55,13 +55,13 @@ export default async function HomePage({
       {/* Circulation comparison — before / after slider */}
       <Circulation />
 
-      {/* Measurable results per audience — AI VitaCheck before/after gauges */}
+      {/* Measurable results per audience — VitaCheck before/after gauges */}
       <Outcomes />
 
       {/* Personalized progress funnel — projected progress per goal over 14d / 3m / 6m */}
       <ProgressFunnel />
 
-      {/* AI VitaCheck — personalised programme section */}
+      {/* VitaCheck — personalised programme section */}
       <VitaCheckSection />
 
       {/* Peer-reviewed andullation study — clinical proof */}

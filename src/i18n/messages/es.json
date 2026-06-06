@@ -905,7 +905,7 @@
     "title": "Your personalised programme — tailored to your body",
     "lead": "With VitaCheck you receive a personalised andullation programme based on your fatigue characteristics.",
     "points": [
-      {"icon": "scan", "title": "60-second scan", "text": "The AI camera analyses your facial features and detects fatigue signals at a cellular level."},
+      {"icon": "scan", "title": "60-second scan", "text": "The camera analyses your facial features and detects fatigue signals at a cellular level."},
       {"icon": "program", "title": "Personalised programme", "text": "Based on your score, ANDUFIT automatically selects the right massage programme and intensity."},
       {"icon": "progress", "title": "Track your progress", "text": "Measure before and after every session and watch your energy level rise day by day."}
     ],
