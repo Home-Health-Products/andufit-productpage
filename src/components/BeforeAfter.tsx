@@ -131,7 +131,7 @@ export default function BeforeAfter() {
               alt={t('beforeAlt')}
               fill
               sizes="(max-width: 1024px) 50vw, 25vw"
-              className="object-cover animate-fade-in"
+              className="object-cover"
               onError={() => setImgError(true)}
             />
             <div className="absolute top-3 left-3 z-10 bg-bad text-white text-sm uppercase font-bold px-2.5 py-1 rounded-full shadow-sm">
@@ -154,7 +154,7 @@ export default function BeforeAfter() {
               alt={t('afterAlt')}
               fill
               sizes="(max-width: 1024px) 50vw, 25vw"
-              className="object-cover animate-fade-in"
+              className="object-cover"
               onError={() => setImgError(true)}
             />
             <div className="absolute top-3 right-4 z-10 bg-good text-white text-sm uppercase font-bold px-2.5 py-1 rounded-full shadow-sm">
@@ -194,8 +194,8 @@ export default function BeforeAfter() {
         }
       `}</style>
 
-      {/* Quote */}
-      <div className="mt-4 p-4 bg-brand-cream rounded-xl border border-line">
+      {/* Quote — fixed min-height prevents layout shift on person change */}
+      <div className="mt-4 p-4 bg-brand-cream rounded-xl border border-line min-h-[9rem]">
         <p className="text-base text-ink leading-relaxed mb-2">"{cur.quote}"</p>
         <p className="text-sm text-ink-muted">
           <span className="font-medium text-ink">{cur.name}</span> · {cur.meta}
