@@ -1,10 +1,18 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
+import { useSizeContext } from '@/contexts/SizeContext';
 
 type Step = { title: string; text: string };
 
 export default function TabInstallation() {
   const t = useTranslations('tabs.installation');
+  const { width, length } = useSizeContext();
   const steps = t.raw('steps') as Step[];
+
+  const checkoutHref = (t.raw('videoUrl') as string)
+    .replace('{width}', width)
+    .replace('{length}', length);
 
   return (
     <div className="max-w-5xl mx-auto">
@@ -27,7 +35,7 @@ export default function TabInstallation() {
           <div className="flex items-center justify-between gap-3 mt-3">
             <span className="text-xs text-ink-muted">{t('videoCaption')}</span>
             <a
-              href={t('videoUrl')}
+              href={checkoutHref}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-sm font-medium text-brand-dark hover:text-brand transition-colors"

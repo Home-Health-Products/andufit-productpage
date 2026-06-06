@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import CalcButton from './CalcButton';
+import { useSizeContext } from '@/contexts/SizeContext';
 
 type Option = { value: string; label: string; seats?: number };
 type Usp = { icon: string; text: string };
@@ -50,8 +51,12 @@ export default function BuyBox() {
   const paymentMethods = t.raw('payments.methods') as string[];
   const vetRating = t.raw('vetReview.rating') as number;
 
+  const { setWidth: setCtxWidth, setLength: setCtxLength } = useSizeContext();
   const [width, setWidth] = useState<string>(t('defaultWidth'));
   const [length, setLength] = useState<string>(t('defaultLength'));
+
+  const handleWidth = (v: string) => { setWidth(v); setCtxWidth(v); };
+  const handleLength = (v: string) => { setLength(v); setCtxLength(v); };
   const [giftImgError, setGiftImgError] = useState(false);
   const giftImg = giftImgError ? t('gift.fallbackImage') : t('gift.image');
 
@@ -64,7 +69,7 @@ export default function BuyBox() {
   const doubleWidths = widths.filter((w) => w.seats === 2);
 
   const checkout = () => {
-    const url = t('checkoutUrl')
+    const url = (t.raw('checkoutUrl') as string)
       .replace('{width}', width)
       .replace('{length}', length);
     window.location.href = url;
@@ -140,7 +145,7 @@ export default function BuyBox() {
               <select
                 id="width-select"
                 value={width}
-                onChange={(e) => setWidth(e.target.value)}
+                onChange={(e) => handleWidth(e.target.value)}
                 className="w-full appearance-none bg-white border-2 border-line rounded-xl px-4 py-3 text-sm font-medium text-ink focus:outline-none focus:border-brand transition pr-10 cursor-pointer"
               >
                 <optgroup label={`${t('groupSingleLabel')} — ${t('priceSingle')}`}>
@@ -174,7 +179,7 @@ export default function BuyBox() {
               <select
                 id="length-select"
                 value={length}
-                onChange={(e) => setLength(e.target.value)}
+                onChange={(e) => handleLength(e.target.value)}
                 className="w-full appearance-none bg-white border-2 border-line rounded-xl px-4 py-3 text-sm font-medium text-ink focus:outline-none focus:border-brand transition pr-10 cursor-pointer"
               >
                 {lengths.map((l) => (

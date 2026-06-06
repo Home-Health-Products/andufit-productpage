@@ -23,6 +23,7 @@ import HoursMeter from '@/components/HoursMeter';
 import Footer from '@/components/Footer';
 import StickyCta from '@/components/StickyCta';
 import RevealClient from '@/components/RevealClient';
+import { SizeProvider } from '@/contexts/SizeContext';
 
 export default async function HomePage({
   params,
@@ -33,6 +34,7 @@ export default async function HomePage({
   setRequestLocale(locale);
 
   return (
+    <SizeProvider>
     <main className="bg-white">
       <RevealClient />
       <TrustBar />
@@ -95,5 +97,6 @@ export default async function HomePage({
       <Footer />
       <StickyCta />
     </main>
+    </SizeProvider>
   );
 }

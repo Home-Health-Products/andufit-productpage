@@ -1415,7 +1415,7 @@
       "videoPoster": "/andufit_hero.jpg",
       "videoCaption": "Installatie in minder dan 10 minuten",
       "videoCta": "Bekijk de installatievideo",
-      "videoUrl": "https://www.andufit.com/nl-BE/checkout/?width=90&length=200",
+      "videoUrl": "https://www.andufit.com/nl-BE/checkout/?width={width}&length={length}",
       "steps": [
         {
           "title": "Uitpakken",
