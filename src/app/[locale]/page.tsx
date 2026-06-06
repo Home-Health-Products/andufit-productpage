@@ -42,11 +42,13 @@ export default async function HomePage({
       {/* Product detail — gallery + buy box */}
       <section id="buy" className="scroll-mt-24 py-6 lg:py-10">
         <div className="max-w-7xl mx-auto px-5 lg:px-8 grid lg:grid-cols-2 gap-10 lg:gap-14 lg:items-start">
-          <div className="lg:sticky lg:top-24">
+          <div className="lg:sticky lg:top-24 min-w-0">
             <ProductGallery />
             <BeforeAfter />
           </div>
-          <BuyBox />
+          <div className="min-w-0">
+            <BuyBox />
+          </div>
         </div>
       </section>
 
