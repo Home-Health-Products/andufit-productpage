@@ -67,13 +67,11 @@ export default function VitaCheckSection() {
             <div className="pt-4 border-t border-white/10">
               <a
                 href={t('ctaHref')}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-brand hover:bg-brand-dark text-white font-medium px-7 py-4 rounded-full transition shadow-lg shadow-brand/25"
               >
                 {t('cta')}
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M14 5h5v5M19 5l-9 9M11 5H6a1 1 0 00-1 1v12a1 1 0 001 1h12a1 1 0 001-1v-5" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </a>
             </div>
