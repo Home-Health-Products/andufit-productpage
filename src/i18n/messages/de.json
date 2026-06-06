@@ -235,7 +235,7 @@
     "qtyLabel": "Aantal",
     "addToCart": "Bestel nu",
     "selectSizeError": "Kies eerst een breedte én lengte",
-    "checkoutUrl": "https://www.andufit.com/nl-BE/checkout/?width={width}&length={length}",
+    "checkoutUrl": "https://www.andufit.com/de/checkout/?width={width}&length={length}",
     "usp": [
       {
         "icon": "truck",
@@ -1403,7 +1403,7 @@
       "videoPoster": "/andufit_hero.jpg",
       "videoCaption": "Installatie in minder dan 10 minuten",
       "videoCta": "Bekijk de installatievideo",
-      "videoUrl": "https://www.andufit.com/nl-BE/checkout/?width={width}&length={length}",
+      "videoUrl": "https://www.andufit.com/de/checkout/?width={width}&length={length}",
       "steps": [
         {
           "title": "Uitpakken",

@@ -61,7 +61,7 @@
     "images": [
       {
         "src": "/picture/andufit_expert.jpg",
-        "alt": "Module ANDUFIT sous le matelas — 7 moteurs d'andulation visibles"
+        "alt": "ANDUFIT-Modul unter der Matratze — 7 Andulationsmotoren sichtbar"
       },
       {
         "src": "/picture/andufit_hero.jpg",
@@ -88,14 +88,14 @@
     "thumbsLabel": "Productafbeeldingen"
   },
   "beforeAfter": {
-    "title": "Résultats réels — VitaCheck avant & après",
-    "subtitle": "Le VitaCheck mesure le niveau d énergie via un scan facial rapide. Faites défiler les utilisateurs — chaque fois avant ANDUFIT et après une nuit.",
+    "title": "Echte Ergebnisse — VitaCheck vorher & nachher",
+    "subtitle": "Der VitaCheck misst das Energieniveau mit einem schnellen Gesichtsscan. Wechsle zwischen verschiedenen Nutzern — jeweils vor ANDUFIT und nach einer Nacht.",
     "checkLabel": "Check",
-    "scoreLabel": "Analyse du niveau d énergie",
-    "beforeLabel": "Avant",
-    "afterLabel": "Après 1 nuit",
-    "beforeAlt": "Scan facial VitaCheck avant ANDUFIT avec un faible niveau d énergie",
-    "afterAlt": "Scan facial VitaCheck après une nuit d ANDUFIT avec un niveau d énergie bien plus élevé",
+    "scoreLabel": "Energieniveau-Analyse",
+    "beforeLabel": "Vorher",
+    "afterLabel": "Nach 1 Nacht",
+    "beforeAlt": "VitaCheck-Gesichtsscan vor ANDUFIT mit niedrigem Energieniveau",
+    "afterAlt": "VitaCheck-Gesichtsscan nach einer Nacht ANDUFIT mit deutlich höherem Energieniveau",
     "swipeHint": "Swipe of gebruik de pijlen",
     "prevLabel": "Vorige persoon",
     "nextLabel": "Volgende persoon",
@@ -103,33 +103,33 @@
     "cases": [
       {
         "name": "Tom",
-        "meta": "38 ans · stress & récupération",
+        "meta": "38 J. · Stress & Erholung",
         "image": "/picture/andufit_vitacheck.jpg",
         "beforeScore": "64%",
         "afterScore": "85%",
         "beforePct": 64,
         "afterPct": 85,
-        "quote": "Mon niveau de stress était élevé et ma récupération mauvaise. Après la première session ANDUFIT, mon score VitaCheck est passé de 64% à 85% — j ai senti la différence immédiatement."
+        "quote": "Mein Stresslevel war hoch und ich erholte mich schlecht. Nach der ersten ANDUFIT-Sitzung stieg mein VitaCheck-Wert von 64% auf 85% — ich spürte den Unterschied sofort."
       },
       {
         "name": "Katrien",
-        "meta": "45 ans · sommeil & énergie",
+        "meta": "45 J. · Schlaf & Energie",
         "image": "/picture/andufit_vitacheck.jpg",
         "beforeScore": "42%",
         "afterScore": "96%",
         "beforePct": 42,
         "afterPct": 96,
-        "quote": "J étais sceptique, mais après une nuit sur l ANDUFIT, mon score d énergie est passé de 42% à 96%. Je me suis sentie vraiment plus reposée le lendemain."
+        "quote": "Ich war skeptisch, aber nach einer Nacht auf dem ANDUFIT sprang mein Energiewert von 42% auf 96%. Am nächsten Tag fühlte ich mich wirklich ausgeruhter."
       },
       {
         "name": "Stefan",
-        "meta": "52 ans · douleurs de dos & fatigue",
+        "meta": "52 J. · Rückenschmerzen & Müdigkeit",
         "image": "/picture/andufit_vitacheck.jpg",
         "beforeScore": "38%",
         "afterScore": "89%",
         "beforePct": 38,
         "afterPct": 89,
-        "quote": "Je dormais mal depuis des années à cause de mon dos. Après la première nuit, la raideur était nettement moindre et mon score VitaCheck est passé de 38% à 89%."
+        "quote": "Ich schlief jahrelang schlecht wegen meines Rückens. Nach der ersten Nacht war die Steifheit merklich geringer und mein VitaCheck-Wert schoss von 38% auf 89%."
       }
     ]
   },
@@ -235,7 +235,7 @@
     "qtyLabel": "Aantal",
     "addToCart": "Bestel nu",
     "selectSizeError": "Kies eerst een breedte én lengte",
-    "checkoutUrl": "https://www.andufit.com/fr-BE/checkout/?width={width}&length={length}",
+    "checkoutUrl": "https://www.andufit.com/de-AT/checkout/?width={width}&length={length}",
     "usp": [
       {
         "icon": "truck",
@@ -323,16 +323,16 @@
     "financingDouble": "of 12× €92 — of 24× €47 · 0% rente, gespreid betalen",
     "groupSingleLabel": "1-persoonsmatras",
     "groupDoubleLabel": "2-persoonsmatras",
-    "configTitle": "Choisis ta taille",
+    "configTitle": "Wähle deine Größe",
     "gift": {
       "image": "/picture/anduslim.jpg",
       "fallbackImage": "/picture/andufit_expert.jpg",
       "stockCount": "8",
-      "badge": "ANDUSLIM temporairement gratuit",
-      "stockText": "encore disponibles (gratuit)",
+      "badge": "Zeitweise gratis ANDUSLIM",
+      "stockText": "noch verfügbar (gratis)",
       "name": "ANDUSLIM",
-      "description": "Le Pro-Body Stimulator pour ventre, dos, nuque, épaules, fessiers et jambes.",
-      "note": "Votre code est valable tant que le stock d’Anduslims gratuits dure.",
+      "description": "Der Pro-Body Stimulator für Bauch, Rücken, Nacken, Schultern, Po und Beine.",
+      "note": "Dein Code gilt, solange der Vorrat an gratis Anduslims reicht.",
       "alt": "ANDUSLIM Pro-Body Stimulator"
     },
     "paymentPlans": {
@@ -441,9 +441,9 @@
         "badge": "Made in Germany"
       }
     ],
-    "prevLabel": "Précédent",
-    "nextLabel": "Suivant",
-    "swipeHint": "Glissez ou utilisez les flèches"
+    "prevLabel": "Zurück",
+    "nextLabel": "Weiter",
+    "swipeHint": "Wischen oder Pfeile nutzen"
   },
   "circulation": {
     "id": "herstel",
@@ -1403,7 +1403,7 @@
       "videoPoster": "/andufit_hero.jpg",
       "videoCaption": "Installatie in minder dan 10 minuten",
       "videoCta": "Bekijk de installatievideo",
-      "videoUrl": "https://www.andufit.com/fr-BE/checkout/?width={width}&length={length}",
+      "videoUrl": "https://www.andufit.com/de-AT/checkout/?width={width}&length={length}",
       "steps": [
         {
           "title": "Uitpakken",
@@ -1814,9 +1814,9 @@
         "category": "sleep"
       }
     ],
-    "prevLabel": "Avis précédent",
-    "nextLabel": "Avis suivant",
-    "swipeHint": "Glissez ou utilisez les flèches"
+    "prevLabel": "Vorherige Bewertung",
+    "nextLabel": "Nächste Bewertung",
+    "swipeHint": "Wischen oder Pfeile nutzen"
   },
   "faq": {
     "id": "faq",
