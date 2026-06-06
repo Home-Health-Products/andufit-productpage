@@ -10,7 +10,7 @@ import TabInstallation from '@/components/TabInstallation';
 import TabGuarantee from '@/components/TabGuarantee';
 import Specs from '@/components/Specs';
 import Faq from '@/components/Faq';
-import BeforeAfter from '@/components/BeforeAfter';
+import MattressPenetrationCard from '@/components/MattressPenetrationCard';
 import Circulation from '@/components/Circulation';
 import Outcomes from '@/components/Outcomes';
 import ProgressFunnel from '@/components/ProgressFunnel';
@@ -44,7 +44,7 @@ export default async function HomePage({
         <div className="max-w-7xl mx-auto px-5 lg:px-8 grid lg:grid-cols-2 gap-10 lg:gap-14 lg:items-start">
           <div className="lg:sticky lg:top-24 min-w-0">
             <ProductGallery />
-            <BeforeAfter />
+            <MattressPenetrationCard />
           </div>
           <div className="min-w-0">
             <BuyBox />
