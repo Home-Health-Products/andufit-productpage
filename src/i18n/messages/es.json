@@ -96,6 +96,9 @@
     "afterLabel": "Tras 1 noche",
     "beforeAlt": "Escaneo facial VitaCheck antes de ANDUFIT con un nivel de energía bajo",
     "afterAlt": "Escaneo facial VitaCheck tras una noche de ANDUFIT con un nivel de energía mucho más alto",
+    "swipeHint": "Swipe of gebruik de pijlen",
+    "prevLabel": "Vorige persoon",
+    "nextLabel": "Volgende persoon",
     "fallbackImage": "/picture/andufit_vitacheck.jpg",
     "cases": [
       {

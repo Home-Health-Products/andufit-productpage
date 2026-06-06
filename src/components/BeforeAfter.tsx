@@ -63,7 +63,9 @@ export default function BeforeAfter() {
   const [imgError, setImgError] = useState(false);
   const pausedRef = useRef(false);
   const resumeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const touchStartX = useRef<number | null>(null);
   const cur = cases[active];
+  const total = cases.length;
 
   // Reset the fallback flag whenever the visitor switches person.
   useEffect(() => {
@@ -72,7 +74,6 @@ export default function BeforeAfter() {
 
   // Auto-advance every 2 s using a ref so the interval never goes stale.
   useEffect(() => {
-    const total = cases.length;
     const id = setInterval(() => {
       if (!pausedRef.current) {
         setActive((prev) => (prev + 1) % total);
@@ -82,12 +83,30 @@ export default function BeforeAfter() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Manual selection: pause for 6 s then resume.
-  const handleManualSelect = (i: number) => {
-    setActive(i);
+  const pauseAndResume = () => {
     pausedRef.current = true;
     if (resumeTimer.current) clearTimeout(resumeTimer.current);
     resumeTimer.current = setTimeout(() => { pausedRef.current = false; }, 6000);
+  };
+
+  const goTo = (i: number) => {
+    setActive((i + total) % total);
+    pauseAndResume();
+  };
+
+  const handleManualSelect = (i: number) => goTo(i);
+
+  // Swipe support
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return;
+    const dx = e.changedTouches[0].clientX - touchStartX.current;
+    touchStartX.current = null;
+    if (Math.abs(dx) < 40) return; // too small — ignore
+    goTo(active + (dx < 0 ? 1 : -1));
   };
 
   const imgSrc = imgError ? fallbackImage : cur.image;
@@ -98,7 +117,11 @@ export default function BeforeAfter() {
       <p className="text-sm text-ink-muted mb-4">{t('subtitle')}</p>
 
       {/* Combined before/after VitaCheck frame */}
-      <div className="relative aspect-[16/10] rounded-2xl overflow-hidden border border-line shadow-sm bg-ink">
+      <div
+        className="relative aspect-[16/10] rounded-2xl overflow-hidden border border-line shadow-sm bg-ink"
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
+      >
         <div className="absolute inset-0 grid grid-cols-2">
           {/* Before half */}
           <div className="relative overflow-hidden">
@@ -179,8 +202,35 @@ export default function BeforeAfter() {
         </p>
       </div>
 
-      {/* Person switcher */}
-      <div className="flex items-center justify-center gap-3 mt-4 flex-wrap">
+      {/* Arrow nav + swipe hint */}
+      <div className="flex items-center justify-center gap-4 mt-4">
+        <button
+          type="button"
+          onClick={() => goTo(active - 1)}
+          aria-label={t('prevLabel')}
+          className="inline-flex items-center justify-center w-11 h-11 rounded-full border border-line bg-white text-ink hover:border-brand hover:text-brand-dark transition"
+        >
+          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+
+        <span className="text-xs text-ink-muted">{t('swipeHint')}</span>
+
+        <button
+          type="button"
+          onClick={() => goTo(active + 1)}
+          aria-label={t('nextLabel')}
+          className="inline-flex items-center justify-center w-11 h-11 rounded-full border border-line bg-white text-ink hover:border-brand hover:text-brand-dark transition"
+        >
+          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+
+      {/* Person dots */}
+      <div className="flex items-center justify-center gap-3 mt-3 flex-wrap">
         {cases.map((c, i) => (
           <button
             key={i}
