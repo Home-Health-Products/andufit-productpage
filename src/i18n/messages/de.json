@@ -99,12 +99,12 @@
     "swipeHint": "Swipe of gebruik de pijlen",
     "prevLabel": "Vorige persoon",
     "nextLabel": "Volgende persoon",
-    "fallbackImage": "/picture/face_1.webp",
+    "fallbackImage": "/picture/andufit_vitacheck.jpg",
     "cases": [
       {
         "name": "Tom",
         "meta": "38 J. · Stress & Erholung",
-        "image": "/picture/face_1.webp",
+        "image": "/picture/andufit_vitacheck.jpg",
         "beforeScore": "64%",
         "afterScore": "85%",
         "beforePct": 64,
@@ -114,7 +114,7 @@
       {
         "name": "Katrien",
         "meta": "45 J. · Schlaf & Energie",
-        "image": "/picture/face_2.webp",
+        "image": "/picture/andufit_vitacheck.jpg",
         "beforeScore": "42%",
         "afterScore": "96%",
         "beforePct": 42,
@@ -124,7 +124,7 @@
       {
         "name": "Stefan",
         "meta": "52 J. · Rückenschmerzen & Müdigkeit",
-        "image": "/picture/face_3.webp",
+        "image": "/picture/andufit_vitacheck.jpg",
         "beforeScore": "38%",
         "afterScore": "89%",
         "beforePct": 38,
