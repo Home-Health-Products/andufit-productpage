@@ -902,8 +902,8 @@
   "vitacheck": {
     "id": "vitacheck",
     "eyebrow": "AI VitaCheck",
-    "title": "Jouw persoonlijk programma — op maat van jouw lichaam",
-    "lead": "Via de VitaCheck krijg je een gepersonaliseerd andullatie-programma op basis van jouw vermoeidheidskenmerken.",
+    "title": "Jouw persoonlijke programma. Perfect afgestemd op jou.",
+    "lead": "De AI VitaCheck stelt automatisch een andullatieprogramma samen dat aansluit bij jouw behoeften.",
     "points": [
       {
         "icon": "scan",
