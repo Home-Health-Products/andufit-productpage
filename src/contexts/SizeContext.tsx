@@ -24,16 +24,14 @@ export function SizeProvider({ children }: { children: ReactNode }) {
   const [stockCount, setStockCount] = useState(8);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setStockCount((prev) => {
-        if (prev <= 4) {
-          clearInterval(interval);
-          return 4;
-        }
-        return prev - 1;
-      });
-    }, 10000);
-    return () => clearInterval(interval);
+    // 0s→8, 10s→7, 40s→6, 120s→5, 300s→4
+    const timers = [
+      setTimeout(() => setStockCount(7), 10_000),
+      setTimeout(() => setStockCount(6), 40_000),
+      setTimeout(() => setStockCount(5), 120_000),
+      setTimeout(() => setStockCount(4), 300_000),
+    ];
+    return () => timers.forEach(clearTimeout);
   }, []);
 
   return (
