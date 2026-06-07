@@ -234,6 +234,7 @@
     "selectedLabel": "Gekozen maat",
     "qtyLabel": "Aantal",
     "addToCart": "Bestel nu",
+    "giftLabel": "incl. gratis ANDUSLIM",
     "selectSizeError": "Kies eerst een breedte én lengte",
     "checkoutUrl": "https://www.andufit.com/nl/checkout/?width={width}&length={length}",
     "usp": [
@@ -1895,7 +1896,8 @@
   "stickyCta": {
     "price": "€745",
     "label": "ANDUFIT — meer REM-slaap, sneller rugherstel",
-    "cta": "Bestel nu"
+    "cta": "Bestel nu",
+    "giftLabel": "Tijdelijk gratis ANDUSLIM bij je bestelling"
   },
   "footer": {
     "tagline": "Add a smile to your life ☺",

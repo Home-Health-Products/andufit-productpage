@@ -253,8 +253,13 @@ export default function BuyBox() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.5 3M7 13h10l3-7H5.5M7 13l-1.5-7M7 13l-2 7m4-7v7m4-7v7m4-7v7" />
           </svg>
           <span className="flex flex-col items-center leading-tight">
-            <span>{t('addToCart')}</span>
-            <span className="text-sm font-normal opacity-80">{width} × {length} cm</span>
+            <span>{t('addToCart')} · {width} × {length} cm</span>
+            <span className="text-sm font-normal opacity-85 flex items-center gap-1">
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M20 12v9H4v-9M2 7h20v5H2zM12 22V7M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z" />
+              </svg>
+              {t('giftLabel')}
+            </span>
           </span>
         </button>
         {/* Savings calculator accent CTA */}
