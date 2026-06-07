@@ -91,11 +91,23 @@ export default function BuyBox() {
       {/* Rating */}
       <div className="flex items-center gap-2 mb-5 pb-5 border-b border-line">
         <span className="inline-flex gap-0.5 text-brand">
-          {[...Array(5)].map((_, i) => (
-            <svg key={i} className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M10 1l2.7 5.5 6.1.9-4.4 4.3 1 6.1L10 14.9 4.6 17.8l1-6.1L1.2 7.4l6.1-.9L10 1z" />
-            </svg>
-          ))}
+          {[...Array(5)].map((_, i) => {
+            const rating = parseFloat(t('rating'));
+            const fill = Math.min(1, Math.max(0, rating - i));
+            const pct = Math.round(fill * 100);
+            const id = `star-grad-${i}`;
+            return (
+              <svg key={i} className="w-4 h-4" viewBox="0 0 20 20">
+                <defs>
+                  <linearGradient id={id}>
+                    <stop offset={`${pct}%`} stopColor="currentColor" />
+                    <stop offset={`${pct}%`} stopColor="currentColor" stopOpacity="0.2" />
+                  </linearGradient>
+                </defs>
+                <path fill={`url(#${id})`} d="M10 1l2.7 5.5 6.1.9-4.4 4.3 1 6.1L10 14.9 4.6 17.8l1-6.1L1.2 7.4l6.1-.9L10 1z" />
+              </svg>
+            );
+          })}
         </span>
         <span className="text-sm">
           <strong className="text-ink">{t('rating')}</strong>
