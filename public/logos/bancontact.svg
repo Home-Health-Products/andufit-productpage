@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 471">
+  <rect width="750" height="471" rx="40" fill="white"/>
+  <rect x="60" y="130" width="630" height="211" rx="16" fill="#005498"/>
+  <text x="375" y="265" font-family="Arial,sans-serif" font-size="90" font-weight="700" fill="white" text-anchor="middle">Bancontact</text>
+</svg>

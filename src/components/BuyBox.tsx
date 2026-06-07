@@ -293,18 +293,16 @@ export default function BuyBox() {
       <div className="mb-7 text-center">
         <p className="text-sm text-ink-muted mb-3">{t('payments.title')}</p>
         <div className="flex flex-wrap justify-center items-center gap-2">
-          {paymentMethods.map((m) => {
-            const pm = PAYMENT_LABELS[m];
-            if (!pm) return null;
-            return (
-              <span
-                key={m}
-                className={`inline-flex items-center justify-center min-w-[48px] h-7 px-2 rounded-md border border-line text-[11px] font-bold tracking-tight ${pm.bg} ${pm.fg}`}
-              >
-                {pm.label}
-              </span>
-            );
-          })}
+          {['visa','mastercard','applepay','googlepay','ideal','bancontact','klarna','paypal'].map((m) => (
+            <span key={m} className="inline-flex items-center justify-center h-9 px-1 rounded-lg border border-line bg-white shadow-sm overflow-hidden">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={`/logos/${m}.svg`}
+                alt={m}
+                className="h-7 w-auto max-w-[64px] object-contain"
+              />
+            </span>
+          ))}
         </div>
       </div>
 
