@@ -24,12 +24,16 @@ export function SizeProvider({ children }: { children: ReactNode }) {
   const [stockCount, setStockCount] = useState(8);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      // random between 4 and 7 (above 3, below 8)
-      const random = Math.floor(Math.random() * 4) + 4;
-      setStockCount(random);
-    }, 20000);
-    return () => clearTimeout(timer);
+    const interval = setInterval(() => {
+      setStockCount((prev) => {
+        if (prev <= 4) {
+          clearInterval(interval);
+          return 4;
+        }
+        return prev - 1;
+      });
+    }, 10000);
+    return () => clearInterval(interval);
   }, []);
 
   return (
