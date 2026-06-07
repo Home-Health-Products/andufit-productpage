@@ -13,12 +13,23 @@ type Review = {
 
 function Stars({ rating, size = 4 }: { rating: number; size?: number }) {
   return (
-    <span className={`inline-flex gap-0.5 text-brand`}>
-      {Array.from({ length: rating }).map((_, i) => (
-        <svg key={i} className={`w-${size} h-${size}`} fill="currentColor" viewBox="0 0 20 20">
-          <path d="M10 1l2.7 5.5 6.1.9-4.4 4.3 1 6.1L10 14.9 4.6 17.8l1-6.1L1.2 7.4l6.1-.9L10 1z" />
-        </svg>
-      ))}
+    <span className="inline-flex gap-0.5 text-brand">
+      {[...Array(5)].map((_, i) => {
+        const fill = Math.min(1, Math.max(0, rating - i));
+        const pct = Math.round(fill * 100);
+        const id = `rs-grad-${i}-${rating}`;
+        return (
+          <svg key={i} className={`w-${size} h-${size}`} viewBox="0 0 20 20">
+            <defs>
+              <linearGradient id={id}>
+                <stop offset={`${pct}%`} stopColor="currentColor" />
+                <stop offset={`${pct}%`} stopColor="currentColor" stopOpacity="0.2" />
+              </linearGradient>
+            </defs>
+            <path fill={`url(#${id})`} d="M10 1l2.7 5.5 6.1.9-4.4 4.3 1 6.1L10 14.9 4.6 17.8l1-6.1L1.2 7.4l6.1-.9L10 1z" />
+          </svg>
+        );
+      })}
     </span>
   );
 }
@@ -44,7 +55,7 @@ export default function ReviewSummary() {
           {/* Aggregate rating */}
           <div className="reveal bg-gradient-to-br from-brand-cream to-soft rounded-2xl p-8 border border-line text-center">
             <div className="font-display text-6xl text-brand-dark mb-2">{t('rating')}</div>
-            <Stars rating={5} size={5} />
+            <Stars rating={parseFloat(t('rating').replace(',', '.'))} size={5} />
             <p className="text-sm text-ink-muted mt-3">
               gebaseerd op <strong className="text-ink">{t('totalReviews')}</strong> beoordelingen
             </p>
