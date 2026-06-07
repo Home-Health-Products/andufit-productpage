@@ -235,6 +235,7 @@
     "qtyLabel": "Aantal",
     "addToCart": "Bestel nu",
     "giftLabel": "incl. gratis ANDUSLIM",
+    "giftUrgency": "nog 8 beschikbaar",
     "selectSizeError": "Kies eerst een breedte én lengte",
     "checkoutUrl": "https://www.andufit.com/fr/checkout/?width={width}&length={length}",
     "usp": [
