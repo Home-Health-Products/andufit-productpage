@@ -325,7 +325,7 @@
     "groupDoubleLabel": "2-persoonsmatras",
     "configTitle": "Choisis ta taille",
     "gift": {
-      "image": "/picture/anduslim.jpg",
+      "image": "/picture/anduslim.png",
       "fallbackImage": "/picture/andufit_expert.jpg",
       "stockCount": "8",
       "badge": "ANDUSLIM temporairement gratuit",
