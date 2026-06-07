@@ -580,7 +580,7 @@
   "progressFunnel": {
     "id": "vooruitgang",
     "eyebrow": "Persoonlijke voorspelling",
-    "title": "Ontdek wat er mogelijk is",
+    "title": "Ontdek je gezondheidsinvestering",
     "lead": "Beantwoord enkele korte vragen en ontvang een persoonlijke prognose van je mogelijke vooruitgang na 14 dagen, 3 maanden en 6 maanden.",
     "stepLabel": "Vraag {current} van {total}",
     "back": "Terug",
@@ -1339,7 +1339,7 @@
     }
   },
   "calcButton": {
-    "label": "Ontdek jouw vooruitgang",
+    "label": "Ontdek je gezondheidsinvestering",
     "hint": "In 1 minuut · gratis · zonder gegevens"
   },
   "sizeGuide": {
