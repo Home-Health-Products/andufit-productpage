@@ -308,41 +308,6 @@ export default function BuyBox() {
         </div>
       </div>
 
-      {/* Vet review */}
-      <div className="mb-7 p-5 border border-line rounded-xl bg-white">
-        <div className="flex items-start gap-4">
-          <div className="shrink-0 w-14 h-14 rounded-full bg-brand-cream border border-line flex items-center justify-center text-brand-dark">
-            <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.6">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M12 3a9 9 0 100 18 9 9 0 000-18z" />
-            </svg>
-          </div>
-          <div className="flex-1 min-w-0">
-            <div className="flex items-center gap-2 mb-1 flex-wrap">
-              <span className="font-medium text-ink text-sm">{t('vetReview.name')}</span>
-              <span className="inline-flex items-center gap-1 text-[11px] font-medium text-brand-dark bg-brand-cream px-2 py-0.5 rounded-full">
-                <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fillRule="evenodd"
-                    d="M10 1l2 2 3-1 1 3 3 1-1 3 1 3-3 1-1 3-3-1-2 2-2-2-3 1-1-3-3-1 1-3-1-3 3-1 1-3 3 1 2-2z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                {t('vetReview.verifiedLabel')}
-              </span>
-            </div>
-            <p className="text-xs text-ink-muted mb-2">{t('vetReview.credential')}</p>
-            <div className="flex gap-0.5 text-ink mb-2">
-              {[...Array(vetRating)].map((_, i) => (
-                <svg key={i} className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M10 1l2.7 5.5 6.1.9-4.4 4.3 1 6.1L10 14.9 4.6 17.8l1-6.1L1.2 7.4l6.1-.9L10 1z" />
-                </svg>
-              ))}
-            </div>
-            <p className="text-sm text-ink-soft leading-relaxed">"{t('vetReview.quote')}"</p>
-          </div>
-        </div>
-      </div>
-
       {/* Money-back guarantee */}
       <div className="mb-7 rounded-2xl bg-[#4b4f54] text-white p-6">
         <div className="flex items-start gap-3 mb-3">
