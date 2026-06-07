@@ -2,9 +2,11 @@
 
 import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { useSizeContext } from '@/contexts/SizeContext';
 
 export default function StickyCta() {
   const t = useTranslations('stickyCta');
+  const { stockCount } = useSizeContext();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -33,7 +35,7 @@ export default function StickyCta() {
             </p>
             <p className="text-xs font-medium flex items-center gap-1 mt-0.5">
               <span className="inline-block w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
-              <span className="text-red-600">{t('urgency')}</span>
+              <span className="text-red-600">Nog {stockCount} beschikbaar</span>
             </p>
           </div>
           <a

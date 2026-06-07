@@ -51,7 +51,7 @@ export default function BuyBox() {
   const paymentMethods = t.raw('payments.methods') as string[];
   const vetRating = t.raw('vetReview.rating') as number;
 
-  const { setWidth: setCtxWidth, setLength: setCtxLength } = useSizeContext();
+  const { setWidth: setCtxWidth, setLength: setCtxLength, stockCount } = useSizeContext();
   const [width, setWidth] = useState<string>(t('defaultWidth'));
   const [length, setLength] = useState<string>(t('defaultLength'));
 
@@ -204,7 +204,7 @@ export default function BuyBox() {
             <div className="min-w-0">
               <p className="text-sm font-semibold text-good leading-snug">{t('gift.badge')}</p>
               <p className="text-sm text-good leading-snug">
-                <strong className="font-semibold">{t('gift.stockCount')}</strong> {t('gift.stockText')}
+                <strong className="font-semibold">{stockCount}</strong> {t('gift.stockText')}
               </p>
             </div>
           </div>
