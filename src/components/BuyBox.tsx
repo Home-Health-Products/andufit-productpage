@@ -254,18 +254,11 @@ export default function BuyBox() {
           </svg>
           <span className="flex flex-col items-center leading-tight">
             <span>{t('addToCart')} · {width} × {length} cm</span>
-            <span className="text-sm font-normal opacity-90 flex items-center gap-2">
-              <span className="flex items-center gap-1">
-                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M20 12v9H4v-9M2 7h20v5H2zM12 22V7M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z" />
-                </svg>
-                {t('giftLabel')}
-              </span>
-              <span className="opacity-60">·</span>
-              <span className="flex items-center gap-1">
-                <span className="inline-block w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
-                {t('giftUrgency')}
-              </span>
+            <span className="text-sm font-normal opacity-85 flex items-center gap-1">
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M20 12v9H4v-9M2 7h20v5H2zM12 22V7M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z" />
+              </svg>
+              {t('giftLabel')}
             </span>
           </span>
         </button>
