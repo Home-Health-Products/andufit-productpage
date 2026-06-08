@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import CalcButton from './CalcButton';
 
-type Clip = { src: string; poster: string; caption: string };
+type Clip = { src?: string; poster?: string; caption: string; youtube?: string };
 
 export default function InAction() {
   const t = useTranslations('inAction');
@@ -12,6 +12,7 @@ export default function InAction() {
   const trackRef = useRef<HTMLDivElement>(null);
   const [canPrev, setCanPrev] = useState(false);
   const [canNext, setCanNext] = useState(true);
+  const [playing, setPlaying] = useState<Record<number, boolean>>({});
 
   const updateArrows = () => {
     const el = trackRef.current;
@@ -89,23 +90,52 @@ export default function InAction() {
                 className="snap-start shrink-0 w-[72%] sm:w-[48%] md:w-[33%] lg:w-[24%] reveal"
               >
                 <div className="relative aspect-[9/16] rounded-2xl overflow-hidden bg-ink shadow-md ring-1 ring-line">
-                  <video
-                    src={v.src}
-                    poster={v.poster}
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    preload="metadata"
-                    className="w-full h-full object-cover"
-                  />
-                  {/* subtle gradient for caption */}
-                  <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/55 to-transparent pointer-events-none" />
-                  {/* LIVE-style badge */}
-                  <span className="absolute top-3 left-3 inline-flex items-center gap-1.5 bg-white/90 backdrop-blur text-ink text-xs uppercase tracking-widest font-bold px-2 py-1 rounded-full">
-                    <span className="w-1.5 h-1.5 rounded-full bg-brand-dark animate-pulse-slow" />
-                    Live
-                  </span>
+                  {v.youtube ? (
+                    playing[i] ? (
+                      <iframe
+                        src={`https://www.youtube.com/embed/${v.youtube}?autoplay=1&mute=1&loop=1&playlist=${v.youtube}&playsinline=1&rel=0&modestbranding=1`}
+                        title={v.caption}
+                        allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+                        allowFullScreen
+                        className="absolute inset-0 w-full h-full"
+                      />
+                    ) : (
+                      <button
+                        type="button"
+                        onClick={() => setPlaying((p) => ({ ...p, [i]: true }))}
+                        aria-label={v.caption}
+                        className="group absolute inset-0 w-full h-full"
+                      >
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={`https://i.ytimg.com/vi/${v.youtube}/hqdefault.jpg`}
+                          alt={v.caption}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                        />
+                        <span className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
+                        {/* play button */}
+                        <span className="absolute inset-0 flex items-center justify-center">
+                          <span className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white/90 backdrop-blur shadow-lg group-hover:scale-105 transition-transform">
+                            <svg className="w-6 h-6 translate-x-0.5 text-brand-dark" fill="currentColor" viewBox="0 0 24 24">
+                              <path d="M8 5v14l11-7z" />
+                            </svg>
+                          </span>
+                        </span>
+                      </button>
+                    )
+                  ) : (
+                    <video
+                      src={v.src}
+                      poster={v.poster}
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      preload="metadata"
+                      className="w-full h-full object-cover"
+                    />
+                  )}
                 </div>
                 <figcaption className="mt-3 text-sm text-ink-soft text-center px-2 leading-snug">
                   {v.caption}

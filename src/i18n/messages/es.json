@@ -1003,22 +1003,26 @@
       {
         "src": "/video/andufit_hero.mp4",
         "poster": "/picture/andufit_hero.jpg",
-        "caption": "Zo voelt een nacht op ANDUFIT"
+        "caption": "Zo voelt een nacht op ANDUFIT",
+        "youtube": "QpUyJgJ3_mc"
       },
       {
         "src": "/video/andufit_motor.mp4",
         "poster": "/picture/andufit_chip.jpg",
-        "caption": "De 7 andulatiemotoren in werking"
+        "caption": "De 7 andulatiemotoren in werking",
+        "youtube": "I1cIk_hTOSw"
       },
       {
         "src": "/video/andufit_andullation.mp4",
         "poster": "/picture/andufit_room.jpg",
-        "caption": "Andullation®-technologie uitgelegd"
+        "caption": "Andullation®-technologie uitgelegd",
+        "youtube": "w3ORVWCsjRo"
       },
       {
         "src": "/video/andufit_vitacheck.mp4",
         "poster": "/picture/andufit_vitacheck.jpg",
-        "caption": "VitaCheck meet en stuurt je slaap bij"
+        "caption": "VitaCheck meet en stuurt je slaap bij",
+        "youtube": "zRnKOA31dLY"
       }
     ]
   },
