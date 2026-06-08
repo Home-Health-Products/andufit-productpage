@@ -1,3 +1,6 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 
 type Item = { icon: string; label: string };
@@ -28,12 +31,36 @@ const ICONS: Record<string, JSX.Element> = {
 export default function TrustBar() {
   const t = useTranslations('trustBar');
   const items = t.raw('items') as Item[];
+  const [active, setActive] = useState(0);
+
+  useEffect(() => {
+    if (items.length <= 1) return;
+    const id = setInterval(() => setActive((i) => (i + 1) % items.length), 4000);
+    return () => clearInterval(id);
+  }, [items.length]);
 
   return (
     <div className="bg-[#4b4f54] text-white text-xs">
-      <div className="max-w-7xl mx-auto px-5 lg:px-8 py-2 flex flex-nowrap md:flex-wrap items-center justify-start md:justify-center gap-x-3 md:gap-x-8 gap-y-1 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+      {/* Desktop: all points visible */}
+      <div className="hidden md:flex max-w-7xl mx-auto px-5 lg:px-8 py-2 flex-wrap items-center justify-center gap-x-8 gap-y-1">
         {items.map((it, i) => (
-          <span key={i} className="inline-flex items-center gap-1.5 md:gap-2 shrink-0 whitespace-nowrap">
+          <span key={i} className="inline-flex items-center gap-2 whitespace-nowrap">
+            <span className="shrink-0">{ICONS[it.icon] ?? null}</span>
+            <span>{it.label}</span>
+          </span>
+        ))}
+      </div>
+
+      {/* Mobile: one point at a time, auto-rotating every 4s */}
+      <div className="md:hidden relative px-5 flex items-center justify-center h-9 overflow-hidden">
+        {items.map((it, i) => (
+          <span
+            key={i}
+            aria-hidden={i !== active}
+            className={`absolute inline-flex items-center gap-1.5 whitespace-nowrap transition-opacity duration-500 ${
+              i === active ? 'opacity-100' : 'opacity-0 pointer-events-none'
+            }`}
+          >
             <span className="shrink-0">{ICONS[it.icon] ?? null}</span>
             <span>{it.label}</span>
           </span>
