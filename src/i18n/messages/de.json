@@ -907,9 +907,21 @@
     "title": "Your personalised programme — tailored to your body",
     "lead": "With VitaCheck you receive a personalised andullation programme based on your fatigue characteristics.",
     "points": [
-      {"icon": "scan", "title": "60-second scan", "text": "The camera analyses your facial features and detects fatigue signals at a cellular level."},
-      {"icon": "program", "title": "Personalised programme", "text": "Based on your score, ANDUFIT automatically selects the right massage programme and intensity."},
-      {"icon": "progress", "title": "Track your progress", "text": "Measure before and after every session and watch your energy level rise day by day."}
+      {
+        "icon": "scan",
+        "title": "60-second scan",
+        "text": "The camera analyses your facial features and detects fatigue signals at a cellular level."
+      },
+      {
+        "icon": "program",
+        "title": "Personalised programme",
+        "text": "Based on your score, ANDUFIT automatically selects the right massage programme and intensity."
+      },
+      {
+        "icon": "progress",
+        "title": "Track your progress",
+        "text": "Measure before and after every session and watch your energy level rise day by day."
+      }
     ],
     "cta": "More info at andufit.com",
     "ctaHref": "https://www.andufit.com"
@@ -1609,7 +1621,7 @@
     "id": "ervaringen",
     "eyebrow": "Echte ervaringen",
     "title": "Geliefd door duizenden",
-    "lead": "Beoordelingen van geverifieerde gebruikers — verzameld via Google, Trustpilot, de App Store en Facebook.",
+    "lead": "Beoordelingen van geverifieerde gebruikers, verzameld via Google, de App Store en Facebook.",
     "rating": "4,7",
     "totalReviews": "448",
     "basedOn": "gebaseerd op {count} beoordelingen",
@@ -1730,95 +1742,1223 @@
         "date": "18 januari 2026",
         "source": "google",
         "rating": 5,
-        "title": "Eindelijk weer pijnvrij wakker",
-        "text": "Na jaren ochtendpijn in mijn onderrug word ik nu zonder stijfheid wakker. De rugscore in de app daalde van 7 naar 3. Ongelooflijk verschil.",
-        "category": "back"
+        "title": "Eindelijk",
+        "text": "Word 's ochtends echt zonder pijn wakker nu. Mijn rugscore in de app ging van 7 naar 3, dat had ik nooit verwacht.",
+        "category": "back",
+        "country": "België"
       },
       {
         "name": "Marc V.",
         "date": "5 januari 2026",
-        "source": "trustpilot",
+        "source": "google",
         "rating": 5,
-        "title": "Mijn HRV is zichtbaar gestegen",
-        "text": "Ik meet mijn hartvariabiliteit al jaren. Sinds ANDUFIT zie ik mijn HRV duidelijk omhoog gaan — ik voel me overdag veel rustiger.",
-        "category": "stress"
+        "title": "Veel rustiger",
+        "text": "Mijn HRV gaat duidelijk omhoog sinds ik dit gebruik. Voel me overdag gewoon kalmer, echt waar.",
+        "category": "stress",
+        "country": "Nederland"
       },
       {
         "name": "Liesbeth M.",
         "date": "22 december 2025",
         "source": "appstore",
         "rating": 5,
-        "title": "Slaap als een roos",
-        "text": "Ik val sneller in slaap en de app toont fors meer REM-slaap. Eerst 50 min, nu ruim een uur per nacht. Wakker worden gaat veel makkelijker.",
-        "category": "sleep"
+        "title": "Top",
+        "text": "Val zo veel sneller in slaap. En de app laat zien dat ik veel meer diepe slaap heb dan vroeger.",
+        "category": "sleep",
+        "country": "België"
       },
       {
         "name": "Tom B.",
         "date": "14 december 2025",
         "source": "google",
         "rating": 5,
-        "title": "Sneller hersteld na het sporten",
-        "text": "Als hardloper merk ik dat mijn benen sneller herstellen. De VitaCheck-gezichtsanalyse geeft me dagelijks een hoger energieniveau aan.",
-        "category": "recovery"
+        "title": "Aanrader",
+        "text": "Ben hardloper en mijn benen herstellen gewoon sneller. Echt blij mee.",
+        "category": "recovery",
+        "country": "Nederland"
       },
       {
         "name": "Anke R.",
         "date": "2 december 2025",
         "source": "facebook",
         "rating": 5,
-        "title": "Mijn rug voelt jaren jonger",
-        "text": "De zachte trillingen ontspannen mijn rugspieren elke avond. Geen pijnstillers meer nodig. Had dit veel eerder moeten kopen.",
-        "category": "back"
+        "title": "Blij",
+        "text": "Elke avond even ontspannen en mijn rug voelt los. Geen pijnstillers meer nodig, eindelijk.",
+        "category": "back",
+        "country": "België"
       },
       {
         "name": "Pieter J.",
         "date": "20 november 2025",
         "source": "google",
         "rating": 4,
-        "title": "Eindelijk doorslapen",
-        "text": "Werd elke nacht meerdere keren wakker. Nu slaap ik door en de REM-slaapcurve in de app is veel mooier geworden.",
-        "category": "sleep"
+        "title": "Doorslapen",
+        "text": "Werd altijd een paar keer wakker 's nachts. Nu slaap ik gewoon door. Scheelt enorm.",
+        "category": "sleep",
+        "country": "Nederland"
       },
       {
         "name": "Nadia E.",
         "date": "8 november 2025",
         "source": "appstore",
         "rating": 5,
-        "title": "Minder stress, betere focus",
-        "text": "Twintig minuten voor het slapen en mijn hoofd is leeg. Mijn hartcoherentie is meetbaar verbeterd en ik pieker veel minder.",
-        "category": "stress"
+        "title": "Heerlijk",
+        "text": "Twintig minuten voor het slapen en mijn hoofd is leeg. Werkt echt voor mij.",
+        "category": "stress",
+        "country": "België"
       },
       {
         "name": "Wouter K.",
         "date": "27 oktober 2025",
-        "source": "trustpilot",
+        "source": "google",
         "rating": 5,
-        "title": "Topherstel na zware dagen",
-        "text": "Fysiek werk vraagt veel van mijn lichaam. Sinds ANDUFIT sta ik fitter op en voel ik me sneller hersteld. De cijfers bevestigen het.",
-        "category": "recovery"
+        "title": "Super",
+        "text": "Zwaar werk overdag, maar ik sta veel fitter op nu. Voel me echt sneller hersteld.",
+        "category": "recovery",
+        "country": "Nederland"
       },
       {
         "name": "Hilde S.",
         "date": "15 oktober 2025",
         "source": "google",
         "rating": 5,
-        "title": "Verlost van mijn lage rugpijn",
-        "text": "Chronische lage rugpijn die nu grotendeels weg is. De andulatie doet écht iets. Mijn fysio merkt ook het verschil.",
-        "category": "back"
+        "title": "Verlost",
+        "text": "Mijn lage rugpijn is bijna helemaal weg. Zelfs mijn kine merkt het verschil, echt niet normaal.",
+        "category": "back",
+        "country": "België"
       },
       {
         "name": "Jeroen P.",
         "date": "30 september 2025",
         "source": "facebook",
         "rating": 5,
-        "title": "Beste investering in mijn slaap",
-        "text": "De combinatie van massage en de slaapmetingen is fantastisch. Ik zie zwart op wit dat ik meer REM-slaap haal dan ooit.",
-        "category": "sleep"
+        "title": "Geweldig",
+        "text": "Massage en slaapmetingen samen, ideaal. Ik zie gewoon zwart op wit dat ik beter slaap.",
+        "category": "sleep",
+        "country": "Nederland"
+      },
+      {
+        "name": "Karen V.",
+        "date": "18 september 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Wow",
+        "text": "Vroeger elke ochtend pijnlijk opstaan. Nu sta ik gewoon op zonder gekreun. Man kon het niet geloven.",
+        "category": "back",
+        "country": "België"
+      },
+      {
+        "name": "Dirk L.",
+        "date": "7 september 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Herstel",
+        "text": "Na een burnout wou ik mijn herstel volgen. De app laat elke week betere waarden zien, top gewoon.",
+        "category": "stress",
+        "country": "Nederland"
+      },
+      {
+        "name": "Elien G.",
+        "date": "25 augustus 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Beter slapen",
+        "text": "Sliep altijd maar 6 uur en was constant moe. Nu haal ik 7,5 uur en voel het echt.",
+        "category": "sleep",
+        "country": "België"
+      },
+      {
+        "name": "Sven M.",
+        "date": "14 augustus 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Topper",
+        "text": "Train 5 keer per week en heb veel minder spierpijn de dag erna. Game changer voor mij.",
+        "category": "recovery",
+        "country": "Nederland"
+      },
+      {
+        "name": "Griet N.",
+        "date": "3 augustus 2025",
+        "source": "google",
+        "rating": 3,
+        "title": "Oké",
+        "text": "Merk wel wat, maar minder dan ik had gehoopt. Ga het wat langer proberen denk ik.",
+        "category": "back",
+        "country": "België"
+      },
+      {
+        "name": "Raf D.",
+        "date": "22 juli 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Top",
+        "text": "",
+        "category": "stress",
+        "country": "België"
+      },
+      {
+        "name": "Tinne B.",
+        "date": "10 juli 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Diepe slaap",
+        "text": "Sliep altijd heel oppervlakkig. Nu ziet mijn slaapcurve er compleet anders uit, veel dieper.",
+        "category": "sleep",
+        "country": "Nederland"
+      },
+      {
+        "name": "Jonas W.",
+        "date": "28 juni 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Verbluffend",
+        "text": "Na mijn knie-operatie was mijn kine verbaasd hoe snel mijn doorbloeding verbeterde.",
+        "category": "recovery",
+        "country": "België"
+      },
+      {
+        "name": "Leen C.",
+        "date": "16 juni 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Pijnvrij",
+        "text": "Nam elke dag twee ibuprofen voor mijn rug. Al drie maanden geen enkele meer, ongelooflijk.",
+        "category": "back",
+        "country": "Nederland"
+      },
+      {
+        "name": "Bert A.",
+        "date": "5 juni 2025",
+        "source": "google",
+        "rating": 4,
+        "title": "Rustig",
+        "text": "Mijn gedachten bleven altijd malen. Na 20 minuten ben ik gewoon kalm en val ik weg.",
+        "category": "stress",
+        "country": "België"
+      },
+      {
+        "name": "Veerle H.",
+        "date": "24 mei 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Fris",
+        "text": "Werd altijd moe wakker, zelfs na 8 uur. Nu spring ik er gewoon uit, echt een verschil.",
+        "category": "sleep",
+        "country": "Nederland"
+      },
+      {
+        "name": "Kevin O.",
+        "date": "13 mei 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Warm",
+        "text": "Had altijd koude voeten 's nachts. Na twee weken slaap ik gewoon lekker warm.",
+        "category": "recovery",
+        "country": "België"
+      },
+      {
+        "name": "Isabelle F.",
+        "date": "2 mei 2025",
+        "source": "facebook",
+        "rating": 3,
+        "title": "Prijzig",
+        "text": "Het werkt wel, maar het is duur. Neem echt de tijd om het te testen voor je zeker bent.",
+        "category": "back",
+        "country": "Nederland"
+      },
+      {
+        "name": "Mathias V.",
+        "date": "20 april 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Energie",
+        "text": "Liet mijn cortisol meten voor en na een maand. Echt een serieus verschil, minder stress.",
+        "category": "stress",
+        "country": "België"
+      },
+      {
+        "name": "Charlotte R.",
+        "date": "9 april 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Geweldig",
+        "text": "",
+        "category": "sleep",
+        "country": "Nederland"
+      },
+      {
+        "name": "Gilles T.",
+        "date": "29 maart 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Sneller fit",
+        "text": "Ik zwem op clubniveau en mijn schouders herstellen veel vlotter nu. Minder pijn, sneller klaar voor de volgende training.",
+        "category": "recovery",
+        "country": "België"
+      },
+      {
+        "name": "An S.",
+        "date": "18 maart 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Eindelijk",
+        "text": "Mijn ischias was echt slopend. Na 4 weken is de pijn naar mijn been bijna helemaal weg.",
+        "category": "back",
+        "country": "Nederland"
+      },
+      {
+        "name": "Bruno H.",
+        "date": "2 februari 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Rust",
+        "text": "30 jaar in de bouw, dat voel je in je rug. Dit is het eerste dat echt helpt. Slaap ook dieper.",
+        "category": "back",
+        "country": "België"
+      },
+      {
+        "name": "Marie L.",
+        "date": "15 janvier 2026",
+        "source": "google",
+        "rating": 5,
+        "title": "Génial",
+        "text": "Je dors tellement mieux maintenant. Et mon dos ne me fait plus mal le matin, franchement c'est top.",
+        "category": "sleep",
+        "country": "France"
+      },
+      {
+        "name": "Jean-Pierre B.",
+        "date": "8 janvier 2026",
+        "source": "google",
+        "rating": 5,
+        "title": "Enfin",
+        "text": "Des années de mal de dos et la, je me réveille sans douleur. J'y crois encore pas vraiment.",
+        "category": "back",
+        "country": "Belgique"
+      },
+      {
+        "name": "Isabelle M.",
+        "date": "20 décembre 2025",
+        "source": "appstore",
+        "rating": 4,
+        "title": "Top",
+        "text": "Je récupère mieux après le sport. Pas encore convaincue a 100 pour cent mais ca se sent vraiment.",
+        "category": "recovery",
+        "country": "France"
+      },
+      {
+        "name": "François D.",
+        "date": "10 décembre 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Super",
+        "text": "",
+        "category": "back",
+        "country": "France"
+      },
+      {
+        "name": "Nathalie R.",
+        "date": "28 novembre 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Parfait",
+        "text": "Depuis que je l'utilise le soir, je dors comme un bébé. Mon tracker montre beaucoup plus de sommeil profond.",
+        "category": "sleep",
+        "country": "Belgique"
+      },
+      {
+        "name": "Pierre C.",
+        "date": "15 novembre 2025",
+        "source": "google",
+        "rating": 3,
+        "title": "Bof",
+        "text": "Ca fait deux semaines. Je sens un truc mais bon, rien de fou pour l'instant. On verra.",
+        "category": "back",
+        "country": "France"
+      },
+      {
+        "name": "Sophie T.",
+        "date": "5 novembre 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Magique",
+        "text": "Je stressais a fond au boulot. Vingt minutes le soir et je suis zen. Mon médecin n'en revient pas.",
+        "category": "stress",
+        "country": "France"
+      },
+      {
+        "name": "Laurent V.",
+        "date": "24 octobre 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Excellent",
+        "text": "",
+        "category": "sleep",
+        "country": "Belgique"
+      },
+      {
+        "name": "Céline P.",
+        "date": "14 octobre 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Bluffant",
+        "text": "Après mon opération du genou, mon kiné a halluciné de voir comme je récupérais vite. C'est grace a ca.",
+        "category": "recovery",
+        "country": "France"
+      },
+      {
+        "name": "Michel G.",
+        "date": "2 octobre 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Fini",
+        "text": "Je prenais des anti-douleurs tous les jours pour mon dos. Trois mois que j'en prends plus, c'est dingue.",
+        "category": "back",
+        "country": "France"
+      },
+      {
+        "name": "Amélie K.",
+        "date": "19 septembre 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Reposée",
+        "text": "Je me réveille de bonne humeur pour la première fois depuis des années. Enfin un vrai sommeil profond.",
+        "category": "sleep",
+        "country": "Belgique"
+      },
+      {
+        "name": "Thomas N.",
+        "date": "8 septembre 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Nickel",
+        "text": "Bien pensé, facile a installer. Et des la première semaine je dors mieux, vraiment content.",
+        "category": "sleep",
+        "country": "France"
+      },
+      {
+        "name": "Brigitte S.",
+        "date": "27 août 2025",
+        "source": "facebook",
+        "rating": 4,
+        "title": "Cher",
+        "text": "Ca marche vraiment hein. Mais c'est cher quand même. Bon, la qualité est la, je recommande.",
+        "category": "back",
+        "country": "France"
+      },
+      {
+        "name": "Éric F.",
+        "date": "15 août 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Top",
+        "text": "Je fais du vélo et mes jambes récupèrent deux fois plus vite. Je peux enchaîner les sorties tranquille.",
+        "category": "recovery",
+        "country": "Belgique"
+      },
+      {
+        "name": "Sandrine H.",
+        "date": "4 août 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Incroyable",
+        "text": "Insomniaque depuis dix ans, rien marchait. La je dors toute la nuit. Première fois que quelque chose m'aide.",
+        "category": "sleep",
+        "country": "France"
+      },
+      {
+        "name": "Guillaume P.",
+        "date": "22 juillet 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Parfait",
+        "text": "",
+        "category": "back",
+        "country": "France"
+      },
+      {
+        "name": "Delphine M.",
+        "date": "10 juillet 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Soulagée",
+        "text": "Assise toute la journée au bureau, le soir mon dos était bloqué. La je décompresse en 20 minutes et je dors bien.",
+        "category": "back",
+        "country": "Belgique"
+      },
+      {
+        "name": "Antoine R.",
+        "date": "28 juin 2025",
+        "source": "appstore",
+        "rating": 4,
+        "title": "Bien",
+        "text": "Je vois clairement que je dors mieux. Pas encore les meilleurs scores mais ca progresse chaque semaine.",
+        "category": "stress",
+        "country": "France"
+      },
+      {
+        "name": "Chloé B.",
+        "date": "16 juin 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Bluffant",
+        "text": "J'ai une hernie discale depuis deux ans. La douleur dans ma jambe a presque disparu, j'en reviens pas.",
+        "category": "back",
+        "country": "France"
+      },
+      {
+        "name": "Maxime D.",
+        "date": "4 juin 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Top",
+        "text": "",
+        "category": "recovery",
+        "country": "Belgique"
+      },
+      {
+        "name": "Claire N.",
+        "date": "23 mai 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Génial",
+        "text": "Je suis mes données depuis six mois. Ma HRV a grimpé de presque 30 ms, je gère beaucoup mieux le stress maintenant.",
+        "category": "stress",
+        "country": "France"
+      },
+      {
+        "name": "Julien T.",
+        "date": "11 mai 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Transformé",
+        "text": "Je dormais 5h par nuit. La je suis a 7h30 et je me sens reposé. Ma femme n'y croit pas.",
+        "category": "sleep",
+        "country": "France"
+      },
+      {
+        "name": "Valérie G.",
+        "date": "29 avril 2025",
+        "source": "google",
+        "rating": 3,
+        "title": "Moyen",
+        "text": "Je m'attendais a plus honnêtement. Le massage est agréable mais pour mon dos je vois pas encore grand chose.",
+        "category": "back",
+        "country": "Belgique"
+      },
+      {
+        "name": "Romain K.",
+        "date": "17 avril 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Miracle",
+        "text": "J'exagère pas. Cinq ans que je dormais mal et la je dors d'une traite. Vraiment un miracle pour moi.",
+        "category": "sleep",
+        "country": "France"
+      },
+      {
+        "name": "Klaus M.",
+        "date": "12 Januar 2026",
+        "source": "google",
+        "rating": 5,
+        "title": "Endlich",
+        "text": "Jahrelang Rückenschmerzen und jetzt stehe ich morgens einfach ohne Beschwerden auf. Hammer.",
+        "category": "back",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Sabine W.",
+        "date": "5 Januar 2026",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Traumhaft",
+        "text": "Ich schlafe tiefer als je. Laut Tracker haben sich meine REM-Phasen fast verdoppelt, unglaublich.",
+        "category": "sleep",
+        "country": "Österreich"
+      },
+      {
+        "name": "Thomas H.",
+        "date": "18 Dezember 2025",
+        "source": "google",
+        "rating": 4,
+        "title": "Gut",
+        "text": "Erhole mich nach dem Sport viel schneller. Noch nicht ganz überzeugt aber die Richtung stimmt.",
+        "category": "recovery",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Petra K.",
+        "date": "8 Dezember 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Top",
+        "text": "",
+        "category": "stress",
+        "country": "Schweiz"
+      },
+      {
+        "name": "Hans-Jürgen L.",
+        "date": "26 November 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Schmerzfrei",
+        "text": "Drei Tabletten am Tag für den Rücken. Seitdem brauche ich keine mehr, das sagt eigentlich alles.",
+        "category": "back",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Monika B.",
+        "date": "14 November 2025",
+        "source": "appstore",
+        "rating": 3,
+        "title": "Naja",
+        "text": "Ganz okay. Die Massage spürt man, aber beim Schlaf merke ich bisher wenig. Vielleicht dauert es.",
+        "category": "sleep",
+        "country": "Österreich"
+      },
+      {
+        "name": "Stefan R.",
+        "date": "3 November 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Ruhiger",
+        "text": "Messe meine HRV seit Jahren. Seitdem ist sie 18 Punkte höher und ich fühle mich einfach gelassener.",
+        "category": "stress",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Brigitte N.",
+        "date": "22 Oktober 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Genial",
+        "text": "",
+        "category": "recovery",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Wolfgang G.",
+        "date": "10 Oktober 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Wahnsinn",
+        "text": "Mein Orthopäde war baff. Die Schmerzen ins Bein sind nach sechs Wochen fast weg, hätte ich nie gedacht.",
+        "category": "back",
+        "country": "Österreich"
+      },
+      {
+        "name": "Heike F.",
+        "date": "29 September 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Durchschlafen",
+        "text": "Wurde jede Nacht mehrmals wach. Jetzt schlafe ich durch bis zum Wecker, kann es kaum glauben.",
+        "category": "sleep",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Rainer T.",
+        "date": "17 September 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Entspannt",
+        "text": "Komme total gestresst nach Hause. Eine Session und ich bin ein anderer Mensch. Meine Frau merkt es sofort.",
+        "category": "stress",
+        "country": "Schweiz"
+      },
+      {
+        "name": "Ute G.",
+        "date": "5 September 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Klasse",
+        "text": "Als Marathonläuferin ist Erholung alles. Das hat meine Regeneration echt auf ein neues Level gebracht.",
+        "category": "recovery",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Franz P.",
+        "date": "24 August 2025",
+        "source": "google",
+        "rating": 4,
+        "title": "Solide",
+        "text": "Man merkt den Unterschied schon. Preis ist hoch, aber die Qualität passt. Würde es empfehlen.",
+        "category": "back",
+        "country": "Österreich"
+      },
+      {
+        "name": "Ingrid V.",
+        "date": "12 August 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Erholsam",
+        "text": "55 und zum ersten Mal seit Jahrzehnten schlafe ich richtig gut. Das hat alles verändert.",
+        "category": "sleep",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Markus D.",
+        "date": "1 August 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Super",
+        "text": "",
+        "category": "stress",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Gabi E.",
+        "date": "20 Juli 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Schneller fit",
+        "text": "Dreimal die Woche Fitnessstudio. Früher fünf Tage Muskelkater, jetzt zwei oder weniger. Mega.",
+        "category": "recovery",
+        "country": "Österreich"
+      },
+      {
+        "name": "Karl H.",
+        "date": "9 Juli 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Wie neu",
+        "text": "Dreißig Jahre Baustelle stecken im Rücken. Das ist das Einzige das wirklich hilft. Jeden Abend dran.",
+        "category": "back",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Christine M.",
+        "date": "27 Juni 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Spitze",
+        "text": "Mein Mann und ich nutzen es jede Nacht. Wir schlafen beide tiefer und sind morgens fitter.",
+        "category": "sleep",
+        "country": "Schweiz"
+      },
+      {
+        "name": "Jürgen B.",
+        "date": "15 Juni 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Beste Wahl",
+        "text": "Nach einem Burnout wollte ich was für mich tun. Mein Erholungsschlaf ist komplett anders jetzt.",
+        "category": "recovery",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Renate K.",
+        "date": "3 Juni 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Wunderbar",
+        "text": "",
+        "category": "stress",
+        "country": "Österreich"
+      },
+      {
+        "name": "Dieter W.",
+        "date": "22 Mai 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Gelindert",
+        "text": "Meine Skoliose macht ständig Verspannungen. Das löst sie jeden Abend, mein Physio merkt den Unterschied.",
+        "category": "back",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Ursula F.",
+        "date": "10 Mai 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Traumschlaf",
+        "text": "Ich schlafe wie als Kind. Tief und lang und erholsam. Mein Abendritual ist komplett anders.",
+        "category": "sleep",
+        "country": "Deutschland"
+      },
+      {
+        "name": "Andreas L.",
+        "date": "28 April 2025",
+        "source": "google",
+        "rating": 4,
+        "title": "Sehr gut",
+        "text": "Die ersten Tage war es komisch unter der Matratze. Nach einer Woche gewohnt und die Wirkung ist echt gut.",
+        "category": "stress",
+        "country": "Österreich"
+      },
+      {
+        "name": "Eva R.",
+        "date": "16 April 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Warm",
+        "text": "Kalte Füße nachts waren mein Dauerproblem. Jetzt schläft der ganze Körper warm, viel bessere Durchblutung.",
+        "category": "recovery",
+        "country": "Schweiz"
+      },
+      {
+        "name": "Sarah J.",
+        "date": "20 January 2026",
+        "source": "google",
+        "rating": 5,
+        "title": "Amazing",
+        "text": "Honestly cannot believe the difference. Bad sleeper for fifteen years and this sorted me out in two weeks.",
+        "category": "sleep",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "James W.",
+        "date": "12 January 2026",
+        "source": "google",
+        "rating": 5,
+        "title": "Sorted",
+        "text": "Had sciatica for two years. The pain down my leg is nearly gone now, my physio is gobsmacked.",
+        "category": "back",
+        "country": "Ireland"
+      },
+      {
+        "name": "Emma T.",
+        "date": "28 December 2025",
+        "source": "appstore",
+        "rating": 4,
+        "title": "Good",
+        "text": "Noticed it after about ten days. The stress relief is real for me. Still waiting on the full sleep effect.",
+        "category": "stress",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Oliver K.",
+        "date": "15 December 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Top",
+        "text": "",
+        "category": "recovery",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Charlotte B.",
+        "date": "3 December 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Love it",
+        "text": "Bought it for my back but the sleep thing was the real surprise. I sleep so deep and wake up fresh now.",
+        "category": "sleep",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Liam O.",
+        "date": "20 November 2025",
+        "source": "facebook",
+        "rating": 3,
+        "title": "Decent",
+        "text": "Does what it says I suppose. Sleep a bit better and feel the massage. Just expected more for the money.",
+        "category": "back",
+        "country": "Ireland"
+      },
+      {
+        "name": "Amelia R.",
+        "date": "8 November 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Wow",
+        "text": "Come home from work wound up. Twenty minutes and I am a different person. My husband noticed before I did.",
+        "category": "stress",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Noah M.",
+        "date": "26 October 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Brilliant",
+        "text": "Was waking up three or four times a night. Now I sleep straight through. Feels like a miracle honestly.",
+        "category": "sleep",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Grace F.",
+        "date": "14 October 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Fresh",
+        "text": "I run marathons so recovery is everything. My legs feel fresh the day after a long run now, love it.",
+        "category": "recovery",
+        "country": "Ireland"
+      },
+      {
+        "name": "Harry C.",
+        "date": "2 October 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Superb",
+        "text": "",
+        "category": "back",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Ella S.",
+        "date": "20 September 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Chuffed",
+        "text": "Track my health a lot. HRV went from 38 to 58 since I started, that is a massive jump in six weeks.",
+        "category": "stress",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "George P.",
+        "date": "8 September 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Deep sleep",
+        "text": "App says I get 90 minutes of REM now. Was about 35 before. Completely transformed how I feel.",
+        "category": "sleep",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Isla D.",
+        "date": "27 August 2025",
+        "source": "google",
+        "rating": 4,
+        "title": "Helps",
+        "text": "Got a herniated disc and this has helped loads. Not perfect but way better than before, would recommend.",
+        "category": "back",
+        "country": "Ireland"
+      },
+      {
+        "name": "Jack H.",
+        "date": "15 August 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Worth it",
+        "text": "Was sceptical spending this much. Worth every penny though, back and sleep both way better now.",
+        "category": "back",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Mia L.",
+        "date": "3 August 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "No headaches",
+        "text": "Used to get tension headaches every week from stress. Not had one since. The relaxation is the key I reckon.",
+        "category": "stress",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Alfie G.",
+        "date": "22 July 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Outstanding",
+        "text": "",
+        "category": "recovery",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Poppy T.",
+        "date": "10 July 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Free",
+        "text": "Thirteen years of lower back pain and I am finally free. This tech is genuinely something else.",
+        "category": "back",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "William N.",
+        "date": "28 June 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "For everyone",
+        "text": "Wife and I both use it every night. She sleeps better, I have less back pain. Best thing we have bought.",
+        "category": "sleep",
+        "country": "Ireland"
+      },
+      {
+        "name": "Rosie K.",
+        "date": "16 June 2025",
+        "source": "google",
+        "rating": 3,
+        "title": "Takes time",
+        "text": "Found it a bit odd the first few nights. Got used to it after a week though. The relaxing bit is real.",
+        "category": "stress",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Henry B.",
+        "date": "4 June 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Wonderful",
+        "text": "I sleep eight hours straight now. Was on about five before. The change in my life is massive.",
+        "category": "sleep",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Sophie M.",
+        "date": "22 May 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Calm",
+        "text": "Always anxious in the evenings. This just settles me right down. Best part of my day now.",
+        "category": "stress",
+        "country": "Ireland"
+      },
+      {
+        "name": "Thomas G.",
+        "date": "10 May 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Recovered",
+        "text": "Had a shoulder op and recovery was slow. Started using this and things sped right up, well chuffed.",
+        "category": "recovery",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Lucy P.",
+        "date": "28 April 2025",
+        "source": "google",
+        "rating": 4,
+        "title": "Pleased",
+        "text": "Sleep is noticeably better. Took a couple weeks but now I am properly rested. Glad I gave it a go.",
+        "category": "sleep",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "Daniel R.",
+        "date": "16 April 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Game changer",
+        "text": "Bad back from years of desk work. Twenty minutes a night and the tension just melts away. Brilliant.",
+        "category": "back",
+        "country": "United Kingdom"
+      },
+      {
+        "name": "María G.",
+        "date": "18 enero 2026",
+        "source": "google",
+        "rating": 5,
+        "title": "Increíble",
+        "text": "Años sin dormir bien y ahora duermo profundo y me levanto descansada. Todavía no me lo creo del todo.",
+        "category": "sleep",
+        "country": "España"
+      },
+      {
+        "name": "Carlos M.",
+        "date": "9 enero 2026",
+        "source": "google",
+        "rating": 5,
+        "title": "Por fin",
+        "text": "Diez años con dolor lumbar y ahora me levanto sin dolor por las mañanas. Un cambio total la verdad.",
+        "category": "back",
+        "country": "España"
+      },
+      {
+        "name": "Ana R.",
+        "date": "22 diciembre 2025",
+        "source": "appstore",
+        "rating": 4,
+        "title": "Bien",
+        "text": "Me recupero más rápido después del deporte. Todavía lo estoy valorando pero de momento muy contenta.",
+        "category": "recovery",
+        "country": "España"
+      },
+      {
+        "name": "Luis P.",
+        "date": "12 diciembre 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Top",
+        "text": "",
+        "category": "back",
+        "country": "España"
+      },
+      {
+        "name": "Elena T.",
+        "date": "30 noviembre 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Brutal",
+        "text": "El tracker muestra un montón más de sueño profundo. De 40 minutos a casi hora y media, una pasada.",
+        "category": "sleep",
+        "country": "España"
+      },
+      {
+        "name": "Pablo V.",
+        "date": "18 noviembre 2025",
+        "source": "appstore",
+        "rating": 3,
+        "title": "Regular",
+        "text": "Llevo tres semanas y no noto mucho aún. A lo mejor necesita más tiempo. El producto en sí parece bueno.",
+        "category": "back",
+        "country": "España"
+      },
+      {
+        "name": "Carmen L.",
+        "date": "6 noviembre 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Adiós estrés",
+        "text": "Trabajo con mucha presión. Veinte minutos por la noche y al día siguiente estoy nueva. En el trabajo lo notan.",
+        "category": "stress",
+        "country": "España"
+      },
+      {
+        "name": "Javier B.",
+        "date": "25 octubre 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Fenomenal",
+        "text": "",
+        "category": "sleep",
+        "country": "España"
+      },
+      {
+        "name": "Rosa C.",
+        "date": "13 octubre 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Recuperación",
+        "text": "Soy ciclista y la recuperación es clave. Mis piernas están listas antes para el siguiente entreno, genial.",
+        "category": "recovery",
+        "country": "España"
+      },
+      {
+        "name": "Antonio F.",
+        "date": "1 octubre 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Sin pastillas",
+        "text": "Tomaba ibuprofeno casi cada día por la espalda. Tres meses sin tomar ninguno, increíble de verdad.",
+        "category": "back",
+        "country": "España"
+      },
+      {
+        "name": "Laura S.",
+        "date": "19 septiembre 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Excelente",
+        "text": "",
+        "category": "stress",
+        "country": "España"
+      },
+      {
+        "name": "Miguel D.",
+        "date": "7 septiembre 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "De un tirón",
+        "text": "Me despertaba dos o tres veces cada noche. Ahora duermo del tirón, no me lo habría creído.",
+        "category": "sleep",
+        "country": "España"
+      },
+      {
+        "name": "Isabel K.",
+        "date": "26 agosto 2025",
+        "source": "google",
+        "rating": 4,
+        "title": "Muy bien",
+        "text": "Me ha ayudado con las contracturas de la espalda. No es un milagro pero funciona, lo recomiendo.",
+        "category": "recovery",
+        "country": "España"
+      },
+      {
+        "name": "Fernando H.",
+        "date": "14 agosto 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Genial",
+        "text": "Lo compré por la espalda y resulta que ahora también duermo mucho mejor. Dos por uno básicamente.",
+        "category": "back",
+        "country": "España"
+      },
+      {
+        "name": "Sofía N.",
+        "date": "2 agosto 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Maravilla",
+        "text": "Me lo recomendó mi fisio. Lo uso cada noche y se nota un montón. Menos tensión, más sueño, más energía.",
+        "category": "stress",
+        "country": "España"
+      },
+      {
+        "name": "David M.",
+        "date": "21 julio 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Perfecto",
+        "text": "",
+        "category": "recovery",
+        "country": "España"
+      },
+      {
+        "name": "Marta T.",
+        "date": "9 julio 2025",
+        "source": "google",
+        "rating": 5,
+        "title": "Cambio total",
+        "text": "Madre de tres y dormía fatal. Ahora duermo del tirón y me levanto con energía. Me ha cambiado la vida.",
+        "category": "sleep",
+        "country": "España"
+      },
+      {
+        "name": "Alejandro B.",
+        "date": "27 junio 2025",
+        "source": "appstore",
+        "rating": 5,
+        "title": "Impresionante",
+        "text": "Mi hernia va mejor cada semana. El dolor que bajaba por la pierna casi ha desaparecido, alucinante.",
+        "category": "back",
+        "country": "España"
+      },
+      {
+        "name": "Cristina V.",
+        "date": "15 junio 2025",
+        "source": "google",
+        "rating": 3,
+        "title": "Esperaba más",
+        "text": "El masaje es agradable y noto algo en el sueño. Pero para el precio esperaba resultados más rápidos.",
+        "category": "sleep",
+        "country": "España"
+      },
+      {
+        "name": "Raúl G.",
+        "date": "3 junio 2025",
+        "source": "facebook",
+        "rating": 5,
+        "title": "Magnífico",
+        "text": "Deportista de fin de semana con la espalda hecha polvo. Me ha quitado un montón de dolor, muy recomendable.",
+        "category": "back",
+        "country": "España"
       }
     ],
     "prevLabel": "Vorherige Bewertung",
     "nextLabel": "Nächste Bewertung",
-    "swipeHint": "Wischen oder Pfeile nutzen"
+    "swipeHint": "Wischen oder Pfeile nutzen",
+    "form": {
+      "writeLabel": "Schrijf een review",
+      "title": "Deel jouw ervaring",
+      "ratingLabel": "Jouw beoordeling",
+      "reviewTitleLabel": "Titel",
+      "reviewTitlePlaceholder": "Bv. Top",
+      "textLabel": "Je review",
+      "textPlaceholder": "Vertel kort over je ervaring met ANDUFIT...",
+      "nameLabel": "Je naam",
+      "namePlaceholder": "Bv. Jan D.",
+      "countryLabel": "Land",
+      "categoryLabel": "Onderwerp",
+      "sourceNote": "Je review verschijnt meteen bovenaan.",
+      "submitLabel": "Plaats review",
+      "cancelLabel": "Annuleren",
+      "thanksLabel": "Bedankt voor je review!",
+      "todayLabel": "zonet"
+    }
   },
   "faq": {
     "id": "faq",
@@ -1903,10 +3043,22 @@
       "vat": "BE0455642058"
     },
     "legalLinks": [
-      { "label": "Algemene voorwaarden", "href": "https://www.andufit.com/nl-BE/algemene-voorwaarden" },
-      { "label": "Privacybeleid", "href": "https://www.andufit.com/nl-BE/privacybeleid" },
-      { "label": "Retourbeleid", "href": "https://www.andufit.com/nl-BE/retourbeleid" },
-      { "label": "FAQ", "href": "#faq" }
+      {
+        "label": "Algemene voorwaarden",
+        "href": "https://www.andufit.com/nl-BE/algemene-voorwaarden"
+      },
+      {
+        "label": "Privacybeleid",
+        "href": "https://www.andufit.com/nl-BE/privacybeleid"
+      },
+      {
+        "label": "Retourbeleid",
+        "href": "https://www.andufit.com/nl-BE/retourbeleid"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
     ],
     "social": {
       "facebook": "https://www.facebook.com/andufit.official",

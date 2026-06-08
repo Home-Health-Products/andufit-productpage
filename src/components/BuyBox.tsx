@@ -113,7 +113,7 @@ export default function BuyBox() {
           <strong className="text-ink">{t('rating')}</strong>
           <span className="text-ink-muted">/{t('ratingMax')}</span>
         </span>
-        <a href="#reviews" className="text-sm text-ink-muted hover:text-brand-dark underline underline-offset-2">
+        <a href="#ervaringen" className="text-sm text-ink-muted hover:text-brand-dark underline underline-offset-2">
           {t('reviewCount')}
         </a>
       </div>

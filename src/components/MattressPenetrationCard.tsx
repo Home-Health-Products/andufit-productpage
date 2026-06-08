@@ -97,25 +97,37 @@ export default function MattressPenetrationCard() {
           </span>
         </div>
 
-        {/* ANDUFIT module bar */}
-        <div className="relative mt-1.5 h-10 rounded-xl bg-gradient-to-r from-brand-dark to-brand shadow-md flex items-center justify-center overflow-hidden">
-          <div className="absolute inset-0 flex items-center justify-center gap-2.5">
-            {[0, 0.25, 0.5, 0.75, 1, 1.25, 1.5].map((d, i) => (
-              <span
-                key={i}
-                className="andu-anim block w-1.5 h-4 rounded-full bg-white/80 origin-center"
-                style={{ animation: `anduMotor 1.4s ${d}s ease-in-out infinite` }}
-              />
-            ))}
+        {/* ANDUFIT module — doorsnede-weergave (geen knop) */}
+        <div className="relative mt-1.5 flex items-stretch gap-2">
+          {/* Hoogte-indicator links */}
+          <div className="flex flex-col items-center justify-between py-0.5 shrink-0">
+            <span className="block w-2.5 h-px bg-ink-muted/40" />
+            <span className="text-[9px] font-semibold text-ink-muted tabular-nums rotate-180 [writing-mode:vertical-lr] leading-none">7 cm</span>
+            <span className="block w-2.5 h-px bg-ink-muted/40" />
           </div>
-          <span
-            className="andu-anim absolute -top-1 left-1/2 -translate-x-1/2 w-10 h-10 rounded-full border-2 border-brand/60"
-            style={{ animation: 'anduRing 2.4s linear infinite' }}
-            aria-hidden
-          />
-          <span className="relative z-10 text-[11px] font-semibold uppercase tracking-widest text-white">
-            {t('moduleLabel')}
-          </span>
+          {/* Module slab */}
+          <div className="flex-1 h-10 rounded bg-gradient-to-r from-brand-dark to-brand border-t border-white/20 shadow-sm flex items-center px-3 overflow-hidden gap-3">
+            {/* Label links */}
+            <span className="shrink-0 text-[10px] font-bold uppercase tracking-widest text-white/90">
+              ANDUFIT
+            </span>
+            {/* Scheidingslijn */}
+            <span className="block w-px self-stretch bg-white/20 shrink-0" />
+            {/* Geanimeerde motoren */}
+            <div className="flex items-center gap-2 flex-1 justify-center">
+              {[0, 0.25, 0.5, 0.75, 1, 1.25, 1.5].map((d, i) => (
+                <span
+                  key={i}
+                  className="andu-anim block w-1 h-3.5 rounded-full bg-white/70 origin-center"
+                  style={{ animation: `anduMotor 1.4s ${d}s ease-in-out infinite` }}
+                />
+              ))}
+            </div>
+            {/* Badge rechts */}
+            <span className="shrink-0 text-[9px] font-medium text-white/70 border border-white/25 rounded px-1.5 py-0.5 leading-none">
+              7 cm
+            </span>
+          </div>
         </div>
       </div>
 
