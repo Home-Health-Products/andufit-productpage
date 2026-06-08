@@ -4,7 +4,7 @@ import CalcButton from './CalcButton';
 type Item = { icon: string; label: string; text: string };
 
 const BED_ICONS: Record<string, JSX.Element> = {
-  // Bedframe met hoofdeind — side view
+  // Bedframe met hoofdeind , side view
   frame: (
     <svg viewBox="0 0 48 32" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
       <path d="M6 16V9a2 2 0 012-2h3v9" />
@@ -13,7 +13,7 @@ const BED_ICONS: Record<string, JSX.Element> = {
       <path d="M9 23v4M39 23v4" />
     </svg>
   ),
-  // Lattenbodem — slats
+  // Lattenbodem , slats
   slats: (
     <svg viewBox="0 0 48 32" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
       <rect x="6" y="7" width="36" height="18" rx="2" />
@@ -21,7 +21,7 @@ const BED_ICONS: Record<string, JSX.Element> = {
       <path d="M9 25v3M39 25v3" />
     </svg>
   ),
-  // Boxspring — stacked layers
+  // Boxspring , stacked layers
   boxspring: (
     <svg viewBox="0 0 48 32" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
       <rect x="6" y="9" width="36" height="7" rx="3" />
@@ -29,7 +29,7 @@ const BED_ICONS: Record<string, JSX.Element> = {
       <path d="M9 25v3M39 25v3" />
     </svg>
   ),
-  // Opklapbare bedbodem — lifted storage base
+  // Opklapbare bedbodem , lifted storage base
   storage: (
     <svg viewBox="0 0 48 32" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
       <rect x="6" y="19" width="34" height="7" rx="2" />

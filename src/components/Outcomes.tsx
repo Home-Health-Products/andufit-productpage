@@ -26,27 +26,27 @@ const ACCENTS: Record<string, string> = {
 };
 
 const GLYPHS: Record<string, JSX.Element> = {
-  // spine — rugontspanning
+  // spine , rugontspanning
   back: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round">
       <path d="M12 3v18" />
       <path d="M9 5h6M8.5 8.5h7M8 12h8M8.5 15.5h7M9 19h6" />
     </svg>
   ),
-  // heart — stress / HRV
+  // heart , stress / HRV
   stress: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
       <path d="M12 21s-7-4.5-9.5-9A5 5 0 0112 6a5 5 0 019.5 6c-2.5 4.5-9.5 9-9.5 9z" />
       <path d="M3 12h4l1.5-3 2.5 6 2-4 1.5 1H21" />
     </svg>
   ),
-  // moon — REM-slaap
+  // moon , REM-slaap
   sleep: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
       <path d="M21 12.8A8.5 8.5 0 1111.2 3a6.5 6.5 0 009.8 9.8z" />
     </svg>
   ),
-  // bolt + face — recuperatie / energie
+  // bolt + face , recuperatie / energie
   recovery: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
       <path d="M13 3L4 14h7l-1 7 9-11h-7l1-7z" />

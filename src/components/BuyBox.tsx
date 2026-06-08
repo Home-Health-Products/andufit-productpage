@@ -135,9 +135,9 @@ export default function BuyBox() {
         On desktop the original order is restored (highlights first).
       */}
       <div className="flex flex-col">
-        {/* Size configurator — own card with a live price header */}
+        {/* Size configurator , own card with a live price header */}
         <div className="order-1 lg:order-2 mb-6">
-          {/* Width selector — dropdown grouped by 1-/2-person mattress */}
+          {/* Width selector , dropdown grouped by 1-/2-person mattress */}
           <div className="mb-4">
             <div className="flex items-center justify-between mb-2">
               <label htmlFor="width-select" className="text-sm font-medium text-ink">
@@ -155,12 +155,12 @@ export default function BuyBox() {
                 onChange={(e) => handleWidth(e.target.value)}
                 className="w-full appearance-none bg-white border-2 border-line rounded-xl px-4 py-3 text-sm font-medium text-ink focus:outline-none focus:border-brand transition pr-10 cursor-pointer"
               >
-                <optgroup label={`${t('groupSingleLabel')} — ${t('priceSingle')}`}>
+                <optgroup label={`${t('groupSingleLabel')}, ${t('priceSingle')}`}>
                   {singleWidths.map((w) => (
                     <option key={w.value} value={w.value}>{w.label}</option>
                   ))}
                 </optgroup>
-                <optgroup label={`${t('groupDoubleLabel')} — ${t('priceDouble')}`}>
+                <optgroup label={`${t('groupDoubleLabel')}, ${t('priceDouble')}`}>
                   {doubleWidths.map((w) => (
                     <option key={w.value} value={w.value}>{w.label}</option>
                   ))}
@@ -174,7 +174,7 @@ export default function BuyBox() {
             </div>
           </div>
 
-          {/* Length selector — dropdown */}
+          {/* Length selector , dropdown */}
           <div>
             <label htmlFor="length-select" className="text-sm font-medium text-ink block mb-2">
               {t('lengthLabel')}
@@ -202,7 +202,7 @@ export default function BuyBox() {
           </div>
         </div>
 
-        {/* Free gift with purchase — just above the highlights */}
+        {/* Free gift with purchase , just above the highlights */}
         <div className="order-2 lg:order-1 mb-5 rounded-2xl bg-good/5 border border-good/25 p-4">
           <div className="flex items-start gap-3 mb-3">
             <svg className="w-6 h-6 shrink-0 text-good" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.7">
@@ -231,7 +231,7 @@ export default function BuyBox() {
           </div>
         </div>
 
-        {/* Highlights — 2-col USP grid with dark circular badges */}
+        {/* Highlights , 2-col USP grid with dark circular badges */}
         <ul className="order-2 lg:order-1 grid grid-cols-1 sm:grid-cols-2 gap-x-3 sm:gap-x-5 gap-y-3 mb-6">
           {highlights.map((h, i) => (
             <li key={i} className="flex items-start gap-3 text-[15px] text-ink font-medium leading-snug">

@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import createGlobe, { COBEOptions, Marker } from 'cobe';
 import { useTranslations } from 'next-intl';
 
-// ANDUFIT markets — [latitude, longitude]. Lights flicker on at these cities.
+// ANDUFIT markets , [latitude, longitude]. Lights flicker on at these cities.
 const CITIES: [number, number][] = [
   [50.85, 4.35], // Brussels
   [51.05, 3.72], // Ghent

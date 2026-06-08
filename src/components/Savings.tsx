@@ -95,7 +95,7 @@ export default function Savings() {
 
         {/* Comparison columns */}
         <div className="grid lg:grid-cols-2 gap-5 lg:gap-8 mb-10 lg:mb-12">
-          {/* WITHOUT ANDUPET — red/danger */}
+          {/* WITHOUT ANDUPET , red/danger */}
           <div className="reveal bg-white rounded-2xl border-2 border-bad/20 overflow-hidden shadow-sm">
             <div className="bg-bad/5 px-6 py-5 border-b border-bad/15">
               <div className="flex items-center gap-2 mb-1">
@@ -149,7 +149,7 @@ export default function Savings() {
             </div>
           </div>
 
-          {/* WITH ANDUPET — brand turquoise */}
+          {/* WITH ANDUPET , brand turquoise */}
           <div className="reveal bg-white rounded-2xl border-2 border-brand overflow-hidden shadow-lg relative">
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 z-10">
               <span className="inline-block bg-brand-dark text-white text-[10px] uppercase tracking-widest font-bold px-3 py-1 rounded-full shadow">
@@ -205,7 +205,7 @@ export default function Savings() {
                 €{fmt(savingsAmount)}
               </div>
               <div className="text-white/85 text-sm">
-                {t('perDayLabel')} <strong className="text-white">{t('perDayValue')}</strong> — {t('perDayHint')}
+                {t('perDayLabel')} <strong className="text-white">{t('perDayValue')}</strong>, {t('perDayHint')}
               </div>
             </div>
 
@@ -227,7 +227,7 @@ export default function Savings() {
           {t('disclaimer')}
         </p>
 
-        {/* Sources — collapsible */}
+        {/* Sources , collapsible */}
         <div className="max-w-4xl mx-auto mt-10 reveal">
           <details className="group bg-white border border-line rounded-2xl overflow-hidden">
             <summary className="px-6 py-4 cursor-pointer list-none flex items-center justify-between hover:bg-soft transition">

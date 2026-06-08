@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-5 lg:px-8 pt-12 lg:pt-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
 
-          {/* Left — contact */}
+          {/* Left , contact */}
           <div>
             <p className="text-sm text-ink-muted mb-2">{t('tagline')}</p>
             <p className="font-display text-2xl lg:text-3xl text-ink font-bold mb-8 leading-snug">
@@ -47,7 +47,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Right — company info + links */}
+          {/* Right , company info + links */}
           <div className="flex flex-col gap-6">
             {/* Logo */}
             {/* eslint-disable-next-line @next/next/no-img-element */}

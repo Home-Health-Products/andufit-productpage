@@ -1,7 +1,5 @@
 'use client';
 
-import { useState } from 'react';
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import CalcButton from './CalcButton';
 
@@ -33,20 +31,13 @@ const BENEFIT_ICONS: Record<string, JSX.Element> = {
 export default function Circulation() {
   const t = useTranslations('circulation');
   const c = t.raw('comparison') as {
-    beforeImage: string;
-    afterImage: string;
-    beforeLabel: string;
-    afterLabel: string;
-    beforeCaption: string;
-    afterCaption: string;
-    beforeAlt: string;
+    video: string;
+    poster: string;
     afterAlt: string;
-    sliderAria: string;
     hint: string;
   };
   const benefits = t.raw('benefits') as Benefit[];
   const stat = t.raw('stat') as { value: string; label: string; source: string };
-  const [pos, setPos] = useState(50);
 
   return (
     <section id={t('id')} className="py-20 lg:py-28 bg-gradient-to-b from-white to-brand-cream">
@@ -60,59 +51,19 @@ export default function Circulation() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
-          {/* Slider */}
+          {/* Blood-flow video */}
           <div className="reveal">
-            <div className="compare-slider relative aspect-square rounded-2xl overflow-hidden border border-line shadow-lg bg-white">
-              {/* After (full) */}
-              <Image
-                src={c.afterImage}
-                alt={c.afterAlt}
-                fill
-                priority
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
-              />
-              <div className="absolute top-4 right-4 z-10 bg-good text-white text-sm uppercase font-bold px-3 py-1 rounded-full shadow-sm">
-                {c.afterLabel}
-              </div>
-
-              {/* Before (clipped) */}
-              <div
-                className="absolute inset-0"
-                style={{ clipPath: `inset(0 ${100 - pos}% 0 0)` }}
-              >
-                <Image
-                  src={c.beforeImage}
-                  alt={c.beforeAlt}
-                  fill
-                  priority
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover"
-                />
-                <div className="absolute top-4 left-4 z-10 bg-bad text-white text-sm uppercase font-bold px-3 py-1 rounded-full shadow-sm">
-                  {c.beforeLabel}
-                </div>
-              </div>
-
-              {/* Divider line + handle */}
-              <div
-                className="absolute top-0 bottom-0 w-0.5 bg-white shadow-lg pointer-events-none z-10"
-                style={{ left: `${pos}%` }}
-              >
-                <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-11 h-11 bg-white rounded-full shadow-xl flex items-center justify-center text-brand-dark border-2 border-brand-dark">
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M8 7l-4 5 4 5M16 7l4 5-4 5" />
-                  </svg>
-                </div>
-              </div>
-
-              <input
-                type="range"
-                min={0}
-                max={100}
-                value={pos}
-                onChange={(e) => setPos(parseInt(e.target.value))}
-                aria-label={c.sliderAria}
+            <div className="relative aspect-square rounded-2xl overflow-hidden border border-line shadow-lg bg-black">
+              <video
+                src={c.video}
+                poster={c.poster}
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                aria-label={c.afterAlt}
+                className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
             <p className="text-center text-xs text-ink-muted mt-3">{c.hint}</p>

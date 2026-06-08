@@ -83,7 +83,7 @@ export default function ProductGallery() {
         )}
       </div>
 
-      {/* Thumbnails — horizontal under main image */}
+      {/* Thumbnails , horizontal under main image */}
       <div
         className="mt-4 hidden lg:grid grid-cols-6 gap-3"
         role="listbox"

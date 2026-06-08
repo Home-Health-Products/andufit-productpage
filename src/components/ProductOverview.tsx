@@ -18,20 +18,20 @@ type Feature = {
 };
 
 const USP_ICONS: Record<string, JSX.Element> = {
-  // ruler — slechts 7 cm
+  // ruler , slechts 7 cm
   height: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
       <rect x="3" y="8" width="18" height="8" rx="1.5" />
       <path d="M7 8v3M11 8v4M15 8v3M19 8v4" />
     </svg>
   ),
-  // moon — nachten op proef
+  // moon , nachten op proef
   trial: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
       <path d="M21 12.8A8.5 8.5 0 1111.2 3a6.5 6.5 0 009.8 9.8z" />
     </svg>
   ),
-  // truck — gratis levering
+  // truck , gratis levering
   shipping: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
       <path d="M3 6h11v9H3zM14 9h4l3 3v3h-7z" />
@@ -132,7 +132,7 @@ export default function ProductOverview() {
           <p className="text-lg text-ink-soft">{t('lead')}</p>
         </div>
 
-        {/* Product bar — name + USPs + price/CTA */}
+        {/* Product bar , name + USPs + price/CTA */}
         <div className="hidden md:flex reveal rounded-2xl border border-line bg-white shadow-sm px-6 py-5 lg:px-8 lg:py-6 mb-6 flex-col lg:flex-row lg:items-center gap-6 lg:gap-8">
           <div className="flex-1">
             <div className="font-display text-lg lg:text-xl text-ink mb-3">{t('productName')}</div>
@@ -159,7 +159,7 @@ export default function ProductOverview() {
           </div>
         </div>
 
-        {/* Feature cards — mobile slider */}
+        {/* Feature cards , mobile slider */}
         <div className="md:hidden">
           <div
             ref={scrollerRef}
@@ -198,7 +198,7 @@ export default function ProductOverview() {
           )}
         </div>
 
-        {/* Feature cards — desktop grids */}
+        {/* Feature cards , desktop grids */}
         <div className="hidden md:block">
           <div className="grid lg:grid-cols-2 gap-6 mb-6">
             {features.slice(0, 2).map((f) => (

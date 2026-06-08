@@ -125,7 +125,7 @@ export default function SizeGuide() {
           </div>
         </div>
 
-        {/* Preset cards — horizontal carousel */}
+        {/* Preset cards , horizontal carousel */}
         <div className="relative">
           <div className="mb-4 text-xs uppercase tracking-wider text-ink-muted font-medium text-center">
             {t('presetsLabel')}

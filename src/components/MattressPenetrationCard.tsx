@@ -13,7 +13,7 @@ export default function MattressPenetrationCard() {
   return (
     <div className="mt-6">
       <h3 className="font-display text-xl lg:text-2xl text-ink mb-1">
-        {t('eyebrow')} —{' '}
+        {t('eyebrow')},{' '}
         <span className="text-brand-dark">tot {t('depthValue')}</span>
       </h3>
       <p className="text-sm text-ink-muted mb-4">{t('lead')}</p>
@@ -97,7 +97,7 @@ export default function MattressPenetrationCard() {
           </span>
         </div>
 
-        {/* ANDUFIT module — doorsnede-weergave (geen knop) */}
+        {/* ANDUFIT module , doorsnede-weergave (geen knop) */}
         <div className="relative mt-1.5 flex items-stretch gap-2">
           {/* Hoogte-indicator links */}
           <div className="flex flex-col items-center justify-between py-0.5 shrink-0">

@@ -204,7 +204,7 @@ export default function ProgressFunnel() {
                   {t('back')}
                 </button>
                 {stepIdx === 0 && (
-                  /* Decorative only — selecting an option already advances the funnel */
+                  /* Decorative only , selecting an option already advances the funnel */
                   <button
                     type="button"
                     aria-hidden="true"
@@ -230,7 +230,7 @@ export default function ProgressFunnel() {
                 <p className="text-sm text-ink-soft max-w-md mx-auto">{goal?.resultText}</p>
               </div>
 
-              {/* Hero number — 6-month potential */}
+              {/* Hero number , 6-month potential */}
               <div className="text-center mb-7">
                 <div className="text-[11px] uppercase tracking-widest text-ink-muted mb-1">
                   {t('result.summaryLabel')}

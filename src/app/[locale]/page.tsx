@@ -39,7 +39,7 @@ export default async function HomePage({
       <TrustBar />
       <Nav />
 
-      {/* Product detail — gallery + buy box */}
+      {/* Product detail , gallery + buy box */}
       <section id="buy" className="scroll-mt-24 py-6 lg:py-10">
         <div className="max-w-7xl mx-auto px-5 lg:px-8 grid lg:grid-cols-2 gap-10 lg:gap-14 lg:items-start">
           <div className="lg:sticky lg:top-24 min-w-0">
@@ -52,37 +52,37 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* Circulation comparison — before / after slider */}
+      {/* Circulation comparison , before / after slider */}
       <Circulation />
 
-      {/* Measurable results per audience — VitaCheck before/after gauges */}
+      {/* Measurable results per audience , VitaCheck before/after gauges */}
       <Outcomes />
 
-      {/* Personalized progress funnel — projected progress per goal over 14d / 3m / 6m */}
+      {/* Personalized progress funnel , projected progress per goal over 14d / 3m / 6m */}
       <ProgressFunnel />
 
-      {/* VitaCheck — personalised programme section */}
+      {/* VitaCheck , personalised programme section */}
       <VitaCheckSection />
 
-      {/* Peer-reviewed andullation study — clinical proof */}
+      {/* Peer-reviewed andullation study , clinical proof */}
       <Study />
 
-      {/* Social proof — filterable reviews by source + before/after measurements */}
+      {/* Social proof , filterable reviews by source + before/after measurements */}
       <SocialReviews />
 
-      {/* Product in action — looping autoplay videos (GIF-style) */}
+      {/* Product in action , looping autoplay videos (GIF-style) */}
       <InAction />
 
-      {/* Product system overview — all ANDUFIT features showcased */}
+      {/* Product system overview , all ANDUFIT features showcased */}
       <ProductOverview />
 
-      {/* Fits on every bed base — ANDUFIT works under any mattress/foundation */}
+      {/* Fits on every bed base , ANDUFIT works under any mattress/foundation */}
       <FitsBed />
 
-      {/* Live hours counter + globe — worldwide ANDUFIT activations */}
+      {/* Live hours counter + globe , worldwide ANDUFIT activations */}
       <HoursMeter />
 
-      {/* Product info tabs — moved to bottom */}
+      {/* Product info tabs , moved to bottom */}
       <ProductTabs>
         {{
           installation: <TabInstallation />,

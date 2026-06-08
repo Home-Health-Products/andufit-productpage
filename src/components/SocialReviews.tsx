@@ -136,7 +136,7 @@ export default function SocialReviews() {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!form.title.trim() || !form.name.trim()) return;
-    // Reviews are moderated before going live — do not add them to the list.
+    // Reviews are moderated before going live , do not add them to the list.
     setForm({ rating: 5, title: '', text: '', name: '', country: '', category: filters[1]?.id ?? 'back' });
     setFormOpen(false);
     setThanks(true);

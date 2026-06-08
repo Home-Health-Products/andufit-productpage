@@ -105,7 +105,7 @@ export default function BeforeAfter() {
     if (touchStartX.current === null) return;
     const dx = e.changedTouches[0].clientX - touchStartX.current;
     touchStartX.current = null;
-    if (Math.abs(dx) < 40) return; // too small — ignore
+    if (Math.abs(dx) < 40) return; // too small , ignore
     goTo(active + (dx < 0 ? 1 : -1));
   };
 
@@ -194,7 +194,7 @@ export default function BeforeAfter() {
         }
       `}</style>
 
-      {/* Quote — fixed min-height prevents layout shift on person change */}
+      {/* Quote , fixed min-height prevents layout shift on person change */}
       <div className="mt-4 p-4 bg-brand-cream rounded-xl border border-line min-h-[9rem]">
         <p className="text-base text-ink leading-relaxed mb-2">&ldquo;{cur.quote}&rdquo;</p>
         <p className="text-sm text-ink-muted">

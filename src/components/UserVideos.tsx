@@ -178,7 +178,7 @@ export default function UserVideos() {
           >
             <iframe
               src={`https://www.youtube.com/embed/${items[open].youtubeId}?autoplay=1&rel=0`}
-              title={`${items[open].name} — ${items[open].dog}`}
+              title={`${items[open].name}, ${items[open].dog}`}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="w-full h-full"

@@ -43,12 +43,12 @@ export default function VitaCheckSection() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
-          {/* Left — BeforeAfter carousel (neg-margin cancels its internal mt-6) */}
+          {/* Left , BeforeAfter carousel (neg-margin cancels its internal mt-6) */}
           <div className="reveal -mt-6">
             <BeforeAfter />
           </div>
 
-          {/* Right — explanation */}
+          {/* Right , explanation */}
           <div className="reveal space-y-6">
             <ul className="space-y-6">
               {points.map((p, i) => (
