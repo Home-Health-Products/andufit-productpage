@@ -416,8 +416,7 @@
         "text": "Kies uit 20 programma’s verspreid over 10 zones — van zachte ontspanning tot diepe spiermassage, met één druk op de knop.",
         "image": "/picture/andufit_controller.png",
         "fit": "contain",
-        "badge": "10 zones",
-        "light": true
+        "badge": "10 zones"
       },
       {
         "id": "chip",

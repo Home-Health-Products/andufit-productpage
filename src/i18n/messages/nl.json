@@ -416,13 +416,12 @@
         "text": "Van diepe ontspanning tot gerichte spiermassage. Altijd het juiste programma met één druk op de knop.",
         "image": "/picture/andufit_controller.png",
         "fit": "contain",
-        "badge": "10 zones",
-        "light": true
+        "badge": "10 zones"
       },
       {
         "id": "chip",
         "title": "Intelligente Andullation®-massage",
-        "text": "Ritmische, multidirectionele trillingen bootsen een natuurlijke massage na. Zacht, doeltreffend en telkens opnieuw perfect afgestemd.",
+        "text": "Ritmische, multidirectionele trillingen bootsen een natuurlijke massage na.",
         "image": "/picture/andufit_chip.jpg",
         "fit": "cover",
         "badge": "Andullation®"
@@ -438,7 +437,7 @@
       {
         "id": "motors",
         "title": "Duitse precisietechnologie",
-        "text": "7 krachtige andullatiemotoren zorgen voor een gelijkmatige massage over het hele lichaam. Ontwikkeld en geproduceerd in Duitsland.",
+        "text": "7 krachtige andullatiemotoren zorgen voor een gelijkmatige massage.",
         "image": "/picture/andufit_motor.jpg",
         "fit": "cover",
         "badge": "Made in Germany"
