@@ -131,19 +131,6 @@ export default function ProductOverview() {
           </div>
         </div>
 
-        {/* Hero image */}
-        <div className="hidden md:block reveal relative aspect-[16/9] lg:aspect-[21/9] rounded-3xl overflow-hidden bg-ink mb-6">
-          <Image
-            src={t('heroImage')}
-            alt={t('heroAlt')}
-            fill
-            sizes="(max-width:1280px) 100vw, 1280px"
-            className="object-cover"
-            priority={false}
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-        </div>
-
         {/* Feature cards — mobile slider */}
         <div className="md:hidden">
           <div
