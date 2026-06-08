@@ -1,7 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
 import TrustBar from '@/components/TrustBar';
 import Nav from '@/components/Nav';
-import Breadcrumb from '@/components/Breadcrumb';
 import ProductGallery from '@/components/ProductGallery';
 import BuyBox from '@/components/BuyBox';
 import ProductOverview from '@/components/ProductOverview';
@@ -39,7 +38,6 @@ export default async function HomePage({
       <RevealClient />
       <TrustBar />
       <Nav />
-      <Breadcrumb />
 
       {/* Product detail — gallery + buy box */}
       <section id="buy" className="scroll-mt-24 py-6 lg:py-10">
