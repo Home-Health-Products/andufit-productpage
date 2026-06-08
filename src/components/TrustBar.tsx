@@ -31,10 +31,10 @@ export default function TrustBar() {
 
   return (
     <div className="bg-[#4b4f54] text-white text-xs">
-      <div className="max-w-7xl mx-auto px-5 lg:px-8 py-2 flex flex-wrap items-center justify-center gap-x-4 md:gap-x-8 gap-y-1">
+      <div className="max-w-7xl mx-auto px-5 lg:px-8 py-2 flex flex-nowrap md:flex-wrap items-center justify-start md:justify-center gap-x-3 md:gap-x-8 gap-y-1 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {items.map((it, i) => (
-          <span key={i} className="inline-flex items-center gap-2">
-            {ICONS[it.icon] ?? null}
+          <span key={i} className="inline-flex items-center gap-1.5 md:gap-2 shrink-0 whitespace-nowrap">
+            <span className="shrink-0">{ICONS[it.icon] ?? null}</span>
             <span>{it.label}</span>
           </span>
         ))}
