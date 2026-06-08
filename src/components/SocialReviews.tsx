@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 
 type Breakdown = { stars: number; percent: number };
@@ -94,8 +94,6 @@ function CountryFlag({ country }: { country?: string }) {
   );
 }
 
-const STORAGE_KEY = 'andufit_user_reviews';
-
 export default function SocialReviews() {
   const t = useTranslations('socialReviews');
   const breakdown = t.raw('breakdown') as Breakdown[];
@@ -106,8 +104,6 @@ export default function SocialReviews() {
   const [active, setActive] = useState('all');
   const [page, setPage] = useState(0);
 
-  // user-submitted reviews (persisted in localStorage)
-  const [userReviews, setUserReviews] = useState<Review[]>([]);
   const [formOpen, setFormOpen] = useState(false);
   const [thanks, setThanks] = useState(false);
   const [form, setForm] = useState({
@@ -121,16 +117,7 @@ export default function SocialReviews() {
 
   const scrollerRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) setUserReviews(JSON.parse(raw));
-    } catch {
-      /* ignore */
-    }
-  }, []);
-
-  const reviews = [...userReviews, ...baseReviews];
+  const reviews = baseReviews;
   const filteredReviews = active === 'all' ? reviews : reviews.filter((r) => r.category === active);
   const totalPages = Math.ceil(filteredReviews.length / PER_PAGE);
   const pageReviews = filteredReviews.slice(page * PER_PAGE, (page + 1) * PER_PAGE);
@@ -149,30 +136,11 @@ export default function SocialReviews() {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!form.title.trim() || !form.name.trim()) return;
-    const newReview: Review = {
-      name: form.name.trim(),
-      date: t('form.todayLabel'),
-      source: 'google',
-      rating: form.rating,
-      title: form.title.trim(),
-      text: form.text.trim(),
-      category: form.category,
-      country: form.country.trim() || undefined,
-    };
-    const next = [newReview, ...userReviews];
-    setUserReviews(next);
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
-    } catch {
-      /* ignore */
-    }
+    // Reviews are moderated before going live — do not add them to the list.
     setForm({ rating: 5, title: '', text: '', name: '', country: '', category: filters[1]?.id ?? 'back' });
     setFormOpen(false);
     setThanks(true);
-    setActive('all');
-    setPage(0);
-    scrollerRef.current?.scrollTo({ left: 0 });
-    setTimeout(() => setThanks(false), 4000);
+    setTimeout(() => setThanks(false), 7000);
   }
 
   return (
