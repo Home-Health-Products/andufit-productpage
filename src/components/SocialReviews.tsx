@@ -70,7 +70,7 @@ export default function SocialReviews() {
   const shownReviews = active === 'all' ? reviews : reviews.filter((r) => r.category === active);
 
   return (
-    <section id={t('id')} className="py-20 lg:py-28 bg-soft overflow-x-clip">
+    <section id={t('id')} className="py-20 lg:py-28 bg-soft overflow-x-clip scroll-mt-20">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
 
         {/* Header */}
