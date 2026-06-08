@@ -256,9 +256,6 @@ export default function BuyBox() {
           onClick={checkout}
           className="w-full bg-brand hover:bg-brand-dark text-white font-semibold text-lg px-6 py-4 rounded-lg transition shadow-md flex items-center justify-center gap-2"
         >
-          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.5 3M7 13h10l3-7H5.5M7 13l-1.5-7M7 13l-2 7m4-7v7m4-7v7m4-7v7" />
-          </svg>
           <span className="flex flex-col items-center leading-tight">
             <span>{t('addToCart')} · {width} × {length} cm</span>
             <span className="text-sm font-normal opacity-85 flex items-center gap-1">
