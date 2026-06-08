@@ -1420,8 +1420,8 @@
     ],
     "installation": {
       "lead": "ANDUFIT installeer je zonder gereedschap in een paar minuten. Schuif de module onder je matras, sluit de controller aan en je bent klaar.",
-      "videoSrc": "/video/andufit_hero.mp4",
-      "videoPoster": "/andufit_hero.jpg",
+      "videoSrc": "https://www.andufit.com/videos/v2/ANDUFIT_EVA_INSTALL.mp4",
+      "videoPoster": "/picture/andufit_hero.jpg",
       "videoCaption": "Installatie in minder dan 10 minuten",
       "videoCta": "Bekijk de installatievideo",
       "videoUrl": "https://www.andufit.com/nl-BE/checkout/?width={width}&length={length}",
