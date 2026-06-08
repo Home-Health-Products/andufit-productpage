@@ -28,12 +28,22 @@ export default function HoursMeter() {
     es: 'es-ES',
   };
   const numLocale = localeMap[locale] ?? 'en-GB';
-  const formattedHours = new Intl.NumberFormat(numLocale, {
-    maximumFractionDigits: 0,
-  }).format(Math.floor(hours));
+  const fmt = (n: number) =>
+    new Intl.NumberFormat(numLocale, { maximumFractionDigits: 0 }).format(n);
+  const formattedHours = fmt(Math.floor(hours));
+
+  // tevreden klanten: basiswaarde op referentiedatum + 11 per dag
+  const customersBase = t.raw('customersBase') as number;
+  const customersPerDay = t.raw('customersPerDay') as number;
+  const customersSince = t.raw('customersSince') as string;
+  const daysElapsed = Math.max(
+    0,
+    Math.floor((Date.now() - new Date(customersSince).getTime()) / 86_400_000)
+  );
+  const customers = fmt(customersBase + customersPerDay * daysElapsed);
 
   const stats = [
-    { value: t('customersValue'), label: t('customersLabel') },
+    { value: customers, label: t('customersLabel') },
     { value: formattedHours, label: t('hoursLabel'), sub: t('hoursSub') },
     { value: t('countriesValue'), label: t('countriesLabel') },
     { value: t('studiesValue'), label: t('studiesLabel') },

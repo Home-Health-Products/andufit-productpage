@@ -1035,7 +1035,10 @@
     "countriesValue": "9",
     "countriesLabel": "landen in Europa",
     "studiesValue": "10",
-    "studiesLabel": "gepubliceerde studies over de weldaden van vibraties op het lichaam"
+    "studiesLabel": "gepubliceerde studies over de weldaden van vibraties op het lichaam",
+    "customersBase": 12480,
+    "customersPerDay": 11,
+    "customersSince": "2026-06-08"
   },
   "globe": {
     "activeLabel": "ANDUFITs nu actief",

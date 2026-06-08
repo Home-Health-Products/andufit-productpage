@@ -51,19 +51,14 @@ export default function BuyBox() {
   const paymentMethods = t.raw('payments.methods') as string[];
   const vetRating = t.raw('vetReview.rating') as number;
 
-  const { setWidth: setCtxWidth, setLength: setCtxLength, stockCount } = useSizeContext();
-  const [width, setWidth] = useState<string>(t('defaultWidth'));
-  const [length, setLength] = useState<string>(t('defaultLength'));
+  const { width, length, setWidth: setCtxWidth, setLength: setCtxLength, stockCount, isDouble, price: currentPrice, financing: currentFinancing } = useSizeContext();
 
-  const handleWidth = (v: string) => { setWidth(v); setCtxWidth(v); };
-  const handleLength = (v: string) => { setLength(v); setCtxLength(v); };
+  const handleWidth = (v: string) => { setCtxWidth(v); };
+  const handleLength = (v: string) => { setCtxLength(v); };
   const [giftImgError, setGiftImgError] = useState(false);
   const giftImg = giftImgError ? t('gift.fallbackImage') : t('gift.image');
 
   const selectedWidth = widths.find((w) => w.value === width);
-  const isDouble = selectedWidth?.seats === 2;
-  const currentPrice = isDouble ? t('priceDouble') : t('priceSingle');
-  const currentFinancing = isDouble ? t('financingDouble') : t('financingSingle');
 
   const singleWidths = widths.filter((w) => w.seats !== 2);
   const doubleWidths = widths.filter((w) => w.seats === 2);

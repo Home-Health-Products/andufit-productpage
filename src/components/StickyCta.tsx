@@ -6,7 +6,8 @@ import { useSizeContext } from '@/contexts/SizeContext';
 
 export default function StickyCta() {
   const t = useTranslations('stickyCta');
-  const { stockCount } = useSizeContext();
+  const { stockCount, price, financing } = useSizeContext();
+  const shortFinancing = financing.split(' of ')[0];
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -38,12 +39,18 @@ export default function StickyCta() {
               <span className="text-red-600">Nog {stockCount} beschikbaar</span>
             </p>
           </div>
-          <a
-            href="#buy"
-            className="shrink-0 bg-brand hover:bg-brand-dark text-white font-semibold text-sm px-5 py-3 rounded-lg transition"
-          >
-            {t('cta')} →
-          </a>
+          <div className="shrink-0 flex items-center gap-3">
+            <div className="hidden sm:block text-right leading-tight">
+              <div className="font-display text-xl text-ink tabular-nums">{price}</div>
+              <div className="text-[11px] text-ink-muted">{shortFinancing}</div>
+            </div>
+            <a
+              href="#buy"
+              className="bg-brand hover:bg-brand-dark text-white font-semibold text-sm px-5 py-3 rounded-lg transition"
+            >
+              {t('cta')} →
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import CalcButton from './CalcButton';
+import { useSizeContext } from '@/contexts/SizeContext';
 
 type Usp = { icon: string; label: string };
 type Feature = {
@@ -79,6 +80,10 @@ export default function ProductOverview() {
   const features = t.raw('features') as Feature[];
   const scrollerRef = useRef<HTMLDivElement>(null);
 
+  // live price/financing that follows the size chosen elsewhere on the page
+  const { price, financing } = useSizeContext();
+  const shortFinancing = financing.split(' of ')[0];
+
   const scrollByCard = (dir: 1 | -1) => {
     const el = scrollerRef.current;
     if (!el) return;
@@ -114,8 +119,8 @@ export default function ProductOverview() {
           </div>
           <div className="flex items-center gap-3 lg:gap-6 lg:border-l lg:border-line lg:pl-8">
             <div className="text-left">
-              <div className="font-display font-normal text-3xl text-ink leading-none tabular-nums">{t('price')}</div>
-              <div className="text-xs text-ink-muted mt-1">{t('financing')}</div>
+              <div className="font-display font-normal text-3xl text-ink leading-none tabular-nums">{price}</div>
+              <div className="text-xs text-ink-muted mt-1">{shortFinancing}</div>
             </div>
             <a
               href={t('ctaHref')}
