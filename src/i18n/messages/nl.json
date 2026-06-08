@@ -416,7 +416,8 @@
         "text": "Van diepe ontspanning tot gerichte spiermassage. Altijd het juiste programma met één druk op de knop.",
         "image": "/picture/andufit_controller.png",
         "fit": "contain",
-        "badge": "10 zones"
+        "badge": "10 zones",
+        "light": true
       },
       {
         "id": "chip",
@@ -438,7 +439,7 @@
         "id": "motors",
         "title": "Duitse precisietechnologie",
         "text": "7 krachtige andullatiemotoren zorgen voor een gelijkmatige massage over het hele lichaam. Ontwikkeld en geproduceerd in Duitsland.",
-        "image": "/picture/andufit_hero.jpg",
+        "image": "/picture/andufit_motor.jpg",
         "fit": "cover",
         "badge": "Made in Germany"
       }

@@ -416,7 +416,8 @@
         "text": "Kies uit 20 programma’s verspreid over 10 zones — van zachte ontspanning tot diepe spiermassage, met één druk op de knop.",
         "image": "/picture/andufit_controller.png",
         "fit": "contain",
-        "badge": "10 zones"
+        "badge": "10 zones",
+        "light": true
       },
       {
         "id": "chip",
@@ -438,7 +439,7 @@
         "id": "motors",
         "title": "High-tech motoren",
         "text": "7 krachtige andulatiemotoren verspreiden zachte, ritmische trillingen gelijkmatig over je hele lichaam. Ontwikkeld en gemaakt in Duitsland.",
-        "image": "/picture/andufit_hero.jpg",
+        "image": "/picture/andufit_motor.jpg",
         "fit": "cover",
         "badge": "Made in Germany"
       }

@@ -14,6 +14,7 @@ type Feature = {
   image: string;
   fit: 'cover' | 'contain';
   badge: string;
+  light?: boolean;
 };
 
 const USP_ICONS: Record<string, JSX.Element> = {
@@ -42,11 +43,14 @@ const USP_ICONS: Record<string, JSX.Element> = {
 
 function FeatureCard({ f, large = false }: { f: Feature; large?: boolean }) {
   const contain = f.fit === 'contain';
+  const light = f.light === true;
   return (
     <article
-      className={`reveal group relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#2a2f33] to-[#15181b] ${
-        large ? 'aspect-[16/10]' : 'aspect-[4/3]'
-      }`}
+      className={`reveal group relative overflow-hidden rounded-3xl ${
+        light
+          ? 'bg-gradient-to-br from-white to-[#eef2f2] border border-line'
+          : 'bg-gradient-to-br from-[#2a2f33] to-[#15181b]'
+      } ${large ? 'aspect-[16/10]' : 'aspect-[4/3]'}`}
     >
       <Image
         src={f.image}
@@ -58,17 +62,41 @@ function FeatureCard({ f, large = false }: { f: Feature; large?: boolean }) {
         }`}
       />
       {/* readability gradient */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
+      <div
+        className={`absolute inset-0 ${
+          light
+            ? 'bg-gradient-to-t from-white/90 via-white/40 to-transparent'
+            : 'bg-gradient-to-t from-black/85 via-black/25 to-transparent'
+        }`}
+      />
 
       {/* badge */}
-      <span className="absolute top-4 right-4 inline-flex items-center text-[10px] uppercase tracking-widest font-semibold text-white bg-white/15 backdrop-blur border border-white/20 rounded-full px-3 py-1">
+      <span
+        className={`absolute top-4 right-4 inline-flex items-center text-[10px] uppercase tracking-widest font-semibold rounded-full px-3 py-1 backdrop-blur border ${
+          light
+            ? 'text-ink bg-black/5 border-black/10'
+            : 'text-white bg-white/15 border-white/20'
+        }`}
+      >
         {f.badge}
       </span>
 
       {/* copy */}
       <div className="absolute inset-x-0 bottom-0 p-6 lg:p-7">
-        <h3 className="font-display text-xl lg:text-2xl text-white mb-1.5">{f.title}</h3>
-        <p className="text-sm text-white/70 leading-relaxed max-w-md">{f.text}</p>
+        <h3
+          className={`font-display text-xl lg:text-2xl mb-1.5 ${
+            light ? 'text-ink' : 'text-white'
+          }`}
+        >
+          {f.title}
+        </h3>
+        <p
+          className={`text-sm leading-relaxed max-w-md ${
+            light ? 'text-ink-soft' : 'text-white/70'
+          }`}
+        >
+          {f.text}
+        </p>
       </div>
     </article>
   );
