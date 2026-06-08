@@ -1611,11 +1611,11 @@
     "paymentMethods": [
       "Visa",
       "Mastercard",
-      "Bancontact",
+      "Apple Pay",
+      "Google Pay",
       "iDEAL",
-      "PayPal",
-      "Klarna",
-      "Apple Pay"
+      "Bancontact",
+      "Klarna"
     ]
   },
   "socialReviews": {
