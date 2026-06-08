@@ -234,7 +234,7 @@
     "selectedLabel": "Gekozen maat",
     "qtyLabel": "Aantal",
     "addToCart": "Bestel nu",
-    "giftLabel": "incl. gratis ANDUSLIM",
+    "giftLabel": "incl. gratis ANDUSLIM t.w.v. €295",
     "giftUrgency": "nog 8 beschikbaar",
     "selectSizeError": "Kies eerst een breedte én lengte",
     "checkoutUrl": "https://www.andufit.com/nl/checkout/?width={width}&length={length}",
@@ -330,7 +330,7 @@
       "image": "/picture/anduslim.png",
       "fallbackImage": "/picture/andufit_expert.jpg",
       "stockCount": "8",
-      "badge": "Tijdelijk gratis ANDUSLIM",
+      "badge": "Tijdelijk gratis ANDUSLIM t.w.v. €295",
       "stockText": "Nog beschikbaar (gratis)",
       "name": "ANDUSLIM",
       "description": "De Pro-Body Stimulator voor buik, rug, nek, schouders, billen en benen.",
@@ -3027,7 +3027,7 @@
     "price": "€745",
     "label": "ANDUFIT, meer REM-slaap, sneller rugherstel",
     "cta": "Bestel nu",
-    "giftLabel": "Tijdelijk gratis ANDUSLIM bij je bestelling",
+    "giftLabel": "Tijdelijk gratis ANDUSLIM t.w.v. €295 bij je bestelling",
     "urgency": "Nog 8 beschikbaar"
   },
   "footer": {

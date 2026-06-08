@@ -234,7 +234,7 @@
     "selectedLabel": "Gekozen maat",
     "qtyLabel": "Aantal",
     "addToCart": "Bestel nu",
-    "giftLabel": "incl. gratis ANDUSLIM",
+    "giftLabel": "incl. gratis ANDUSLIM t.w.v. €295",
     "giftUrgency": "nog 8 beschikbaar",
     "selectSizeError": "Kies eerst een breedte én lengte",
     "checkoutUrl": "https://www.andufit.com/es/checkout/?width={width}&length={length}",
@@ -330,7 +330,7 @@
       "image": "/picture/anduslim.png",
       "fallbackImage": "/picture/andufit_expert.jpg",
       "stockCount": "8",
-      "badge": "ANDUSLIM temporalmente gratis",
+      "badge": "ANDUSLIM temporalmente gratis por valor de €295",
       "stockText": "aún disponibles (gratis)",
       "name": "ANDUSLIM",
       "description": "El Pro-Body Stimulator para abdomen, espalda, cuello, hombros, glúteos y piernas.",
@@ -3028,7 +3028,7 @@
     "price": "€745",
     "label": "ANDUFIT, meer REM-slaap, sneller rugherstel",
     "cta": "Bestel nu",
-    "giftLabel": "Tijdelijk gratis ANDUSLIM bij je bestelling",
+    "giftLabel": "Tijdelijk gratis ANDUSLIM t.w.v. €295 bij je bestelling",
     "urgency": "Nog 8 beschikbaar"
   },
   "footer": {
