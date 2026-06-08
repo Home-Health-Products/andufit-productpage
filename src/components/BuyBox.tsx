@@ -289,12 +289,12 @@ export default function BuyBox() {
         <p className="text-sm text-ink-muted mb-3">{t('payments.title')}</p>
         <div className="flex flex-wrap justify-center items-center gap-2">
           {['visa','mastercard','applepay','googlepay','ideal','bancontact','klarna'].map((m) => (
-            <span key={m} className="inline-flex items-center justify-center h-9 px-1 rounded-lg border border-line bg-white shadow-sm overflow-hidden">
+            <span key={m} className="inline-flex items-center justify-center w-16 h-9 rounded-lg border border-line bg-white shadow-sm overflow-hidden">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={`/logos/${m}.${m === 'klarna' ? 'png' : 'svg'}`}
                 alt={m}
-                className="h-7 w-auto max-w-[64px] object-contain"
+                className="max-h-7 max-w-[52px] w-auto h-auto object-contain"
               />
             </span>
           ))}
