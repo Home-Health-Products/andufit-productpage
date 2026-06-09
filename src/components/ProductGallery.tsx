@@ -97,6 +97,28 @@ export default function ProductGallery() {
             </div>
           </>
         )}
+
+        {/* Prev / Next arrows */}
+        <button
+          type="button"
+          onClick={() => go(-1)}
+          aria-label="Vorige"
+          className="absolute left-2 top-1/2 -translate-y-1/2 z-10 w-9 h-9 lg:w-10 lg:h-10 rounded-full bg-white/90 backdrop-blur shadow-lg border border-line flex items-center justify-center text-ink hover:bg-white hover:text-brand-dark transition"
+        >
+          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15 6l-6 6 6 6" />
+          </svg>
+        </button>
+        <button
+          type="button"
+          onClick={() => go(1)}
+          aria-label="Volgende"
+          className="absolute right-2 top-1/2 -translate-y-1/2 z-10 w-9 h-9 lg:w-10 lg:h-10 rounded-full bg-white/90 backdrop-blur shadow-lg border border-line flex items-center justify-center text-ink hover:bg-white hover:text-brand-dark transition"
+        >
+          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 6l6 6-6 6" />
+          </svg>
+        </button>
       </div>
 
       {/* Thumbnails , horizontal under main image */}
