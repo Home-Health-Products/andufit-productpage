@@ -32,7 +32,6 @@ export default function Circulation() {
   const t = useTranslations('circulation');
   const c = t.raw('comparison') as {
     video: string;
-    poster: string;
     afterAlt: string;
     hint: string;
   };
@@ -56,12 +55,11 @@ export default function Circulation() {
             <div className="relative aspect-square rounded-2xl overflow-hidden border border-line shadow-lg bg-black">
               <video
                 src={c.video}
-                poster={c.poster}
                 autoPlay
                 muted
                 loop
                 playsInline
-                preload="metadata"
+                preload="auto"
                 aria-label={c.afterAlt}
                 className="absolute inset-0 w-full h-full object-cover"
               />
