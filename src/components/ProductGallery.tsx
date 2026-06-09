@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
@@ -47,12 +47,28 @@ export default function ProductGallery() {
 
   const [active, setActive] = useState(0);
   const cur = slides[active];
+  const touchStartX = useRef<number | null>(null);
+
+  const go = (dir: 1 | -1) =>
+    setActive((i) => (i + dir + slides.length) % slides.length);
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return;
+    const dx = e.changedTouches[0].clientX - touchStartX.current;
+    if (Math.abs(dx) > 40) go(dx < 0 ? 1 : -1);
+    touchStartX.current = null;
+  };
 
   return (
     <div>
       {/* Main image */}
       <div
-        className={`relative aspect-square rounded-2xl overflow-hidden border border-line ${
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
+        className={`relative aspect-square rounded-2xl overflow-hidden border border-line touch-pan-y select-none ${
           cur.overlay ? 'bg-gradient-to-br from-[#2a2f33] to-[#15181b]' : 'bg-brand-cream'
         }`}
       >

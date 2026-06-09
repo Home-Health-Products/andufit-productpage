@@ -58,7 +58,7 @@ export default function InAction() {
             onClick={() => scrollBy(-1)}
             aria-label="Vorige"
             disabled={!canPrev}
-            className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 z-10 w-12 h-12 rounded-full bg-white shadow-lg border border-line items-center justify-center text-ink hover:bg-brand-cream hover:text-brand-dark transition disabled:opacity-30 disabled:cursor-not-allowed"
+            className="flex absolute left-1 md:left-0 top-1/2 -translate-y-1/2 md:-translate-x-1/2 z-10 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white shadow-lg border border-line items-center justify-center text-ink hover:bg-brand-cream hover:text-brand-dark transition disabled:opacity-30 disabled:cursor-not-allowed"
           >
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2">
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 6l-6 6 6 6" />
@@ -70,7 +70,7 @@ export default function InAction() {
             onClick={() => scrollBy(1)}
             aria-label="Volgende"
             disabled={!canNext}
-            className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 z-10 w-12 h-12 rounded-full bg-white shadow-lg border border-line items-center justify-center text-ink hover:bg-brand-cream hover:text-brand-dark transition disabled:opacity-30 disabled:cursor-not-allowed"
+            className="flex absolute right-1 md:right-0 top-1/2 -translate-y-1/2 md:translate-x-1/2 z-10 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white shadow-lg border border-line items-center justify-center text-ink hover:bg-brand-cream hover:text-brand-dark transition disabled:opacity-30 disabled:cursor-not-allowed"
           >
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2">
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 6l6 6-6 6" />
