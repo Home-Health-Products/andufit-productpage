@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type JSX } from 'react';
 import { useTranslations } from 'next-intl';
 import CalcButton from './CalcButton';
 

@@ -1,5 +1,7 @@
 import { useTranslations } from 'next-intl';
 
+import type { JSX } from "react";
+
 type Item = { icon: string; label: string; detail: string; cost: number; source?: number };
 type Source = { n: number; label: string; ref: string };
 

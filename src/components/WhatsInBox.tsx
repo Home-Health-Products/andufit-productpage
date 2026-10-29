@@ -1,5 +1,7 @@
 import { useTranslations } from 'next-intl';
 
+import type { JSX } from "react";
+
 type Item = { icon: string; title: string; text: string };
 
 const ICONS: Record<string, JSX.Element> = {

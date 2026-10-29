@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type JSX } from 'react';
 import { useTranslations } from 'next-intl';
 
 type Item = { icon: string; label: string };

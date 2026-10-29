@@ -1,7 +1,8 @@
 'use client';
-
 import { useTranslations } from 'next-intl';
 import CalcButton from './CalcButton';
+
+import type { JSX } from "react";
 
 type Benefit = { icon: string; title: string; text: string };
 
